@@ -1,11 +1,375 @@
 {
- "atualizadoEm": "2026-11-26T00:56:00Z",
+ "atualizadoEm": "2026-11-26T09:28:20Z",
  "totalFontes": 22,
- "fontesComFalha": [
-  "Google Notícias: ténis (Portugal)"
- ],
- "vistos": {},
+ "fontesComFalha": [],
+ "vistos": {
+  "37ad8119142cdab0": "2026-11-26T09:28:20Z"
+ },
  "noticias": [
+  {
+   "titulo": "November 26, 1998: The day Pete Sampras secured the year-end No 1 ranking for a record sixth straight time",
+   "link": "https://www.tennismajors.com/atp/november-26-1998-the-day-sampras-locked-up-his-record-sixth-year-end-no-1-ranking-309661.html",
+   "fonte": "Tennis Majors",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T09:28:20Z",
+   "trecho": "Every day, Tennis Majors takes you back to a big moment in tennis history. On November 26, 1998, Pete Sampras set a new record by logging his sixth consecutive year-end No 1 ranking after playing a gruelling schedule post the US Open",
+   "id": "37ad8119142cdab0",
+   "coletadoEm": "2026-11-26T09:28:20Z",
+   "dataEstimada": true
+  },
+  {
+   "titulo": "Sinner, notícia de hoje: Janik vai perder o Aberto da Austrália. o que sabemos",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHNtUHIxekZkNW0zOEQwZGh0ZGloelU1c0x0VlBsVlpITEQ2bXZac0lPNTBzLW41T25mYmhoMnJ3NFFFN1RVcFlxUkNaY3VTR0hWdUJMMzFBX3ZxYldoeUFLUXBKOUZjZGE5dU1hZGpGNUxvWGZYUjJvcGpHOVFDaDdMSnM1dV9ERmJhbUtkN1JwNmtyRnMzOVRySkhlQUhvdl9PaTVrUGRUTXBkMG5qT3dNajBJQm9SRXFrejdCQVk?oc=5",
+   "fonte": "Segunda Base",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T09:01:28Z",
+   "trecho": "",
+   "id": "31e278dcd5d613d6",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Jannik Sinner’s withdrawal from the 2027 Australian Open confirmed as update issued",
+   "link": "https://www.tennis365.com/tennis-news/jannik-sinners-withdrawal-2027-australian-open-confirmed-update",
+   "fonte": "Tennis365",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T09:00:45Z",
+   "trecho": "The Australian Open tournament director has issued an update on Sinner. The post Jannik Sinner’s withdrawal from the 2027 Australian Open confirmed as update issued appeared first on Tennis365 .",
+   "id": "274446cf8532da30",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Australian Open chief officially confirms Jannik Sinner will miss 2027 event after speaking to his team",
+   "link": "https://sports.yahoo.com/tennis/articles/australian-open-chief-officially-confirms-090000510.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T09:00:00Z",
+   "trecho": "Jannik Sinner has officially been confirmed to miss the 2027 Australian Open. Tennis fans were already expecting the Italian to miss out on the opening...",
+   "id": "a87faf97dc502aa0",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Alex Eala shares how it feels to be a part of a golden generation of sport in the Philippines, ‘we’re all excelling’",
+   "link": "https://tennishead.net/alex-eala-shares-how-it-feels-to-be-a-part-of-a-golden-generation-of-sport-in-the-philippines-were-all-excelling/",
+   "fonte": "Tennishead",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T09:00:00Z",
+   "trecho": "Alexandra Eala’s season may be officially over, but she is far from enjoying the relaxation she has earned. After all, her schedule is perhaps the ...",
+   "id": "0039834fb042dc15",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "“That’s Why You’re Ranked 700th”- Guto Miguel & Opponent Gets Into Heated Net Exchange at ATP Challenger Event",
+   "link": "https://www.essentiallysports.com/tennis-news-thats-why-youre-ranked-seven-hundredth-guto-miguel-opponent-gets-into-heated-net-exchange-at-atp-challenger-event/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T08:14:18Z",
+   "trecho": "One day, you are in Turin, having a hitting session with a seven-time Major champion; the next day, you are gritting it out at a Challenger event in San Salvador. That’s the life of Guto Miguel, the top-ranked junior tennis player in the world right now. Playing Matteo Covato of Italy in an opening round […] The post “That’s Why You’re Ranked 700th”- Guto Miguel & Opponent Gets Into Heated Net Exchange at ATP Challenger Event appeared first on EssentiallySports .",
+   "id": "3312a969a69ce874",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Jannik Sinner ficará fora do Australian Open devido a cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uckk1ek1JOXVMTjA2enlxZ1BINWV1UFlWcHcxYlZpVGRDSzlCSmw5T0ZiYjVkS0hFME1ZVUU3UnpfeFdYbkw5Wk9lQUpCdEJJamJFdndndFJzZDU0aEJUVVJLT1dfRkRJNkFyUWNFSmFxWWRMY2twMEs1OVA?oc=5",
+   "fonte": "boca.com.br",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T08:01:07Z",
+   "trecho": "",
+   "id": "e13ad99c7147df69",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "De Alcaraz a Sinner: por que há tantas lesões? Toni Nadal não tem dúvidas",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd1NFa1BRTmFDaTF2TUhxMmZzM2JjbGZTVkQzSGVYR0ZvY3hiczh5aVZLM3lzdGFOOEw1UTdGT0YzZzZSQjlXUU9GeFdSVHI3eDJuUGRGYThOUDk3aWYxUVJra1owN05zVllpNVV0SjlENjdwT2UyOUEtTURXcnZSckdoQXMwaVNrWEtmVEJEWTBIS0EzOHNMZGZJTjZOekNmcGc0QkIySUVsMlpheE1mZkJPY3VPMkdmMXMyS0dXNUEyWk9pTFFjOXdnNVo3ZTBwV1dhUVVlcVctX0M1ekgw?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T08:00:30Z",
+   "trecho": "",
+   "id": "6d191d4650953f9c",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Carlos Alcaraz provides an update on his hamstring injury ahead of Spain’s first Davis Cup match",
+   "link": "https://tennishead.net/carlos-alcaraz-provides-an-update-on-his-hamstring-injury-ahead-of-spains-first-davis-cup-match/",
+   "fonte": "Tennishead",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T08:00:00Z",
+   "trecho": "Carlos Alcaraz will be desperate to conclude his tumultuous season by snagging the Davis Cup trophy, but will face fierce competition from rival nations. After ...",
+   "id": "f1aa1c674f0997c7",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Could Carlos Alcaraz Be Mastering One of Roger Federer’s Greatest Strengths? – Andy Roddick Explains",
+   "link": "https://www.essentiallysports.com/tennis-news-could-carlos-alcaraz-be-mastering-one-of-roger-federers-greatest-strengths-andy-roddick-explains/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T07:45:15Z",
+   "trecho": "At the 2026 ATP Finals, Carlos Alcaraz broke Alexander Zverev four times in ten service games using a tactic Federer perfected. Roger Federer spent 20 years turning the world’s heaviest serves into harmless, floating dilemmas with a flick of his wrist. Andy Roddick, former world No. 1, now believes Carlos Alcaraz has discovered that very […] The post Could Carlos Alcaraz Be Mastering One of Roger Federer’s Greatest Strengths? – Andy Roddick Explains appeared first on EssentiallySports .",
+   "id": "d57282e9907d6373",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Why Andreeva’s praise of Svitolina was taken as provocation in WTA Finals",
+   "link": "https://sports.yahoo.com/tennis/articles/why-andreeva-praise-svitolina-taken-073818302.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T07:38:18Z",
+   "trecho": "More controversy entered the world of tennis this week when Elina Svitolina, the Ukrainian player who finished runner-up at the recent WTA Finals, described her Russian opponent’s post-match comments as a provocation.",
+   "id": "6a9d90d44d766357",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Comme attendu, Jannik Sinner déclare forfait pour l'Open d'Australie après son opération du genou droit",
+   "link": "https://www.lequipe.fr/Tennis/Actualites/Comme-attendu-jannik-sinner-declare-forfait-pour-l-open-d-australie-apres-son-operation-du-genou-droit/1746265#at_medium=RSS_feeds",
+   "fonte": "L'Équipe",
+   "via": "",
+   "idioma": "fr",
+   "publicadoEm": "2026-11-26T07:36:55Z",
+   "trecho": "Opéré du genou droit mardi, l'Italien Jannik Sinner, ancien n° 1 mondial et 5 fois titré en Grand Chelem, a annoncé son forfait jeudi pour l'Open d'Australie, prévu en janvier et première levée du Grand Chelem 2027.",
+   "id": "4dee36266e7d391b",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "“Did That Make You Better Than Navratilova?”-Alexander Zverev Dragged Into Public Feud Between Former Tennis No. 1s",
+   "link": "https://www.essentiallysports.com/tennis-news-alexander-zverev-dragged-into-public-feud-between-former-tennis-no-ones-s/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T07:35:40Z",
+   "trecho": "Alexander Zverev has finally reached the top of men’s tennis, but the achievement has hardly brought universal celebration. His 2026 season delivered two Grand Slam titles and the year-end No. 1 ranking, yet questions about the circumstances of his rise have followed him throughout the second half of the year. Now, a disagreement between two […] The post “Did That Make You Better Than Navratilova?”-Alexander Zverev Dragged Into Public Feud Between Former Tennis No. 1s appeared first on Essential",
+   "id": "cb9cc1ee62437401",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Knee surgery rules Sinner out of Australian Open",
+   "link": "https://www.bbc.co.uk/sport/tennis/articles/c6x29q88r9v5o?at_medium=RSS&at_campaign=rss",
+   "fonte": "BBC Sport",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T07:19:13Z",
+   "trecho": "Jannik Sinner is ruled out of the Australian Open in January following an operation on his knee.",
+   "id": "22c16d65c2c32af9",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "“I Think I Am Innocent”- Alexander Zverev Breaks Silence on Fresh Legal Battle With Ex-Partner Brenda Patea",
+   "link": "https://www.essentiallysports.com/tennis-news-i-think-i-am-innocent-alexander-zverev-breaks-silence-on-fresh-legal-battle-with-ex-partner-brenda-patea/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T06:56:09Z",
+   "trecho": "“My innocence has been proven”. That is what Alexander Zverev said during his interview with Le’Equipe regarding his legal battle with his partner, Brenda Patea. The World No.1 has always maintained his innocence in the matter since the court proceedings began in 2023, with charges of bodily harm being brought against the German. He did […] The post “I Think I Am Innocent”- Alexander Zverev Breaks Silence on Fresh Legal Battle With Ex-Partner Brenda Patea appeared first on EssentiallySports .",
+   "id": "cecf25f085885101",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Sinner está fora do Australian Open 2027 após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSG5NSnBaSDh5RG9FSWhtanhIRXgyaWJkWmxKSnhGbkRfY255OWoyU2UxVk10YkJnLUd0X1VkcGlKQW9yRkNxX3A2aDNMbE8tajhvcEdnRG16bUhuYVo2TFJoRkhSYUhfcnBDSG1EejcwYXRDUXltVXFTZW9yaUxubi12Yi1UQXhldlJVVl9EcmNsN0dYRjlRUDFieEpZRGhHZFNpR1lZRnhVV2tybHc?oc=5",
+   "fonte": "CNN Brasil",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T06:52:07Z",
+   "trecho": "",
+   "id": "967d4343c1aeca25",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Sinner to miss Australian Open after undergoing knee surgery",
+   "link": "https://www.skysports.com/tennis/news/12110/13616625/jannik-sinner-to-miss-australian-open-former-world-no-1-wont-play-first-grand-slam-of-2027-after-knee-surgery",
+   "fonte": "Sky Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T05:45:00Z",
+   "trecho": "Jannik Sinner will miss the Australian Open after undergoing knee surgery, tournament organisers have announced.",
+   "id": "9277212bf679943b",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Mirra Andreeva Embraces Jessica Pegula’s ‘Diva’ Label Before Delivering a Brutal Reality Check",
+   "link": "https://www.essentiallysports.com/tennis-news-mirra-andreeva-embraces-jessica-pegulas-diva-label-before-delivering-a-brutal-reality-check/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T05:42:02Z",
+   "trecho": "When Jessica Pegula‘s comments about Mirra Andreeva being a ‘diva’ were caught on a hot mic during a practice session at the WTA Finals, there was speculation about whether that would cause a rift between the two players. However, calmer heads prevailed, and both players talked it over amongst themselves, resolving any awkwardness. That did […] The post Mirra Andreeva Embraces Jessica Pegula’s ‘Diva’ Label Before Delivering a Brutal Reality Check appeared first on EssentiallySports .",
+   "id": "9a8040505847e293",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Victória Barros e Pedro Chabalgoity caem nas oitavas no México",
+   "link": "https://tenisbrasil.uol.com.br/victoria-barros-e-pedro-chabalgoity-caem-nas-oitavas-no-mexico.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T04:56:06Z",
+   "trecho": "Merida (México) – Em seu primeiro torneio desde o SP Open, em setembro, Victória Barros caiu nas oitavas do J500 de Merida, em quadras de saibro no México. Principal cabeça de chave do torneio e número 4 do ranking mundial juvenil, Victória foi superada nesta quarta-feira pela letã Darina Matvejeva, cabeça 16 do torneio e […] O post Victória Barros e Pedro Chabalgoity caem nas oitavas no México apareceu primeiro em TenisBrasil .",
+   "id": "29a7d4a329e0ed93",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Coco Gauff Hits Back After Being Told to Return to Court Just After Season Ends",
+   "link": "https://www.essentiallysports.com/tennis-news-coco-gauff-hits-back-after-being-told-to-return-to-court-just-after-season-ends/",
+   "fonte": "EssentiallySports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T03:55:59Z",
+   "trecho": "Having started her 2026 season on January 3 at the United Cup, Coco Gauff ended a long and exhaustive season just a few days ago, when she helped Team USA win their Billie Jean King Cup tie against Hungary on November 21-22. But it seems like, after playing for almost eleven months in the year […] The post Coco Gauff Hits Back After Being Told to Return to Court Just After Season Ends appeared first on EssentiallySports .",
+   "id": "b6bd550adc2cf439",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Vendaval que atrapalhou partida de Guto Miguel adia jogo de brasileiro em El Salvador",
+   "link": "https://www.tenisnews.com.br/vendaval-que-atrapalhou-guto-miguel-adia-jogo-brasileiro-el-salvador/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T03:04:18Z",
+   "trecho": "O vendaval que suspendeu por três vezes a partida de Luis Guto Miguel cancelou e adiou para quinta-feira a partida de outro tenista brasileiro no Challenger 50 de San Salvador, em El Salvador, evento com premiação de US$ 63 mil. Lucas Andrade, 574º colocado, enfrentaria o tenista da casa, Diego Duran, 1912º colocado, logo após […]",
+   "id": "36c44cc1721438f4",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Guto Miguel impõe nova virada e garante vaga nas quartas de final do Challenger de El Salvador",
+   "link": "https://ge.globo.com/tenis/noticia/2026/11/25/guto-miguel-impoe-nova-virada-e-garante-vaga-nas-quartas-de-final-do-challenger-de-el-salvador.ghtml",
+   "fonte": "ge",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:38:53Z",
+   "trecho": "Guto Miguel analisa experiência de treinar com os melhores tenistas do ano Guto Miguel garantiu a segunda vitória - novamente uma virada - no Challenger de El Salvador e está nas quartas de final. O goiano de 17 anos venceu o britânico Oliver Bonding nesta quarta-feira (25) por 2 sets a 1 - parciais de 4/6, 7/5 e 7/6(3). Com o triunfo, ele renova sua melhor marca no ranking da ATP ao alcançar a 515º colocação - estava em 523º. O confronto diante do nº 660 do mundo, de 19 anos, durou 3h04, sendo ",
+   "id": "996672431f501595",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Guto Miguel segue salto no ranking e fica a uma vitória do top 500",
+   "link": "https://www.tenisnews.com.br/guto-miguel-segue-salto-ranking-uma-vitoria-top-500/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:37:16Z",
+   "trecho": "Luis Guto Miguel, jovem de 17 anos, está a um passo de entrar pela primeira vez no grupo dos 500 melhores do mundo. -> Clique Aqui e ENTRE em nosso canal do Whatsapp! A vitória da noite desta quarta-feira sobre o britânico Oliver Bonding, 660º colocado, fez com que o brasileiro melhorasse ainda mais o […]",
+   "id": "7038a1ab08f5bf09",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Guto luta por mais de três horas e vence duelo de jovens em El Salvador",
+   "link": "https://tenisbrasil.uol.com.br/guto-luta-por-mais-de-tres-horas-e-vence-duelo-de-jovens-em-el-salvador.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:32:08Z",
+   "trecho": "San Salvador (El Salvador) – Em seu segundo compromisso no challenger 50 de San Salvador, Guto Miguel venceu um duelo da nova geração contra o britânico Oliver Bonding, de 19 anos e 660º do ranking. O goiano de 17 anos lutou por 3h04 para vencer por 4/6, 7/5 e 7/6 (7-3) e chegar às quartas […] O post Guto luta por mais de três horas e vence duelo de jovens em El Salvador apareceu primeiro em TenisBrasil .",
+   "id": "44891599096227dc",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Guto Miguel vence batalha de três horas e vai às quartas em San Salvador",
+   "link": "https://www.olimpiadatododia.com.br/tenis/775148-guto-miguel-virada-bonding-quartas-san-salvador-2/",
+   "fonte": "Olimpíada Todo Dia",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:23:37Z",
+   "trecho": "Brasileiro vira sobre Oliver Bonding após interrupção no terceiro set e enfrenta Blaise Bicknell; Mateus Alves também avança nas duplas O post Guto Miguel vence batalha de três horas e vai às quartas em San Salvador apareceu primeiro em Olimpíada Todo Dia .",
+   "id": "976b424ed864aa3c",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Guto Miguel vira batalha dramática sob forte vento e vai às quartas em El Salvador",
+   "link": "https://www.tenisnews.com.br/guto-miguel-vira-batalha-dramatica-quartas-el-salvador/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:18:35Z",
+   "trecho": "Luis Guto Miguel, jovem de 17 anos, mostrou resiliência, na noite desta quarta-feira, para superar não somente seuadversário em quadra, mas também o forte vento que suspendeu mais de uma vez a partida de oitavas de final do Challenger 50 de San Salvador, em El Salvador, evento sobre o piso duro com premiação de US$ […]",
+   "id": "0f1e6b09609a0d16",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Racing tenta repatriar Alcaraz, mas Everton não aceita empréstimo",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaW5NUUlNSms3aHpCeGIzSDhtQVo0czQ0d3IxbW82Y3ZkcDRVZmg4YU82blBTRmhUX3B2RGNwNW5EM3pnVFJ3em83bnh6aXBtTmpHN0pfNHBrYktZZ3BEcXNHS3Z5R1lwcWgtMVQzWDR0SDEyR01mVzYyWk9xZVV2NkZNZXJOTVBZU2t0RVcwcHVxZ1B2TDdSS1gwSVAxWXVQNXZodkVNSQ?oc=5",
+   "fonte": "Somos Fanáticos",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T02:02:47Z",
+   "trecho": "",
+   "id": "b379e94be48caa7c",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "He is the only player other than Carlos Alcaraz and Jannik Sinner to ever win the ATP Finals and Next Gen Finals",
+   "link": "https://sports.yahoo.com/tennis/articles/only-player-other-carlos-alcaraz-020000335.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T02:00:00Z",
+   "trecho": "Winning the ATP Finals and the Next Gen ATP Finals isn’t for everyone. But Carlos Alcaraz has now joined the very exclusive list of players...",
+   "id": "0ef7d61e1950ead4",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "How the ATP top 10 rankings at the end of 2026 compared to those from 2016",
+   "link": "https://sports.yahoo.com/tennis/articles/atp-top-10-rankings-end-020000394.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T02:00:00Z",
+   "trecho": "Carlos Alcaraz secured his sixth ATP title of the year after defeating Alexander Zverev in Sunday’s ATP Finals final. The victory did little to shake...",
+   "id": "3699d3213b1f3be8",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Trinity Rodman se pronuncia após término de relacionamento com Shelton",
+   "link": "https://www.tenisnews.com.br/rodman-se-pronuncia-shelton-termino-relacionamento/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T01:03:43Z",
+   "trecho": "A jogadora de futebol da seleção americana Trinity Rodman se pronunciou, nesta quarta-feira, em suas redes sociais sobre o término do relacionamento com o tenista Ben Shelton, quarto do mundo. -> Clique Aqui e ENTRE em nosso canal do Whatsapp! A jogadora fez uma simples postagem nas redes sociais: “É hora de resetar. Confirar no […]",
+   "id": "f1e653819dd4f4f3",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Australian Open says Jannik Sinner won't play the first Grand Slam tennis tournament of 2027",
+   "link": "https://sports.yahoo.com/tennis/articles/australian-open-says-jannik-sinner-010011335.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T01:00:11Z",
+   "trecho": "Jannik Sinner won’t compete in the first Grand Slam tennis tournament of 2027 while he recovers from recent right knee surgery, Australian Open officials said Thursday.“We’ve been in regular touch with Jannik’s team and they’ve confirmed he won’t be joining us for the AO in January following his recent surgery,” Tennis Australia chief executive Andrew Abdo said in a statement to The Associated Press.",
+   "id": "f8b199ac17b6bfdf",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Comparing Mirra Andreeva’s 2026 season to what Serena Williams did at the same age",
+   "link": "https://sports.yahoo.com/womens-college-basketball/articles/comparing-mirra-andreeva-2026-season-010000847.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T01:00:00Z",
+   "trecho": "Mirra Andreeva won her first Grand Slam title in 2026 and finished the year second in the world. Andreeva turned 19 this year, and became...",
+   "id": "9cbe3ed54610f4c8",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Brasil terá nove representantes nas oitavas de final do ENGIE Open",
+   "link": "https://ge.globo.com/sc/tenis/noticia/2026/11/25/brasil-tera-nove-representantes-nas-oitavas-de-final-do-engie-open.ghtml",
+   "fonte": "ge",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T00:42:55Z",
+   "trecho": "Laura Pigossi vence primeira no Engie Open Florianópolis O Brasil terá quatro representantes nas oitavas de final da chave masculina e cinco na feminina do Engie Open. Esta fase inicia na quinta-feira, a partir de 10h (de Brasília), no Lagoa Iate Clube, em Florianópolis, com entrada gratuita. Além das oitavas, a programação de quinta-feira conta com as disputas de duplas, também com brasileiros nas duas chaves. Engie Open começou nesta segunda-feira em Florianópolis Na chave do ATP Challenger 75",
+   "id": "9a4d68ccfb7063d4",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
   {
    "titulo": "Brasil garante nove representantes nas oitavas no ATP Challenger 75 e no WTT W75 em Florianópolis",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZnRUUFhFdHRIalJ2aEljckR4TmxVQkswMWRlZDVOeTFYQVBmM09xYjdWT0dNc0EySV9vQnB1VlhjaW1pSmhRbHpFZU10VUNRcDZIZzNXMzV6M1NCTi1UeFpPUWF1SXRJcUE2ck1mUHpNS1JKMlBEZ21Kd3l2MEVUNmN2WWJua1BiT2N1ZUI3VnRtSkNwRndGV1lBc0Z4d3U4dVFZN1BrUm50WmVKeldSMlBHcEkwYkwxVTZCUlpmQjQ1WVlHdVY4NTBwUHhrT0U?oc=5",
@@ -258,6 +622,17 @@
    "trecho": "",
    "id": "b2356c530d7d221a",
    "coletadoEm": "2026-11-26T00:31:47Z"
+  },
+  {
+   "titulo": "Aryna Sabalenka gets passionate advice from Jimmy Connors in blunt Mirra Andreeva warning",
+   "link": "https://www.tennis365.com/tennis-news/aryna-sabalenka-advice-jimmy-connors-mirra-andreeva-warning",
+   "fonte": "Tennis365",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-25T21:00:55Z",
+   "trecho": "\"I hate to say it like that, but it’s true.\" The post Aryna Sabalenka gets passionate advice from Jimmy Connors in blunt Mirra Andreeva warning appeared first on Tennis365 .",
+   "id": "a56518feb4bd20e0",
+   "coletadoEm": "2026-11-26T09:28:20Z"
   },
   {
    "titulo": "Why American tennis fans should feel frustrated while watching the 2026 Davis Cup Finals",
@@ -2295,6 +2670,17 @@
    "coletadoEm": "2026-11-26T00:31:47Z"
   },
   {
+   "titulo": "Alcaraz sofreu frente a Shelton mas está novamente na final das ATP Finals",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd0JmNFhyc0NXejM2c3BkejN4YS1pWlFpZ1dQRVkzTk1xNWpfMDE4bDNZVklMNkFQaWtwQzdxN0ZaSDRzWkFzLWhTZl9EQ2xDdHBlZzdhMjF5ZDBsLXA2dXByamNoTDNqOF9HZkdMWjFpYUVYenFER3dOQ2t5Mm95SGRZNjhkYnQwMFJtcTJKWklKUGJpLUMwUXdMOWtiZmE0dG5OZ1J6cUFlMG1uSDVfTzlCSkpDYWF0?oc=5",
+   "fonte": "RTP",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-24T16:38:25Z",
+   "trecho": "",
+   "id": "8e01c612fffe5498",
+   "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
    "titulo": "Os números ruins de Zverev como Nº 1",
    "link": "https://www.tenisnews.com.br/os-numeros-ruins-zverev-como-numero-1/",
    "fonte": "Tenis News",
@@ -3018,39 +3404,6 @@
    "publicadoEm": "2026-11-23T09:32:02Z",
    "trecho": "Le 9 novembre dernier, beIN Sports annonçait le retour du tennis ATP sur ses antennes à partir de 2028. Pour cela, la chaîne franco-qatarienne va régler moins de 10 millions d'euros par saison sur une durée de quatre ans.",
    "id": "83d4cacee0a485b0",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "“Those little moments help me a lot”: Alcaraz explains why he sang and danced at changeovers in the ATP Finals final",
-   "link": "https://www.tennismajors.com/atp/nitto-atp-finals-atp/those-little-moments-help-me-a-lot-alcaraz-explains-why-he-sang-and-danced-at-changeovers-in-the-atp-finals-final-867783.html",
-   "fonte": "Tennis Majors",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T07:35:46Z",
-   "trecho": "After beating Alexander Zverev in the Nitto ATP Finals final in Turin, Carlos Alcaraz explained why he sang and danced to the music at changeovers: two hours of focus is hard, and those breaks help him relax and play better.",
-   "id": "c0bce68f4c417300",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "84 days, four titles, one historic feat - Alcaraz's remarkable return",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/crp3e43gvgpwo?at_medium=RSS&at_campaign=rss",
-   "fonte": "BBC Sport",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T06:08:20Z",
-   "trecho": "Over the past 84 days, Carlos Alcaraz has won four titles, and he beat world number one Alexander Zverev to make history at the ATP Finals on Sunday.",
-   "id": "c804f5a99f06106f",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Alcaraz bate Zverev na decisão e conquista título inédito do ATP Finals",
-   "link": "https://ge.globo.com/tenis/noticia/2026/11/22/alcaraz-bate-zverev-na-decisao-e-conquista-titulo-inedito-do-atp-finals-1.ghtml",
-   "fonte": "ge",
-   "via": "",
-   "idioma": "pt",
-   "publicadoEm": "2026-11-23T02:51:58Z",
-   "trecho": "Alexander Zverev 0 x 2 Carlos Alcaraz | Melhores momentos | ATP Finals No torneio em que se reúnem os oito melhores tenistas da temporada, a final colocou frente a frente os dois principais cabeças de chave em Turim, na Itália. O líder do ranking, Alexander Zverev, não segurou o ritmo acelerado de Carlos Alcaraz e foi derrotado na decisão do último grande campeonato do calendário. Por 2 sets a 0, com parciais de 6/2 e 7/6 (7), o espanhol venceu o alemão e conquistou seu primeiro troféu do ATP Fi",
-   "id": "2f698d1586791c13",
    "coletadoEm": "2026-11-26T00:31:47Z"
   }
  ]
