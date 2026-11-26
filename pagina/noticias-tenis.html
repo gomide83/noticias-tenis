@@ -357,7 +357,8 @@ a { color: var(--link); }
   var noticias = [];
   var estado = null;
   var filtro = lerFiltro();
-  var situacao = "carregando"; // carregando | pronto | lento | erro | indisponivel
+  var situacao = "carregando"; // carregando | pronto | lento | erro | indisponivel | semLogin
+  var souDono = false; // avisos sobre o robô e o app do Claude só interessam ao dono
 
   var elStatus = document.getElementById("status");
   var elFiltros = document.getElementById("filtros");
@@ -453,6 +454,10 @@ a { color: var(--link); }
       elStatus.textContent = "Abra esta página no claude.ai para ver as notícias.";
       return;
     }
+    if (situacao === "semLogin") {
+      elStatus.textContent = "Entre na sua conta do Claude para ver as notícias.";
+      return;
+    }
     if (estado && paraData(estado.atualizadoEm)) {
       elStatus.appendChild(document.createTextNode("Atualizado " + tempoRelativo(estado.atualizadoEm)));
       var novas = typeof estado.novasNaRodada === "number" ? estado.novasNaRodada : 0;
@@ -474,7 +479,7 @@ a { color: var(--link); }
     if (situacao === "erro") {
       elAvisos.appendChild(criar("p", "aviso", "Não foi possível carregar as notícias agora. Recarregue a página daqui a pouco."));
     }
-    if (!estado) return;
+    if (!estado || !souDono) return;
     var semClaude = minutosDesde(estado.atualizadoEm);
     if (semClaude !== null && semClaude > LIMITE_CLAUDE_MIN) {
       elAvisos.appendChild(criar("p", "aviso", "O Claude não atualiza as notícias há " + duracao(semClaude) +
@@ -570,6 +575,11 @@ a { color: var(--link); }
       elLista.appendChild(mensagem("Página fora do claude.ai", "As notícias ficam guardadas no claude.ai. Abra o link da página lá para vê-las."));
       return;
     }
+    if (situacao === "semLogin") {
+      elLista.appendChild(mensagem("Entre para ver as notícias",
+        "As notícias desta página ficam guardadas no Claude e só aparecem para quem está conectado. Entre na sua conta do Claude e abra este link de novo."));
+      return;
+    }
     if (!noticias.length) {
       if (situacao === "carregando") return;
       elLista.appendChild(mensagem("Ainda não há notícias",
@@ -648,15 +658,23 @@ a { color: var(--link); }
     render();
     return;
   }
+  window.claude.use("user").then(function (usuario) {
+    if (!usuario) return;
+    usuario.isOwner().then(function (dono) {
+      souDono = dono === true;
+      renderAvisos();
+    }, function () { /* sem resposta: trata como visitante */ });
+  }, function () { /* sem resposta: trata como visitante */ });
+
   window.claude.use("db").then(function (db) {
     if (!db) {
-      situacao = "indisponivel";
+      situacao = "semLogin";
       render();
       return;
     }
     iniciar(db);
   }, function () {
-    situacao = "indisponivel";
+    situacao = "semLogin";
     render();
   });
 })();
