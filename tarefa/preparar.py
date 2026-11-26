@@ -1,0 +1,89 @@
+"""Separa as notícias do robô que o Claude ainda não tratou.
+
+Uso:
+  python tarefa/preparar.py --noticias noticias.json --db tarefa/trabalho/db \
+      --saida tarefa/trabalho/candidatos.json
+
+--db é a pasta onde o ArtifactData salvou os documentos (out_dir):
+  <db>/meta/tratados.json e <db>/noticias/*.json (publicadas nas últimas 24 h).
+"""
+
+import argparse
+import glob
+import json
+import os
+import sys
+from datetime import datetime, timedelta, timezone
+
+LIMITE_TRECHO = 300
+CAMPOS = ("id", "titulo", "fonte", "via", "idioma", "publicadoEm")
+
+
+def _ler_iso(texto: str) -> datetime:
+    return datetime.strptime(texto, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+
+
+def carregar_corpo(caminho: str) -> dict:
+    with open(caminho, encoding="utf-8") as arquivo:
+        conteudo = json.load(arquivo)
+    if isinstance(conteudo, dict) and isinstance(conteudo.get("data"), dict):
+        return conteudo["data"]
+    return conteudo
+
+
+def carregar_tratados(pasta_db: str) -> set:
+    caminho = os.path.join(pasta_db, "meta", "tratados.json")
+    if not os.path.exists(caminho):
+        return set()
+    return set(carregar_corpo(caminho).get("ids", []))
+
+
+def titulos_publicados(pasta_db: str) -> list:
+    titulos = []
+    for caminho in sorted(glob.glob(os.path.join(pasta_db, "noticias", "*.json"))):
+        titulo = carregar_corpo(caminho).get("titulo")
+        if titulo:
+            titulos.append(titulo)
+    return titulos
+
+
+def selecionar_candidatos(noticias: list, tratados: set, agora: datetime,
+                          max_idade_h: int = 24, limite: int = 80) -> list:
+    corte = agora - timedelta(hours=max_idade_h)
+    novas = [n for n in noticias if n["id"] not in tratados and _ler_iso(n["publicadoEm"]) >= corte]
+    novas.sort(key=lambda n: n["publicadoEm"], reverse=True)
+    candidatos = []
+    for n in novas[:limite]:
+        candidato = {campo: n.get(campo) for campo in CAMPOS}
+        candidato["trecho"] = (n.get("trecho") or "")[:LIMITE_TRECHO]
+        candidatos.append(candidato)
+    return candidatos
+
+
+def main(argv=None, agora=None) -> dict:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--noticias", required=True)
+    parser.add_argument("--db", required=True)
+    parser.add_argument("--saida", required=True)
+    args = parser.parse_args(argv)
+    agora = agora or datetime.now(timezone.utc)
+
+    with open(args.noticias, encoding="utf-8") as arquivo:
+        robo = json.load(arquivo)
+    candidatos = selecionar_candidatos(robo.get("noticias", []), carregar_tratados(args.db), agora)
+    resultado = {
+        "robo": {"atualizadoEm": robo.get("atualizadoEm"), "fontesComFalha": robo.get("fontesComFalha", [])},
+        "jaPublicadas": titulos_publicados(args.db),
+        "candidatos": candidatos,
+    }
+    os.makedirs(os.path.dirname(os.path.abspath(args.saida)), exist_ok=True)
+    with open(args.saida, "w", encoding="utf-8") as arquivo:
+        json.dump(resultado, arquivo, ensure_ascii=False, indent=1)
+    print(f"{len(candidatos)} candidatos")
+    return resultado
+
+
+if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    main()
