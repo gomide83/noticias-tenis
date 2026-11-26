@@ -9,6 +9,8 @@ decisoes.json (escrito pelo Claude):
 
 Grava um arquivo JSON por documento e <saida>/writes.json, a lista de entradas
 pronta para o "batch" do ArtifactData. Links e fontes vêm sempre do noticias.json.
+--versao-tratados e --versao-estado: a "version" que o ArtifactData get mostrou para
+meta/tratados e meta/estado (os arquivos do out_dir não trazem a versão).
 """
 
 import argparse
@@ -71,15 +73,6 @@ def novos_tratados(antigos: list, decisoes: dict, ids_atuais: set) -> list:
     return resultado
 
 
-def _versao(caminho: str):
-    if not os.path.exists(caminho):
-        return None
-    with open(caminho, encoding="utf-8") as arquivo:
-        conteudo = json.load(arquivo)
-    versao = conteudo.get("version") if isinstance(conteudo, dict) else None
-    return versao if isinstance(versao, int) else None
-
-
 def _gravar(saida: str, colecao: str, doc_id: str, dados: dict, versao=None) -> dict:
     caminho = os.path.abspath(os.path.join(saida, colecao, doc_id + ".json"))
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
@@ -97,6 +90,10 @@ def main(argv=None, agora=None) -> list:
     parser.add_argument("--db", required=True)
     parser.add_argument("--decisoes", required=True)
     parser.add_argument("--saida", required=True)
+    parser.add_argument("--versao-tratados", type=int, default=None,
+                        help="version de meta/tratados lida no ArtifactData get (omita se não existe)")
+    parser.add_argument("--versao-estado", type=int, default=None,
+                        help="version de meta/estado lida no ArtifactData get (omita se não existe)")
     args = parser.parse_args(argv)
     agora = agora or datetime.now(timezone.utc)
 
@@ -121,15 +118,14 @@ def main(argv=None, agora=None) -> list:
 
     ids_atuais = {n["id"] for n in robo.get("noticias", [])}
     tratados = novos_tratados(antigos, decisoes, ids_atuais)
-    writes.append(_gravar(args.saida, "meta", "tratados", {"ids": tratados}, _versao(caminho_tratados)))
+    writes.append(_gravar(args.saida, "meta", "tratados", {"ids": tratados}, args.versao_tratados))
     estado = {
         "atualizadoEm": _iso(agora),
         "coletaEm": robo.get("atualizadoEm"),
         "fontesComFalha": robo.get("fontesComFalha", []),
         "novasNaRodada": len(usados),
     }
-    caminho_estado = os.path.join(args.db, "meta", "estado.json")
-    writes.append(_gravar(args.saida, "meta", "estado", estado, _versao(caminho_estado)))
+    writes.append(_gravar(args.saida, "meta", "estado", estado, args.versao_estado))
 
     with open(os.path.join(args.saida, "writes.json"), "w", encoding="utf-8") as arquivo:
         json.dump(writes, arquivo, ensure_ascii=False, indent=1)

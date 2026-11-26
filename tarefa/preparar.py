@@ -16,7 +16,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 LIMITE_TRECHO = 300
-CAMPOS = ("id", "titulo", "fonte", "via", "idioma", "publicadoEm")
+CAMPOS = ("id", "titulo", "link", "fonte", "via", "idioma", "publicadoEm")
 
 
 def _ler_iso(texto: str) -> datetime:

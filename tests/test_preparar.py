@@ -40,7 +40,7 @@ class TestSelecionar(unittest.TestCase):
     def test_campos_e_trecho_cortado(self):
         candidato = selecionar_candidatos([noticia("a", trecho="x" * 1000)], set(), AGORA)[0]
         self.assertEqual(len(candidato["trecho"]), 300)
-        self.assertEqual(set(candidato), {"id", "titulo", "fonte", "via", "idioma", "publicadoEm", "trecho"})
+        self.assertEqual(set(candidato), {"id", "titulo", "link", "fonte", "via", "idioma", "publicadoEm", "trecho"})
 
 
 class TestCarregarCorpo(unittest.TestCase):

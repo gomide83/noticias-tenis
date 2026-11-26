@@ -84,7 +84,7 @@ def ler(caminho):
 
 
 class TestMain(unittest.TestCase):
-    def rodar(self, decisoes, tratados=None):
+    def rodar(self, decisoes, tratados=None, extras=()):
         pasta = tempfile.mkdtemp()
         self.addCleanup(shutil.rmtree, pasta, True)
         escrever(os.path.join(pasta, "noticias.json"),
@@ -94,7 +94,7 @@ class TestMain(unittest.TestCase):
         escrever(os.path.join(pasta, "decisoes.json"), decisoes)
         saida = os.path.join(pasta, "lote")
         montar_lote.main(["--noticias", os.path.join(pasta, "noticias.json"), "--db", os.path.join(pasta, "db"),
-                          "--decisoes", os.path.join(pasta, "decisoes.json"), "--saida", saida], agora=AGORA)
+                          "--decisoes", os.path.join(pasta, "decisoes.json"), "--saida", saida, *extras], agora=AGORA)
         return saida, ler(os.path.join(saida, "writes.json"))
 
     def test_main_gera_gravacoes(self):
@@ -110,9 +110,11 @@ class TestMain(unittest.TestCase):
 
     def test_main_usa_versao_e_nao_republica_tratado(self):
         _, writes = self.rodar({"fatos": [fato(["x", "a"])], "descartados": []},
-                               tratados={"data": {"ids": ["x"]}, "version": 7})
+                               tratados={"ids": ["x"]},
+                               extras=["--versao-tratados", "7", "--versao-estado", "3"])
         self.assertEqual(writes[0]["doc_id"], "n-a")
         self.assertEqual(writes[1]["if_version"], 7)
+        self.assertEqual(writes[2]["if_version"], 3)
 
     def test_main_sem_fatos_so_atualiza_meta(self):
         _, writes = self.rodar({"fatos": [], "descartados": []})
