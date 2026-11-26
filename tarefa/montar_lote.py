@@ -43,7 +43,7 @@ def montar_noticia(fato: dict, por_id: dict, agora: datetime):
         item = por_id[id_]
         if item["fonte"] not in nomes:
             nomes.add(item["fonte"])
-            fontes.append({"nome": item["fonte"], "link": item["link"]})
+            fontes.append({"nome": item["fonte"], "link": item["link"], "idioma": item.get("idioma", "pt")})
 
     categoria = fato.get("categoria")
     dados = {

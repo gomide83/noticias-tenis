@@ -26,7 +26,7 @@ def noticia(id_, fonte, horas_atras):
 
 POR_ID = {
     "a": noticia("a", "ge", 1),
-    "b": noticia("b", "BBC", 3),
+    "b": dict(noticia("b", "BBC", 3), idioma="en"),
     "c": noticia("c", "ge", 2),
     "x": noticia("x", "Terra", 1),
 }
@@ -40,8 +40,8 @@ class TestMontarNoticia(unittest.TestCase):
     def test_montar_noticia_fontes_do_robo(self):
         doc_id, dados = montar_noticia(fato(["a", "b", "c"]), POR_ID, AGORA)
         self.assertEqual(doc_id, "n-a")
-        self.assertEqual(dados["fontes"], [{"nome": "ge", "link": "https://ge.com/a"},
-                                           {"nome": "BBC", "link": "https://bbc.com/b"}])
+        self.assertEqual(dados["fontes"], [{"nome": "ge", "link": "https://ge.com/a", "idioma": "pt"},
+                                           {"nome": "BBC", "link": "https://bbc.com/b", "idioma": "en"}])
         self.assertEqual(dados["publicadoEm"], iso(AGORA - timedelta(hours=3)))
         self.assertEqual(dados["criadoEm"], iso(AGORA))
         self.assertEqual(dados["idsRobo"], ["a", "b", "c"])
