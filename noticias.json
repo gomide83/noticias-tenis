@@ -1,7 +1,22 @@
 {
- "atualizadoEm": "2026-11-26T00:33:44Z",
- "fontesComFalha": [],
+ "atualizadoEm": "2026-11-26T00:56:00Z",
+ "totalFontes": 22,
+ "fontesComFalha": [
+  "Google Notícias: ténis (Portugal)"
+ ],
+ "vistos": {},
  "noticias": [
+  {
+   "titulo": "Brasil garante nove representantes nas oitavas no ATP Challenger 75 e no WTT W75 em Florianópolis",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZnRUUFhFdHRIalJ2aEljckR4TmxVQkswMWRlZDVOeTFYQVBmM09xYjdWT0dNc0EySV9vQnB1VlhjaW1pSmhRbHpFZU10VUNRcDZIZzNXMzV6M1NCTi1UeFpPUWF1SXRJcUE2ck1mUHpNS1JKMlBEZ21Kd3l2MEVUNmN2WWJua1BiT2N1ZUI3VnRtSkNwRndGV1lBc0Z4d3U4dVFZN1BrUm50WmVKeldSMlBHcEkwYkwxVTZCUlpmQjQ1WVlHdVY4NTBwUHhrT0U?oc=5",
+   "fonte": "NSC Total",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T00:40:30Z",
+   "trecho": "",
+   "id": "405a78b28a110cc0",
+   "coletadoEm": "2026-11-26T00:56:00Z"
+  },
   {
    "titulo": "Rodionov pede duelo contra Alcaraz na Copa Davis: ‘Quero enfrentar o melhor do mundo’",
    "link": "https://www.tenisnews.com.br/rodionov-pede-duelo-contra-alcaraz-copa-davis/",
