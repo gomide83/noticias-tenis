@@ -1,0 +1,84 @@
+KIT DO YOUTUBE – TÊNIS NOTÍCIAS
+================================
+
+Arquivos desta pasta:
+- short-tenis-noticias.mp4 ... o vídeo curto (Short), em pé, 21 segundos, sem som
+- capa-do-canal.png .......... a imagem do topo do canal (banner)
+- foto-de-perfil.png ......... a foto redonda do canal
+- textos-para-copiar.txt ..... este arquivo
+
+
+1) NOME DO CANAL
+----------------
+Tênis Notícias
+
+Identificador (o @ do canal): @tenisnoticias
+Se já estiver ocupado, tente @tenisnoticiasbr ou @tenis.noticias
+
+
+2) DESCRIÇÃO DO CANAL (copie tudo entre as linhas)
+--------------------------------------------------
+Notícias de tênis do Brasil e do mundo, em português. 🎾
+
+Aqui você acompanha os principais resultados, os brasileiros no circuito, os Grand Slams e o ranking da ATP e da WTA.
+
+No site, as notícias são atualizadas a cada 30 minutos, com resumos curtos e o link para a matéria original:
+https://gomide83.github.io/noticias-tenis/
+
+Os resumos do site são escritos com a ajuda de inteligência artificial (Claude), a partir de portais de tênis do Brasil e do exterior.
+--------------------------------------------------
+
+
+3) TÍTULO DO VÍDEO
+------------------
+Notícias de tênis em português, a cada 30 minutos 🎾 #shorts
+
+
+4) DESCRIÇÃO DO VÍDEO (copie tudo entre as linhas)
+--------------------------------------------------
+O Tênis Notícias reúne as notícias de tênis do Brasil e do mundo, em português, atualizadas a cada 30 minutos. Tem também o ranking da ATP e da WTA.
+
+Acesse: https://gomide83.github.io/noticias-tenis/
+
+#tenis #tênis #ATP #WTA #shorts
+--------------------------------------------------
+
+
+5) TAGS (palavras-chave) – cole no campo "Tags"
+-----------------------------------------------
+tênis, tenis, notícias de tênis, tênis brasileiro, ranking ATP, ranking WTA, Zverev, Sinner, Alcaraz, Rybakina, Sabalenka
+
+
+PASSO A PASSO
+=============
+
+A) Criar o canal (uma vez só)
+   1. Entre em youtube.com com a sua conta do Google.
+   2. Clique na sua foto, no canto de cima, e depois em "Criar um canal".
+   3. Use o nome e o @ do item 1.
+
+B) Colocar a foto, a capa e a descrição
+   1. Abra o YouTube Studio (studio.youtube.com).
+   2. No menu da esquerda, clique em "Personalização".
+   3. Na aba "Branding" (ou "Marca"): em "Foto", envie foto-de-perfil.png;
+      em "Imagem do banner", envie capa-do-canal.png.
+   4. Na aba "Informações básicas": cole a descrição do item 2 e, em "Links",
+      adicione o site: https://gomide83.github.io/noticias-tenis/
+   5. Clique em "Publicar".
+
+C) Postar o vídeo
+   1. No YouTube Studio, clique em "Criar" e depois em "Enviar vídeos".
+   2. Escolha short-tenis-noticias.mp4. Como ele é em pé e tem menos de 1 minuto,
+      o YouTube já trata como Short.
+   3. Cole o título (item 3), a descrição (item 4) e as tags (item 5; ficam em "Mostrar mais").
+   4. Em "Público", marque "Não, não é conteúdo para crianças".
+   5. Em "Visibilidade", escolha "Público" e publique.
+
+D) Música (opcional)
+   O vídeo vai sem som para não ter problema de direitos autorais. Se quiser música,
+   use só as músicas grátis do próprio YouTube: no Studio, abra o vídeo, clique em
+   "Editor" e depois em "Áudio" (se a opção aparecer para o seu vídeo).
+
+E) Depois de postar
+   Mande o link do vídeo nos seus grupos de WhatsApp e redes. Postar com frequência
+   é o que mais faz um canal crescer.
