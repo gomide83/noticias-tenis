@@ -1,0 +1,807 @@
+{
+ "atualizadoEm": "2026-11-19T08:00:00Z",
+ "fonte": "ESPN",
+ "jogadores": [
+  {
+   "posicao": 1,
+   "anterior": 1,
+   "nome": "Alexander Zverev",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 10350
+  },
+  {
+   "posicao": 2,
+   "anterior": 2,
+   "nome": "Jannik Sinner",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 7950
+  },
+  {
+   "posicao": 3,
+   "anterior": 3,
+   "nome": "Carlos Alcaraz",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 7600
+  },
+  {
+   "posicao": 4,
+   "anterior": 4,
+   "nome": "Ben Shelton",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 5570
+  },
+  {
+   "posicao": 5,
+   "anterior": 5,
+   "nome": "Daniil Medvedev",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 4220
+  },
+  {
+   "posicao": 6,
+   "anterior": 7,
+   "nome": "Arthur Fils",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 3825
+  },
+  {
+   "posicao": 7,
+   "anterior": 6,
+   "nome": "Flavio Cobolli",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 3680
+  },
+  {
+   "posicao": 8,
+   "anterior": 8,
+   "nome": "Frances Tiafoe",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 3590
+  },
+  {
+   "posicao": 9,
+   "anterior": 9,
+   "nome": "Taylor Fritz",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 3300
+  },
+  {
+   "posicao": 10,
+   "anterior": 10,
+   "nome": "Rafael Jodar",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 3234
+  },
+  {
+   "posicao": 11,
+   "anterior": 11,
+   "nome": "Alex de Minaur",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 3170
+  },
+  {
+   "posicao": 12,
+   "anterior": 12,
+   "nome": "Novak Djokovic",
+   "pais": "SER",
+   "paisNome": "Serbia",
+   "pontos": 2940
+  },
+  {
+   "posicao": 13,
+   "anterior": 13,
+   "nome": "Tommy Paul",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 2925
+  },
+  {
+   "posicao": 14,
+   "anterior": 14,
+   "nome": "Jiri Lehecka",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 2540
+  },
+  {
+   "posicao": 15,
+   "anterior": 15,
+   "nome": "Jakub Mensik",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 2500
+  },
+  {
+   "posicao": 16,
+   "anterior": 16,
+   "nome": "Alejandro Davidovich Fokina",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 2500
+  },
+  {
+   "posicao": 17,
+   "anterior": 17,
+   "nome": "Felix Auger-Aliassime",
+   "pais": "CAN",
+   "paisNome": "Canada",
+   "pontos": 2465
+  },
+  {
+   "posicao": 18,
+   "anterior": 18,
+   "nome": "Casper Ruud",
+   "pais": "NOR",
+   "paisNome": "Norway",
+   "pontos": 2435
+  },
+  {
+   "posicao": 19,
+   "anterior": 19,
+   "nome": "Brandon Nakashima",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 2360
+  },
+  {
+   "posicao": 20,
+   "anterior": 20,
+   "nome": "Francisco Cerundolo",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 2220
+  },
+  {
+   "posicao": 21,
+   "anterior": 21,
+   "nome": "Luciano Darderi",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 2160
+  },
+  {
+   "posicao": 22,
+   "anterior": 22,
+   "nome": "Learner Tien",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 2145
+  },
+  {
+   "posicao": 23,
+   "anterior": 23,
+   "nome": "Andrey Rublev",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 2085
+  },
+  {
+   "posicao": 24,
+   "anterior": 24,
+   "nome": "Karen Khachanov",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 1980
+  },
+  {
+   "posicao": 25,
+   "anterior": 25,
+   "nome": "Alexander Bublik",
+   "pais": "KAZ",
+   "paisNome": "Kazakhstan",
+   "pontos": 1885
+  },
+  {
+   "posicao": 26,
+   "anterior": 26,
+   "nome": "Valentin Vacherot",
+   "pais": "MON",
+   "paisNome": "Monaco",
+   "pontos": 1790
+  },
+  {
+   "posicao": 27,
+   "anterior": 27,
+   "nome": "Lorenzo Musetti",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 1785
+  },
+  {
+   "posicao": 28,
+   "anterior": 28,
+   "nome": "Alexander Blockx",
+   "pais": "BEL",
+   "paisNome": "Belgium",
+   "pontos": 1640
+  },
+  {
+   "posicao": 29,
+   "anterior": 29,
+   "nome": "Tomas Martin Etcheverry",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 1640
+  },
+  {
+   "posicao": 30,
+   "anterior": 30,
+   "nome": "Hubert Hurkacz",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 1625
+  },
+  {
+   "posicao": 31,
+   "anterior": 31,
+   "nome": "Alejandro Tabilo",
+   "pais": "CHI",
+   "paisNome": "Chile",
+   "pontos": 1595
+  },
+  {
+   "posicao": 32,
+   "anterior": 32,
+   "nome": "Arthur Fery",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 1507
+  },
+  {
+   "posicao": 33,
+   "anterior": 33,
+   "nome": "Ignacio Buse",
+   "pais": "PER",
+   "paisNome": "Peru",
+   "pontos": 1495
+  },
+  {
+   "posicao": 34,
+   "anterior": 34,
+   "nome": "Luca Van Assche",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 1492
+  },
+  {
+   "posicao": 35,
+   "anterior": 35,
+   "nome": "Alex Michelsen",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1480
+  },
+  {
+   "posicao": 36,
+   "anterior": 36,
+   "nome": "Stefanos Tsitsipas",
+   "pais": "GRE",
+   "paisNome": "Greece",
+   "pontos": 1430
+  },
+  {
+   "posicao": 37,
+   "anterior": 37,
+   "nome": "Matteo Arnaldi",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 1321
+  },
+  {
+   "posicao": 38,
+   "anterior": 38,
+   "nome": "Ugo Humbert",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 1320
+  },
+  {
+   "posicao": 39,
+   "anterior": 39,
+   "nome": "Jan-Lennard Struff",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 1296
+  },
+  {
+   "posicao": 40,
+   "anterior": 40,
+   "nome": "Botic Van De Zandschulp",
+   "pais": "NED",
+   "paisNome": "Netherlands",
+   "pontos": 1280
+  },
+  {
+   "posicao": 41,
+   "anterior": 41,
+   "nome": "Nuno Borges",
+   "pais": "POR",
+   "paisNome": "Portugal",
+   "pontos": 1241
+  },
+  {
+   "posicao": 42,
+   "anterior": 42,
+   "nome": "Daniel Merida",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 1237
+  },
+  {
+   "posicao": 43,
+   "anterior": 43,
+   "nome": "Matteo Berrettini",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 1223
+  },
+  {
+   "posicao": 44,
+   "anterior": 44,
+   "nome": "Zizou Bergs",
+   "pais": "BEL",
+   "paisNome": "Belgium",
+   "pontos": 1220
+  },
+  {
+   "posicao": 45,
+   "anterior": 45,
+   "nome": "Quentin Halys",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 1214
+  },
+  {
+   "posicao": 46,
+   "anterior": 46,
+   "nome": "Joao Fonseca",
+   "pais": "BRA",
+   "paisNome": "Brazil",
+   "pontos": 1200
+  },
+  {
+   "posicao": 47,
+   "anterior": 47,
+   "nome": "Thiago Agustin Tirante",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 1197
+  },
+  {
+   "posicao": 48,
+   "anterior": 48,
+   "nome": "Arthur Gea",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 1146
+  },
+  {
+   "posicao": 49,
+   "anterior": 49,
+   "nome": "Mariano Navone",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 1095
+  },
+  {
+   "posicao": 50,
+   "anterior": 50,
+   "nome": "Tallon Griekspoor",
+   "pais": "NED",
+   "paisNome": "Netherlands",
+   "pontos": 1075
+  },
+  {
+   "posicao": 51,
+   "anterior": 51,
+   "nome": "Denis Shapovalov",
+   "pais": "CAN",
+   "paisNome": "Canada",
+   "pontos": 1055
+  },
+  {
+   "posicao": 52,
+   "anterior": 52,
+   "nome": "Cameron Norrie",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 1045
+  },
+  {
+   "posicao": 53,
+   "anterior": 53,
+   "nome": "Sebastian Baez",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 1040
+  },
+  {
+   "posicao": 54,
+   "anterior": 54,
+   "nome": "Juan Manuel Cerundolo",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 1015
+  },
+  {
+   "posicao": 55,
+   "anterior": 55,
+   "nome": "Raphael Collignon",
+   "pais": "BEL",
+   "paisNome": "Belgium",
+   "pontos": 968
+  },
+  {
+   "posicao": 56,
+   "anterior": 57,
+   "nome": "Jaime Faria",
+   "pais": "POR",
+   "paisNome": "Portugal",
+   "pontos": 941
+  },
+  {
+   "posicao": 57,
+   "anterior": 58,
+   "nome": "Arthur Rinderknech",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 920
+  },
+  {
+   "posicao": 58,
+   "anterior": 59,
+   "nome": "Rinky Hijikata",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 909
+  },
+  {
+   "posicao": 59,
+   "anterior": 60,
+   "nome": "Tomas Machac",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 899
+  },
+  {
+   "posicao": 60,
+   "anterior": 61,
+   "nome": "Adrian Mannarino",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 898
+  },
+  {
+   "posicao": 61,
+   "anterior": 56,
+   "nome": "Adolfo Daniel Vallejo",
+   "pais": "PAR",
+   "paisNome": "Paraguay",
+   "pontos": 897
+  },
+  {
+   "posicao": 62,
+   "anterior": 62,
+   "nome": "Mattia Bellucci",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 879
+  },
+  {
+   "posicao": 63,
+   "anterior": 63,
+   "nome": "Fabian Marozsan",
+   "pais": "HUN",
+   "paisNome": "Hungary",
+   "pontos": 875
+  },
+  {
+   "posicao": 64,
+   "anterior": 64,
+   "nome": "Miomir Kecmanovic",
+   "pais": "SER",
+   "paisNome": "Serbia",
+   "pontos": 871
+  },
+  {
+   "posicao": 65,
+   "anterior": 65,
+   "nome": "Camilo Ugo Carabelli",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 845
+  },
+  {
+   "posicao": 66,
+   "anterior": 66,
+   "nome": "Facundo Diaz Acosta",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 836
+  },
+  {
+   "posicao": 67,
+   "anterior": 67,
+   "nome": "Yannick Hanfmann",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 835
+  },
+  {
+   "posicao": 68,
+   "anterior": 68,
+   "nome": "Ethan Quinn",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 831
+  },
+  {
+   "posicao": 69,
+   "anterior": 69,
+   "nome": "Vit Kopriva",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 828
+  },
+  {
+   "posicao": 70,
+   "anterior": 70,
+   "nome": "Jaume Munar",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 825
+  },
+  {
+   "posicao": 71,
+   "anterior": 71,
+   "nome": "Martin Landaluce",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 822
+  },
+  {
+   "posicao": 72,
+   "anterior": 72,
+   "nome": "Daniel Altmaier",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 822
+  },
+  {
+   "posicao": 73,
+   "anterior": 73,
+   "nome": "Alex Molcan",
+   "pais": "SVK",
+   "paisNome": "Slovakia",
+   "pontos": 820
+  },
+  {
+   "posicao": 74,
+   "anterior": 74,
+   "nome": "Roman Safiullin",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 807
+  },
+  {
+   "posicao": 75,
+   "anterior": 75,
+   "nome": "Terence Atmane",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 787
+  },
+  {
+   "posicao": 76,
+   "anterior": 76,
+   "nome": "Pablo Carreno Busta",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 773
+  },
+  {
+   "posicao": 77,
+   "anterior": 78,
+   "nome": "Zachary Svajda",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 759
+  },
+  {
+   "posicao": 78,
+   "anterior": 79,
+   "nome": "Hamad Medjedovic",
+   "pais": "SER",
+   "paisNome": "Serbia",
+   "pontos": 751
+  },
+  {
+   "posicao": 79,
+   "anterior": 80,
+   "nome": "Roman Andres Burruchaga",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 735
+  },
+  {
+   "posicao": 80,
+   "anterior": 81,
+   "nome": "Titouan Droguet",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 732
+  },
+  {
+   "posicao": 81,
+   "anterior": 82,
+   "nome": "Kamil Majchrzak",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 725
+  },
+  {
+   "posicao": 82,
+   "anterior": 92,
+   "nome": "Toby Samuel",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 722
+  },
+  {
+   "posicao": 83,
+   "anterior": 77,
+   "nome": "James Duckworth",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 707
+  },
+  {
+   "posicao": 84,
+   "anterior": 85,
+   "nome": "Nikoloz Basilashvili",
+   "pais": "GEO",
+   "paisNome": "Georgia",
+   "pontos": 696
+  },
+  {
+   "posicao": 85,
+   "anterior": 83,
+   "nome": "Aleksandar Kovacevic",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 693
+  },
+  {
+   "posicao": 86,
+   "anterior": 84,
+   "nome": "Chak Lam Coleman Wong",
+   "pais": "HKG",
+   "paisNome": "Hong Kong",
+   "pontos": 692
+  },
+  {
+   "posicao": 87,
+   "anterior": 86,
+   "nome": "Kyrian Jacquet",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 688
+  },
+  {
+   "posicao": 88,
+   "anterior": 101,
+   "nome": "Thiago Seyboth Wild",
+   "pais": "BRA",
+   "paisNome": "Brazil",
+   "pontos": 680
+  },
+  {
+   "posicao": 89,
+   "anterior": 89,
+   "nome": "Dino Prizmic",
+   "pais": "CRO",
+   "paisNome": "Croatia",
+   "pontos": 679
+  },
+  {
+   "posicao": 90,
+   "anterior": 87,
+   "nome": "Jacob Fearnley",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 671
+  },
+  {
+   "posicao": 91,
+   "anterior": 90,
+   "nome": "Damir Dzumhur",
+   "pais": "BIH",
+   "paisNome": "Bosnia and Herzegovina",
+   "pontos": 661
+  },
+  {
+   "posicao": 92,
+   "anterior": 88,
+   "nome": "Marco Trungelliti",
+   "pais": "ARG",
+   "paisNome": "Argentina",
+   "pontos": 660
+  },
+  {
+   "posicao": 93,
+   "anterior": 91,
+   "nome": "Benjamin Bonzi",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 657
+  },
+  {
+   "posicao": 94,
+   "anterior": 93,
+   "nome": "Bu Yunchaokete",
+   "pais": "CHN",
+   "paisNome": "China",
+   "pontos": 646
+  },
+  {
+   "posicao": 95,
+   "anterior": 94,
+   "nome": "Jenson Brooksby",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 638
+  },
+  {
+   "posicao": 96,
+   "anterior": 95,
+   "nome": "Marcos Giron",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 638
+  },
+  {
+   "posicao": 97,
+   "anterior": 116,
+   "nome": "Otto Virtanen",
+   "pais": "FIN",
+   "paisNome": "Finland",
+   "pontos": 634
+  },
+  {
+   "posicao": 98,
+   "anterior": 96,
+   "nome": "Zsombor Piros",
+   "pais": "HUN",
+   "paisNome": "Hungary",
+   "pontos": 624
+  },
+  {
+   "posicao": 99,
+   "anterior": 97,
+   "nome": "Adam Walton",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 619
+  },
+  {
+   "posicao": 100,
+   "anterior": 98,
+   "nome": "Michael Zheng",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 616
+  }
+ ],
+ "buscadoEm": "2026-11-26T19:05:32Z"
+}

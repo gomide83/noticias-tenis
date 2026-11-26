@@ -2,8 +2,9 @@
 
 Junta as notícias novas da rodada (pasta do lote) às já publicadas em
 dados/publicadas.json (guarda 30 dias), gera a página inicial (últimos 7 dias),
-uma página para cada notícia, a página Sobre, o sitemap.xml e o robots.txt,
-e envia ao GitHub, que publica o site.
+uma página para cada notícia, a página Sobre, a página do Ranking ATP (dados
+da ESPN, atualizados a cada 6 horas), o sitemap.xml e o robots.txt, e envia ao
+GitHub, que publica o site.
 
 Uso: python tarefa/publicar_site.py --lote tarefa/trabalho/lote
 """
@@ -19,6 +20,8 @@ import subprocess
 import sys
 import unicodedata
 from datetime import datetime, timedelta, timezone
+
+import ranking
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL_SITE = "https://gomide83.github.io/noticias-tenis/"
@@ -147,16 +150,21 @@ def _layout(titulo: str, descricao: str, url: str, topo: str, conteudo: str, rai
             .replace("{{SCRIPT}}", script))
 
 
+def _menu(raiz: str) -> str:
+    return (f'<nav class="menu" aria-label="Seções do site"><a href="{raiz or "./"}">Notícias</a>'
+            f'<a href="{raiz}ranking.html">Ranking ATP</a><a href="{raiz}sobre.html">Sobre</a></nav>')
+
+
 def _topo_inicial(agora: datetime) -> str:
     atualizado = agora.astimezone(BRASILIA)
     return (f'<header class="topo"><div class="faixa">{QUADRA}<h1>{_e(NOME)}</h1>'
             f'<p class="status">Atualizado em {atualizado:%d/%m/%Y} às {atualizado:%H:%M} (horário de Brasília)</p>'
-            "</div></header>")
+            f"{_menu('')}</div></header>")
 
 
 def _topo_interno(raiz: str) -> str:
     return (f'<header class="topo topo-interno"><div class="faixa">{QUADRA}'
-            f'<a class="marca" href="{raiz or "./"}">{_e(NOME)}</a></div></header>')
+            f'<a class="marca" href="{raiz or "./"}">{_e(NOME)}</a>{_menu(raiz)}</div></header>')
 
 
 def renderizar_pagina(noticias: list, agora: datetime) -> str:
@@ -230,11 +238,68 @@ def renderizar_sobre(agora: datetime, fontes=None) -> str:
                    URL_SITE + "sobre.html", _topo_interno(""), conteudo, "")
 
 
+def _pontos(valor) -> str:
+    return f"{int(valor or 0):,}".replace(",", ".")
+
+
+def _variacao(jogador: dict) -> str:
+    anterior, posicao = jogador.get("anterior"), jogador["posicao"]
+    if not anterior:
+        return '<span class="var igual" title="Sem dado anterior">–</span>'
+    diferenca = anterior - posicao
+    if diferenca == 0:
+        return '<span class="var igual" title="Manteve a posição">–<span class="sr"> Manteve a posição</span></span>'
+    passos = abs(diferenca)
+    plural = "posição" if passos == 1 else "posições"
+    if diferenca > 0:
+        texto, classe, seta = f"Subiu {passos} {plural}", "sobe", "▲"
+    else:
+        texto, classe, seta = f"Caiu {passos} {plural}", "desce", "▼"
+    return (f'<span class="var {classe}" title="{texto}"><span aria-hidden="true">{seta}</span> {passos}'
+            f'<span class="sr"> {texto}</span></span>')
+
+
+def renderizar_ranking(dados, agora: datetime) -> str:
+    descricao = "Os 100 primeiros do ranking de simples da ATP, com pontos e quem subiu ou caiu."
+    if not dados or not dados.get("jogadores"):
+        corpo = ('<div class="mensagem"><h2>O ranking não está disponível agora</h2>'
+                 "<p>Ele volta a aparecer aqui na próxima atualização do site.</p></div>")
+    else:
+        data = _ler_iso(dados["atualizadoEm"]).astimezone(BRASILIA)
+        brasileiros = [j for j in dados["jogadores"] if j.get("pais") == "BRA"]
+        linhas = []
+        for j in dados["jogadores"]:
+            classe = ' class="br"' if j.get("pais") == "BRA" else ""
+            pais = ranking.nome_do_pais(j.get("pais"), j.get("paisNome"))
+            linhas.append(f'<tr{classe}><td class="pos">{int(j["posicao"])}</td>'
+                          f'<td><span class="nome">{_e(j["nome"])}</span><span class="pais">{_e(pais)}</span></td>'
+                          f'<td class="num">{_pontos(j.get("pontos"))}</td><td class="num">{_variacao(j)}</td></tr>')
+        destaque = ""
+        if brasileiros:
+            nomes = [f'{_e(j["nome"])} ({int(j["posicao"])}º)' for j in brasileiros]
+            lista = nomes[0] if len(nomes) == 1 else ", ".join(nomes[:-1]) + " e " + nomes[-1]
+            destaque = f'<p class="destaque-br">Brasileiros no top 100: {lista}.</p>'
+        corpo = (f"{destaque}"
+                 '<div class="tabela"><table class="ranking"><caption class="sr">Ranking ATP de simples</caption>'
+                 '<thead><tr><th scope="col">Pos.</th><th scope="col">Jogador</th>'
+                 '<th scope="col" class="num">Pontos</th><th scope="col" class="num">Variação</th></tr></thead>'
+                 "<tbody>" + "".join(linhas) + "</tbody></table></div>"
+                 f'<p class="nota">Dados de {data:%d/%m/%Y}, da {_e(dados.get("fonte") or "ESPN")}. '
+                 "A variação compara com o ranking anterior. Brasileiros em destaque.</p>")
+    conteudo = ('<main><div class="faixa artigo"><article>'
+                "<h1>Ranking ATP</h1>"
+                "<p>Os 100 primeiros do ranking de simples masculino.</p>"
+                f"{corpo}"
+                '</article><p class="voltar"><a href="./">Ver todas as notícias</a></p></div></main>')
+    return _layout(f"Ranking ATP | {NOME}", descricao, URL_SITE + "ranking.html", _topo_interno(""), conteudo, "")
+
+
 def renderizar_sitemap(noticias: list, agora: datetime) -> str:
     def entrada(url, quando):
         return f"  <url><loc>{_e(url)}</loc><lastmod>{quando.isoformat(timespec='seconds')}</lastmod></url>\n"
 
     linhas = [entrada(URL_SITE, agora.astimezone(timezone.utc)),
+              entrada(URL_SITE + "ranking.html", agora.astimezone(timezone.utc)),
               entrada(URL_SITE + "sobre.html", agora.astimezone(timezone.utc))]
     for n in noticias:
         linhas.append(entrada(_url_noticia(n), _ler_iso(n.get("criadoEm") or n["publicadoEm"])))
@@ -281,7 +346,7 @@ def enviar_para_github(raiz: str, agora: datetime) -> bool:
     return True
 
 
-def main(argv=None, agora=None) -> list:
+def main(argv=None, agora=None, baixar_ranking=None) -> list:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lote", required=True)
     parser.add_argument("--raiz", default=RAIZ)
@@ -299,6 +364,9 @@ def main(argv=None, agora=None) -> list:
         _gravar(os.path.join(site, "noticias", slug(n) + ".html"), renderizar_noticia(n, agora))
     _gravar(os.path.join(site, "index.html"), renderizar_pagina(noticias, agora))
     _gravar(os.path.join(site, "sobre.html"), renderizar_sobre(agora, _nomes_das_fontes(args.raiz)))
+    ranking_atual = ranking.atualizar_ranking(os.path.join(args.raiz, "dados", "ranking.json"), agora,
+                                              baixar_ranking or ranking.baixar_ranking)
+    _gravar(os.path.join(site, "ranking.html"), renderizar_ranking(ranking_atual, agora))
     _gravar(os.path.join(site, "sitemap.xml"), renderizar_sitemap(noticias, agora))
     _gravar(os.path.join(site, "robots.txt"), ROBOTS)
     print(f"site: {len(noticias)} notícias publicadas nos últimos {DIAS_GUARDADOS} dias")
@@ -350,8 +418,8 @@ BASE = """<!doctype html>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
 <style>
 /* Faixa azul de quadra dura no topo, filtros fixos, uma coluna de notícias por dia */
-:root{--quadra:#1d4f91;--linha-quadra:#fff;--bola:#d7f04a;--bola-texto:#1f2a05;--fundo:#f3f5f8;--superficie:#fff;--texto:#142032;--texto-suave:#536175;--divisoria:#dbe2ea;--link:#1d4f91;--foco:#1d4f91;--cat-atp:#1d4f91;--cat-wta:#8b2c6b;--cat-br:#1b7a3c;--cat-slam:#8a5800;--cat-outros:#536175;--fonte-titulo:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;--fonte-texto:"Barlow","Segoe UI",system-ui,-apple-system,sans-serif;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--quadra:#16396a;--linha-quadra:#dfe9f7;--fundo:#0c1520;--superficie:#132031;--texto:#e6ecf3;--texto-suave:#9cabbc;--divisoria:#22324a;--link:#8fbaff;--foco:#d7f04a;--cat-atp:#8fbaff;--cat-wta:#eb9fd0;--cat-br:#72d697;--cat-slam:#e9bb5e;--cat-outros:#9cabbc;color-scheme:dark}}
+:root{--quadra:#1d4f91;--linha-quadra:#fff;--bola:#d7f04a;--bola-texto:#1f2a05;--fundo:#f3f5f8;--superficie:#fff;--texto:#142032;--texto-suave:#536175;--divisoria:#dbe2ea;--link:#1d4f91;--foco:#1d4f91;--cat-atp:#1d4f91;--cat-wta:#8b2c6b;--cat-br:#1b7a3c;--cat-slam:#8a5800;--cat-outros:#536175;--sobe:#1b7a3c;--desce:#b3261e;--fundo-br:#e9f6ee;--fonte-titulo:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;--fonte-texto:"Barlow","Segoe UI",system-ui,-apple-system,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--quadra:#16396a;--linha-quadra:#dfe9f7;--fundo:#0c1520;--superficie:#132031;--texto:#e6ecf3;--texto-suave:#9cabbc;--divisoria:#22324a;--link:#8fbaff;--foco:#d7f04a;--cat-atp:#8fbaff;--cat-wta:#eb9fd0;--cat-br:#72d697;--cat-slam:#e9bb5e;--cat-outros:#9cabbc;--sobe:#72d697;--desce:#ff8f86;--fundo-br:#10291b;color-scheme:dark}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--fundo);color:var(--texto);font-family:var(--fonte-texto);font-size:1rem;line-height:1.55}
 a{color:var(--link)}
@@ -366,6 +434,26 @@ a{color:var(--link)}
 .topo h1{margin:0;font-family:var(--fonte-titulo);font-weight:700;font-size:clamp(2rem,7vw,2.75rem);line-height:1;letter-spacing:.01em;text-transform:uppercase;position:relative}
 .marca{position:relative;color:#fff;text-decoration:none;font-family:var(--fonte-titulo);font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em}
 .status{margin:0;font-size:.95rem;opacity:.88;position:relative}
+.topo-interno .faixa{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem}
+.menu{position:relative;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin-top:.35rem;font-weight:600;font-size:.95rem}
+.topo-interno .menu{margin-top:0}
+.menu a{color:#fff;text-decoration:none;border-bottom:2px solid transparent;padding-block:.15rem}
+.menu a:hover{border-bottom-color:var(--bola)}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.destaque-br{background:var(--fundo-br);border-left:4px solid var(--cat-br);border-radius:8px;padding:.7rem .9rem;font-weight:600}
+.tabela{min-width:0}
+.ranking{width:100%;border-collapse:separate;border-spacing:0;background:var(--superficie);border:1px solid var(--divisoria);border-radius:12px;overflow:hidden;font-variant-numeric:tabular-nums}
+.ranking th{font-family:var(--fonte-titulo);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--texto-suave);text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--divisoria)}
+.ranking td{padding:.55rem .65rem;border-bottom:1px solid var(--divisoria);vertical-align:middle}
+.ranking tbody tr:last-child td{border-bottom:0}
+.ranking .num{text-align:right;white-space:nowrap}
+.ranking .pos{font-family:var(--fonte-titulo);font-weight:700;font-size:1.15rem;width:2.75rem}
+.ranking .nome{display:block;font-weight:600;overflow-wrap:anywhere;line-height:1.25}
+.ranking .pais{display:block;font-size:.8rem;color:var(--texto-suave)}
+.ranking tr.br td{background:var(--fundo-br)}
+.ranking tr.br .pais{color:var(--cat-br);font-weight:600}
+.var{font-weight:600;font-size:.9rem}.sobe{color:var(--sobe)}.desce{color:var(--desce)}.igual{color:var(--texto-suave)}
+.nota{font-size:.85rem;color:var(--texto-suave)}
 .filtros{position:sticky;top:0;z-index:5;background:var(--fundo);border-bottom:1px solid var(--divisoria)}
 .filtros .faixa{display:flex;gap:.5rem;padding-block:.75rem;overflow-x:auto;scrollbar-width:none}
 .chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--divisoria);background:var(--superficie);color:var(--texto);font:600 .9rem/1 var(--fonte-texto);padding:.55rem .8rem;border-radius:999px;cursor:pointer}

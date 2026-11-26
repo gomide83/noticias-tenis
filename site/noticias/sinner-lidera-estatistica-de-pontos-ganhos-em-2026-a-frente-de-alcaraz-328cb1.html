@@ -22,8 +22,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
 <style>
 /* Faixa azul de quadra dura no topo, filtros fixos, uma coluna de notícias por dia */
-:root{--quadra:#1d4f91;--linha-quadra:#fff;--bola:#d7f04a;--bola-texto:#1f2a05;--fundo:#f3f5f8;--superficie:#fff;--texto:#142032;--texto-suave:#536175;--divisoria:#dbe2ea;--link:#1d4f91;--foco:#1d4f91;--cat-atp:#1d4f91;--cat-wta:#8b2c6b;--cat-br:#1b7a3c;--cat-slam:#8a5800;--cat-outros:#536175;--fonte-titulo:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;--fonte-texto:"Barlow","Segoe UI",system-ui,-apple-system,sans-serif;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--quadra:#16396a;--linha-quadra:#dfe9f7;--fundo:#0c1520;--superficie:#132031;--texto:#e6ecf3;--texto-suave:#9cabbc;--divisoria:#22324a;--link:#8fbaff;--foco:#d7f04a;--cat-atp:#8fbaff;--cat-wta:#eb9fd0;--cat-br:#72d697;--cat-slam:#e9bb5e;--cat-outros:#9cabbc;color-scheme:dark}}
+:root{--quadra:#1d4f91;--linha-quadra:#fff;--bola:#d7f04a;--bola-texto:#1f2a05;--fundo:#f3f5f8;--superficie:#fff;--texto:#142032;--texto-suave:#536175;--divisoria:#dbe2ea;--link:#1d4f91;--foco:#1d4f91;--cat-atp:#1d4f91;--cat-wta:#8b2c6b;--cat-br:#1b7a3c;--cat-slam:#8a5800;--cat-outros:#536175;--sobe:#1b7a3c;--desce:#b3261e;--fundo-br:#e9f6ee;--fonte-titulo:"Barlow Condensed","Arial Narrow","Roboto Condensed",sans-serif;--fonte-texto:"Barlow","Segoe UI",system-ui,-apple-system,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--quadra:#16396a;--linha-quadra:#dfe9f7;--fundo:#0c1520;--superficie:#132031;--texto:#e6ecf3;--texto-suave:#9cabbc;--divisoria:#22324a;--link:#8fbaff;--foco:#d7f04a;--cat-atp:#8fbaff;--cat-wta:#eb9fd0;--cat-br:#72d697;--cat-slam:#e9bb5e;--cat-outros:#9cabbc;--sobe:#72d697;--desce:#ff8f86;--fundo-br:#10291b;color-scheme:dark}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--fundo);color:var(--texto);font-family:var(--fonte-texto);font-size:1rem;line-height:1.55}
 a{color:var(--link)}
@@ -38,6 +38,26 @@ a{color:var(--link)}
 .topo h1{margin:0;font-family:var(--fonte-titulo);font-weight:700;font-size:clamp(2rem,7vw,2.75rem);line-height:1;letter-spacing:.01em;text-transform:uppercase;position:relative}
 .marca{position:relative;color:#fff;text-decoration:none;font-family:var(--fonte-titulo);font-weight:700;font-size:1.5rem;text-transform:uppercase;letter-spacing:.02em}
 .status{margin:0;font-size:.95rem;opacity:.88;position:relative}
+.topo-interno .faixa{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem}
+.menu{position:relative;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin-top:.35rem;font-weight:600;font-size:.95rem}
+.topo-interno .menu{margin-top:0}
+.menu a{color:#fff;text-decoration:none;border-bottom:2px solid transparent;padding-block:.15rem}
+.menu a:hover{border-bottom-color:var(--bola)}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.destaque-br{background:var(--fundo-br);border-left:4px solid var(--cat-br);border-radius:8px;padding:.7rem .9rem;font-weight:600}
+.tabela{min-width:0}
+.ranking{width:100%;border-collapse:separate;border-spacing:0;background:var(--superficie);border:1px solid var(--divisoria);border-radius:12px;overflow:hidden;font-variant-numeric:tabular-nums}
+.ranking th{font-family:var(--fonte-titulo);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--texto-suave);text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--divisoria)}
+.ranking td{padding:.55rem .65rem;border-bottom:1px solid var(--divisoria);vertical-align:middle}
+.ranking tbody tr:last-child td{border-bottom:0}
+.ranking .num{text-align:right;white-space:nowrap}
+.ranking .pos{font-family:var(--fonte-titulo);font-weight:700;font-size:1.15rem;width:2.75rem}
+.ranking .nome{display:block;font-weight:600;overflow-wrap:anywhere;line-height:1.25}
+.ranking .pais{display:block;font-size:.8rem;color:var(--texto-suave)}
+.ranking tr.br td{background:var(--fundo-br)}
+.ranking tr.br .pais{color:var(--cat-br);font-weight:600}
+.var{font-weight:600;font-size:.9rem}.sobe{color:var(--sobe)}.desce{color:var(--desce)}.igual{color:var(--texto-suave)}
+.nota{font-size:.85rem;color:var(--texto-suave)}
 .filtros{position:sticky;top:0;z-index:5;background:var(--fundo);border-bottom:1px solid var(--divisoria)}
 .filtros .faixa{display:flex;gap:.5rem;padding-block:.75rem;overflow-x:auto;scrollbar-width:none}
 .chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--divisoria);background:var(--superficie);color:var(--texto);font:600 .9rem/1 var(--fonte-texto);padding:.55rem .8rem;border-radius:999px;cursor:pointer}
@@ -72,7 +92,7 @@ a{color:var(--link)}
 </style>
 </head>
 <body>
-<header class="topo topo-interno"><div class="faixa"><svg class="quadra-desenho" viewBox="0 0 240 110" aria-hidden="true" focusable="false"><rect x="4" y="4" width="232" height="102"></rect><line x1="4" y1="17" x2="236" y2="17"></line><line x1="4" y1="93" x2="236" y2="93"></line><line x1="58" y1="17" x2="58" y2="93"></line><line x1="182" y1="17" x2="182" y2="93"></line><line x1="58" y1="55" x2="182" y2="55"></line><line x1="120" y1="2" x2="120" y2="108" stroke-dasharray="3 3"></line></svg><a class="marca" href="../">Tênis Notícias</a></div></header>
+<header class="topo topo-interno"><div class="faixa"><svg class="quadra-desenho" viewBox="0 0 240 110" aria-hidden="true" focusable="false"><rect x="4" y="4" width="232" height="102"></rect><line x1="4" y1="17" x2="236" y2="17"></line><line x1="4" y1="93" x2="236" y2="93"></line><line x1="58" y1="17" x2="58" y2="93"></line><line x1="182" y1="17" x2="182" y2="93"></line><line x1="58" y1="55" x2="182" y2="55"></line><line x1="120" y1="2" x2="120" y2="108" stroke-dasharray="3 3"></line></svg><a class="marca" href="../">Tênis Notícias</a><nav class="menu" aria-label="Seções do site"><a href="../">Notícias</a><a href="../ranking.html">Ranking ATP</a><a href="../sobre.html">Sobre</a></nav></div></header>
 <main><div class="faixa artigo"><article><div class="meta"><span class="categoria cat-atp">ATP</span><time datetime="2026-11-26T15:30:41Z">quinta-feira, 26 de novembro de 2026, às 12:30</time></div><h1>Sinner lidera estatística de pontos ganhos em 2026, à frente de Alcaraz</h1><p class="resumo">Levantamento do site Tennis365 mostra Jannik Sinner como o jogador que mais ganhou pontos disputados na temporada 2026 da ATP, com 56,8%. Carlos Alcaraz aparece em segundo, com 55,0%. Segundo a reportagem, qualquer índice acima de 53% é considerado excepcional; Novak Djokovic ficou em 15º, com 51,9%.</p><p class="fontes"><span>Fonte:</span><a href="https://www.tennis365.com/tennis-news/jannik-sinner-ahead-carlos-alcaraz-statistics-2026" target="_blank" rel="noopener">Tennis365</a><span class="traduzido">traduzido do inglês</span></p></article><p class="voltar"><a href="../">Ver todas as notícias</a></p></div></main>
 <footer class="rodape"><div class="faixa"><p>Resumos escritos com a ajuda do Claude a partir de portais de tênis do Brasil e do exterior. Toque no nome do portal para ler a matéria original. <a href="../sobre.html">Sobre o site</a></p></div></footer>
 

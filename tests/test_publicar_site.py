@@ -9,8 +9,8 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "tarefa"))
 
 import publicar_site  # noqa: E402
-from publicar_site import (juntar, renderizar_noticia, renderizar_pagina, renderizar_sitemap,  # noqa: E402
-                           renderizar_sobre, slug)
+from publicar_site import (juntar, renderizar_noticia, renderizar_pagina, renderizar_ranking,  # noqa: E402
+                           renderizar_sitemap, renderizar_sobre, slug)
 
 AGORA = datetime(2026, 11, 26, 14, 30, 0, tzinfo=timezone.utc)  # 11:30 em Brasília
 URL = "https://gomide83.github.io/noticias-tenis/"
@@ -31,6 +31,26 @@ def noticia(doc_id, horas_atras=1, categoria="ATP", titulo=None, link="https://g
         "criadoEm": iso(AGORA - timedelta(hours=horas_atras)),
         "idsRobo": [doc_id[2:]],
     }
+
+
+RANKING = {
+    "atualizadoEm": "2026-11-19T08:00:00Z", "fonte": "ESPN", "buscadoEm": "2026-11-26T14:00:00Z",
+    "jogadores": [
+        {"posicao": 1, "anterior": 1, "nome": "Alexander Zverev", "pais": "GER", "paisNome": "Germany",
+         "pontos": 10350},
+        {"posicao": 6, "anterior": 8, "nome": "Arthur Fils", "pais": "FRA", "paisNome": "France", "pontos": 3825},
+        {"posicao": 7, "anterior": 6, "nome": "<b>Cobolli</b>", "pais": "ITA", "paisNome": "Italy", "pontos": 3680},
+        {"posicao": 46, "anterior": None, "nome": "Joao Fonseca", "pais": "BRA", "paisNome": "Brazil",
+         "pontos": 1200},
+    ],
+}
+
+
+def resposta_espn():
+    ranks = [{"current": i, "previous": i, "points": 5000.0 - i,
+              "athlete": {"displayName": f"Jogador {i}", "citizenshipCountry": "ESP", "flagAltText": "Spain"}}
+             for i in range(1, 101)]
+    return {"rankings": [{"type": "atp", "update": "2026-11-19T08:00Z", "ranks": ranks}]}
 
 
 class TestJuntar(unittest.TestCase):
@@ -116,6 +136,39 @@ class TestPaginaDaNoticia(unittest.TestCase):
         self.assertIn("Resumo n-resumo.", renderizar_noticia(n, AGORA))
 
 
+class TestRanking(unittest.TestCase):
+    def test_pagina_do_ranking(self):
+        html = renderizar_ranking(RANKING, AGORA)
+        self.assertIn("<title>Ranking ATP | Tênis Notícias</title>", html)
+        self.assertIn(f'rel="canonical" href="{URL}ranking.html"', html)
+        self.assertIn("Alexander Zverev", html)
+        self.assertIn("10.350", html)
+        self.assertIn("Alemanha", html)
+        self.assertIn("19/11/2026", html)
+        self.assertIn("ESPN", html)
+
+    def test_mostra_quem_subiu_e_quem_caiu(self):
+        html = renderizar_ranking(RANKING, AGORA)
+        self.assertIn("Subiu 2 posições", html)
+        self.assertIn("Caiu 1 posição", html)
+        self.assertIn("Manteve a posição", html)
+
+    def test_destaca_brasileiros_e_escapa_nomes(self):
+        html = renderizar_ranking(RANKING, AGORA)
+        self.assertIn('<tr class="br">', html)
+        self.assertIn("Brasil", html)
+        self.assertNotIn("<b>Cobolli</b>", html)
+        self.assertIn("&lt;b&gt;Cobolli&lt;/b&gt;", html)
+
+    def test_sem_ranking(self):
+        self.assertIn("O ranking não está disponível agora", renderizar_ranking(None, AGORA))
+
+    def test_todas_as_paginas_levam_ao_ranking(self):
+        self.assertIn('href="ranking.html"', renderizar_pagina([noticia("n-a")], AGORA))
+        self.assertIn('href="../ranking.html"', renderizar_noticia(noticia("n-a"), AGORA))
+        self.assertIn('href="ranking.html"', renderizar_sobre(AGORA))
+
+
 class TestOutrasPaginas(unittest.TestCase):
     def test_sobre(self):
         html = renderizar_sobre(AGORA)
@@ -128,6 +181,7 @@ class TestOutrasPaginas(unittest.TestCase):
         xml = renderizar_sitemap([n], AGORA)
         self.assertIn(f"<loc>{URL}</loc>", xml)
         self.assertIn(f"<loc>{URL}sobre.html</loc>", xml)
+        self.assertIn(f"<loc>{URL}ranking.html</loc>", xml)
         self.assertIn(f"<loc>{URL}noticias/fonseca-vence-123456.html</loc>", xml)
         self.assertIn("<lastmod>2026-11-26T14:30:00+00:00</lastmod>", xml)
         self.assertIn("<lastmod>2026-11-26T13:30:00+00:00</lastmod>", xml)
@@ -151,17 +205,21 @@ class TestMain(unittest.TestCase):
         open(pagina_velha, "w").close()
 
         publicar_site.main(["--raiz", raiz, "--lote", os.path.join(raiz, "tarefa", "trabalho", "lote"),
-                            "--sem-git"], agora=AGORA)
+                            "--sem-git"], agora=AGORA, baixar_ranking=resposta_espn)
 
         with open(os.path.join(raiz, "dados", "publicadas.json"), encoding="utf-8") as arquivo:
             publicadas = json.load(arquivo)
         self.assertEqual([n["id"] for n in publicadas], ["n-novo000001", "n-antigo000002"])
-        for nome in ("index.html", "sobre.html", "sitemap.xml", "robots.txt",
+        for nome in ("index.html", "sobre.html", "ranking.html", "sitemap.xml", "robots.txt",
                      "noticias/noticia-nova-000001.html", "noticias/noticia-antiga-000002.html"):
             self.assertTrue(os.path.exists(os.path.join(raiz, "site", nome)), nome)
         self.assertFalse(os.path.exists(pagina_velha))
         with open(os.path.join(raiz, "site", "robots.txt"), encoding="utf-8") as arquivo:
             self.assertIn(f"Sitemap: {URL}sitemap.xml", arquivo.read())
+        with open(os.path.join(raiz, "dados", "ranking.json"), encoding="utf-8") as arquivo:
+            self.assertEqual(len(json.load(arquivo)["jogadores"]), 100)
+        with open(os.path.join(raiz, "site", "ranking.html"), encoding="utf-8") as arquivo:
+            self.assertIn("Jogador 100", arquivo.read())
 
 
 if __name__ == "__main__":
