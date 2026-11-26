@@ -1,5 +1,41 @@
 [
  {
+  "titulo": "Medvedev encerra 2026 com um recorde indesejado na ATP",
+  "resumo": "A temporada 2026 de Daniil Medvedev terminou com a derrota para Alexander Zverev na semifinal do ATP Finals, em Turim. Segundo o site Tennishead, o russo, campeão do torneio em 2020, estabeleceu um recorde indesejado da ATP no ano ao fazer seu último evento da temporada.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/daniil-medvedev-sets-unwanted-atp-record-for-2026-after-playing-his-final-event-of-the-season-in-turin/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T18:00:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "387a5952ec0b7f0d"
+  ],
+  "id": "n-387a5952ec0b7f0d"
+ },
+ {
+  "titulo": "Zverev responde às críticas sobre seu status de número 1 do mundo",
+  "resumo": "Alexander Zverev respondeu às críticas sobre o fato de ser o número 1 do mundo, em vídeo divulgado pelo jornal francês L'Équipe. O alemão vem sendo questionado por parte da imprensa e de ex-jogadores desde que assumiu a liderança do ranking.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "L'Équipe",
+    "link": "https://www.lequipe.fr/Tennis/Video/Allemagne-alexander-zverev-repond-aux-critiques-sur-son-statut-de-numero-1-mondial/20246401#at_medium=RSS_feeds",
+    "idioma": "fr"
+   }
+  ],
+  "publicadoEm": "2026-11-26T17:45:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "5965f5b1b0f7439d"
+  ],
+  "id": "n-5965f5b1b0f7439d"
+ },
+ {
   "titulo": "Britânicos se preparam para possível duelo com Alcaraz na semifinal da Copa Davis",
   "resumo": "A Grã-Bretanha volta à semifinal da Copa Davis pela primeira vez desde 2019 e pode enfrentar a Espanha. Os duplistas Henry Patten e Neal Skupski disseram que jogar contra Carlos Alcaraz nas duplas seria fantástico. O capitão Leon Smith também deu conselhos a Arthur Fery para um possível confronto com o espanhol.",
   "categoria": "ATP",
@@ -323,6 +359,42 @@
   "id": "n-27afcd95c1ca8a14"
  },
  {
+  "titulo": "Pietrangeli tem o maior número de vitórias da Copa Davis sem nunca ter ganho o título",
+  "resumo": "O italiano Nicola Pietrangeli é o jogador com mais vitórias na história da Copa Davis, com 120 (78 em simples e 42 em duplas), e também o que mais disputou confrontos, 66. Mesmo assim, nunca conquistou o título como jogador: perdeu duas finais. Como capitão, levou a Itália ao primeiro título, em 1976.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/player-most-davis-cup-wins-160000033.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T16:00:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "9fa32cdd8e6214d1"
+  ],
+  "id": "n-9fa32cdd8e6214d1"
+ },
+ {
+  "titulo": "Sinner lidera estatística de pontos ganhos em 2026, à frente de Alcaraz",
+  "resumo": "Levantamento do site Tennis365 mostra Jannik Sinner como o jogador que mais ganhou pontos disputados na temporada 2026 da ATP, com 56,8%. Carlos Alcaraz aparece em segundo, com 55,0%. Segundo a reportagem, qualquer índice acima de 53% é considerado excepcional; Novak Djokovic ficou em 15º, com 51,9%.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/jannik-sinner-ahead-carlos-alcaraz-statistics-2026",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T15:30:41Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "d2333a2088328cb1"
+  ],
+  "id": "n-d2333a2088328cb1"
+ },
+ {
   "titulo": "Zverev chega a 70 vitórias em 2026 e entra em grupo seleto do século",
   "resumo": "Ao vencer Arthur Fery por 6/3 e 6/2 na Copa Davis, o número 1 do mundo Alexander Zverev conquistou sua 70ª vitória na temporada. Segundo o L'Équipe, ele é o 12º tenista do século 21 a atingir essa marca em um único ano.",
   "categoria": "ATP",
@@ -395,6 +467,24 @@
   "id": "n-34c0603eea163ee3"
  },
  {
+  "titulo": "Macci aponta a movimentação como fator decisivo na volta de Sinner",
+  "resumo": "O técnico americano Rick Macci afirmou que a capacidade de movimentação será o verdadeiro fator decisivo para Jannik Sinner, que passou por cirurgia no joelho e vai perder o Australian Open.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDRjSzhTUVk3em85em9YUzZHQ2hQcm0wZjhUbHhGVmlGY0xsc0d4V19NZDZkZVRHNS10anZCMjh5dVR2NjR4dk9JQ2lzcjB0c2N1cm5VMzFSdDlkYTJPc2JSdGREOGFoNjl0b1dTc1Z2NnJUZ1dOWGpxWURnd2pKQ2RrTEFPRzFRZnNWWG9hMS1vVC1zTnFSeUk2VnVFVlFwQ2ZpT2xERFVycmFFa0ZJbE4yLXg3Qi10WlN6OHVJclAxZlBsYWxFU3MwMWYxWHVaWnRUd0JhTlhPOVR0d3RwanFpZGxxTDFIQUVMdXl6b3RkNkpDVWdmUkkwVUpjdw?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T14:00:34Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "afb36d681a82dc03"
+  ],
+  "id": "n-afb36d681a82dc03"
+ },
+ {
   "titulo": "Nadal diz que seus pais não merecem ficar à sombra do tio Toni",
   "resumo": "Em entrevista ao veículo francês Brut, Rafael Nadal afirmou que o papel de seus pais, Sebastián e Ana María, na sua carreira merece mais destaque. O espanhol reconheceu a importância do tio Toni Nadal, seu treinador, mas disse que os pais não merecem ficar à sombra dele.",
   "categoria": "Outros",
@@ -435,6 +525,61 @@
    "0f69b4a516cc2480"
   ],
   "id": "n-0f69b4a516cc2480"
+ },
+ {
+  "titulo": "Granollers diz o que muitos entendem errado sobre Alcaraz",
+  "resumo": "O duplista espanhol Marcel Granollers explicou o que, na opinião dele, muita gente entende errado sobre Carlos Alcaraz, algo que diz deixá-lo impressionado. Os dois estão juntos na equipe da Espanha na Copa Davis.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/marcel-granollers-explains-many-people-130000817.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T13:00:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "f4464f5c19c23926"
+  ],
+  "id": "n-f4464f5c19c23926"
+ },
+ {
+  "titulo": "Djokovic treina um aspecto que muitos profissionais ignoram",
+  "resumo": "Reportagem do Estadão mostra um aspecto do treinamento de Novak Djokovic que, segundo o jornal, muitos profissionais insistem em deixar de lado.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Estadão",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQXZVSmF5U2haTGNTTWp0SVpGbVRtT0xkTHc1dGZQVXJETW5kOW50WjZnVUdXVVVZX3Q0UUdsdkhKX1R3TXNUSkZmV3FfQzkwRWFCcWNSbnluZTk1THY4UXM0QWRoNkt4cXJncWxkVlQ1MGJnaGI1Q3lrY0ZSX1hNQ09QZGtqTWc2M3Y3NmJhTm55TmxDVkV2d180Z09OODhHSV9zcms4QXczU2FTX3hNY1hYQ2RWVlRYZXNURUxwRmdHUQ?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T12:48:46Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "2e8b15a2e79ddfb2"
+  ],
+  "id": "n-2e8b15a2e79ddfb2"
+ },
+ {
+  "titulo": "Andreeva fecha 2026 com primeiro Grand Slam e título do WTA Finals",
+  "resumo": "Aos 19 anos, Mirra Andreeva viveu sua melhor temporada em 2026: conquistou o primeiro título de Grand Slam, venceu o WTA Finals e terminou o ano como número 2 do mundo. Reportagens do balanço da temporada comparam o ano da russa ao que Serena Williams fez na mesma idade.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/womens-college-basketball/articles/mirra-andreeva-2026-season-recap-123310698.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T12:33:10Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "53f6f37d2544d980",
+   "9cbe3ed54610f4c8"
+  ],
+  "id": "n-53f6f37d2544d980"
  },
  {
   "titulo": "Alcaraz adota técnica de Pete Sampras para melhorar o saque",
@@ -495,6 +640,42 @@
    "1d6e2e3523958167"
   ],
   "id": "n-1d6e2e3523958167"
+ },
+ {
+  "titulo": "Agassi celebra Ação de Graças com Steffi Graf e amigos em quadra",
+  "resumo": "Andre Agassi compartilhou uma mensagem sobre a importância de ajudar os outros e fazer as pessoas se sentirem seguras durante o feriado de Ação de Graças. Ele passou o dia com Steffi Graf e amigos e jogou tênis com o técnico australiano Darren Cahill e o ex-tenista americano Justin Gimelstob.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/hold-onto-andre-agassi-shares-114031464.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T11:40:31Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "94441baa436ee6c4"
+  ],
+  "id": "n-94441baa436ee6c4"
+ },
+ {
+  "titulo": "Zverev é o tenista com mais jogos na ATP pela terceira temporada seguida",
+  "resumo": "Alexander Zverev bateu um recorde da ATP ao ser, pela terceira temporada consecutiva, o jogador que mais disputou partidas no circuito. Segundo a reportagem, ele soma 88 jogos da ATP em 2026, 12 a mais que Daniil Medvedev, o segundo da lista. Em 2024 foram 90 partidas e, em 2025, 82. O número 1 do mundo está em Bolonha, disputando a Copa Davis pela Alemanha.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/alexander-zverev-just-set-atp-113000712.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T11:30:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "b05c31bc6bc76b1c"
+  ],
+  "id": "n-b05c31bc6bc76b1c"
  },
  {
   "titulo": "Musetti comenta barulho da torcida após vitória da Itália na Copa Davis",
@@ -635,6 +816,24 @@
   "id": "n-37ad8119142cdab0"
  },
  {
+  "titulo": "Mouratoglou faz elogio a Alcaraz: \"Assusta pensar\"",
+  "resumo": "O técnico Patrick Mouratoglou comentou o potencial de Carlos Alcaraz e disse que assusta pensar no que um jogador como ele pode alcançar, segundo o site Tennis World.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZFVHZGhueG9aNTdCRDFadFM0aHF0RV9XelMtUDFmLVVnbTZKcm0zSXN3VHdSdTdlbS1Hb0hMMllUNlZyMGVmUW9taEVJR01DeFlWUDVScEk0RFFfNjdZendFQVlLb2dieDdCYlI2cm4tdkgzdFhla3BuM2h2MVFuejc2dVN0X3RVcEE2TWtISjc4QmdkSURkVmpnTnp2c29qQ1dPc0RGbmVGSWVnN3N2MTdsUUJSem4zNmZUVGMwMm5qaHBSd2RKa1JMaGJjc01iNXNwZEItOA?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T09:00:28Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "f1031d3c01d85474"
+  ],
+  "id": "n-f1031d3c01d85474"
+ },
+ {
   "titulo": "Eala fala do orgulho de fazer parte de uma geração de ouro do esporte filipino",
   "resumo": "Alexandra Eala contou como se sente ao fazer parte de uma geração de atletas filipinos que vem se destacando. Mesmo com a temporada encerrada, a tenista segue com a agenda cheia.",
   "categoria": "WTA",
@@ -651,6 +850,42 @@
    "0039834fb042dc15"
   ],
   "id": "n-0039834fb042dc15"
+ },
+ {
+  "titulo": "Alcaraz vai de quatro meses e meio parado por lesão ao título do ATP Finals",
+  "resumo": "Balanço da temporada relembra que Carlos Alcaraz ficou quatro meses e meio afastado por lesão em 2026 e, na volta, terminou o ano com o título do ATP Finals, em Turim.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWFpU0czR1ZfaEhrZHhKNGkzSjhGN0lDbkY1X3JIaHQ1NWNyYXJMSlY1T3JEamJTUzlUeDNmX0RiQVVsY3FMeXdfVm5hSWo1UGVLYnBWYngtNFpYYzZhTS04UmNlUGJNekhQV2tuQUh5aGNKTll0QVBJZTE5ZElvNjRzTzY5aF9RS0ZrcEFWaUF5TDNHamc?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T08:47:50Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "7119b3280f313f08"
+  ],
+  "id": "n-7119b3280f313f08"
+ },
+ {
+  "titulo": "Toni Nadal opina sobre o excesso de lesões de Alcaraz e Sinner",
+  "resumo": "Toni Nadal, tio e ex-técnico de Rafael Nadal, deu sua explicação para o grande número de lesões entre os principais tenistas, como Carlos Alcaraz e Jannik Sinner, segundo o site Tennis World.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd1NFa1BRTmFDaTF2TUhxMmZzM2JjbGZTVkQzSGVYR0ZvY3hiczh5aVZLM3lzdGFOOEw1UTdGT0YzZzZSQjlXUU9GeFdSVHI3eDJuUGRGYThOUDk3aWYxUVJra1owN05zVllpNVV0SjlENjdwT2UyOUEtTURXcnZSckdoQXMwaVNrWEtmVEJEWTBIS0EzOHNMZGZJTjZOekNmcGc0QkIySUVsMlpheE1mZkJPY3VPMkdmMXMyS0dXNUEyWk9pTFFjOXdnNVo3ZTBwV1dhUVVlcVctX0M1ekgw?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T08:00:30Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "6d191d4650953f9c"
+  ],
+  "id": "n-6d191d4650953f9c"
  },
  {
   "titulo": "Svitolina vê provocação em elogio de Andreeva após final do WTA Finals",
@@ -705,6 +940,24 @@
    "36c44cc1721438f4"
   ],
   "id": "n-36c44cc1721438f4"
+ },
+ {
+  "titulo": "Tsitsipas é o único, além de Alcaraz e Sinner, a vencer o ATP Finals e o Next Gen",
+  "resumo": "Com o título do ATP Finals de 2026, conquistado de forma invicta sobre Alexander Zverev na final, Carlos Alcaraz entrou no grupo dos campeões do ATP Finals e do Next Gen ATP Finals. Além dele e de Jannik Sinner, só Stefanos Tsitsipas tem os dois troféus: o grego venceu o Next Gen em 2018, sobre Alex de Minaur, e o ATP Finals em 2019, sobre Dominic Thiem.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/only-player-other-carlos-alcaraz-020000335.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T02:00:00Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "0ef7d61e1950ead4"
+  ],
+  "id": "n-0ef7d61e1950ead4"
  },
  {
   "categoria": "ATP",
@@ -1046,6 +1299,24 @@
   "resumo": "A Copa Hennemann reúne mais de 140 tenistas e conta pontos para o ranking estadual, segundo o Berlinda News.",
   "titulo": "Copa Hennemann reúne mais de 140 tenistas e vale pontos no ranking estadual",
   "id": "n-23b477c111492e1e"
+ },
+ {
+  "titulo": "Jimmy Connors dá conselho direto a Sabalenka e alerta sobre Andreeva",
+  "resumo": "O ex-tenista Jimmy Connors deu um conselho enfático a Aryna Sabalenka, em tom de alerta sobre a ascensão de Mirra Andreeva. \"Odeio dizer assim, mas é verdade\", afirmou o americano, segundo o site Tennis365.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/aryna-sabalenka-advice-jimmy-connors-mirra-andreeva-warning",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-25T21:00:55Z",
+  "criadoEm": "2026-11-26T18:07:38Z",
+  "idsRobo": [
+   "a56518feb4bd20e0"
+  ],
+  "id": "n-a56518feb4bd20e0"
  },
  {
   "categoria": "ATP",
