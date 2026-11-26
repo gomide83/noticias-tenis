@@ -1,7 +1,7 @@
-"""Ranking ATP de simples para o site aberto.
+"""Rankings de simples da ATP e da WTA para o site aberto.
 
-Busca os 100 primeiros na ESPN (o site da ATP bloqueia robôs), guarda em
-dados/ranking.json e só busca de novo depois de 6 horas. Se a ESPN falhar ou
+Busca os 100 primeiros na ESPN (os sites da ATP e da WTA bloqueiam robôs),
+guarda em dados/ e só busca de novo depois de 6 horas. Se a ESPN falhar ou
 mudar o formato, fica valendo o último ranking guardado.
 """
 
@@ -10,24 +10,27 @@ import os
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-URL_RANKING = "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings"
+URLS = {
+    "atp": "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/rankings",
+    "wta": "https://site.api.espn.com/apis/site/v2/sports/tennis/wta/rankings",
+}
 FORMATO = "%Y-%m-%dT%H:%M:%SZ"
 VALIDADE = timedelta(hours=6)
 MINIMO_DE_JOGADORES = 10
 
 PAISES = {
-    "ARG": "Argentina", "AUS": "Austrália", "AUT": "Áustria", "BEL": "Bélgica", "BIH": "Bósnia e Herzegovina",
+    "ARG": "Argentina", "ARM": "Armênia", "AUS": "Austrália", "AUT": "Áustria", "BEL": "Bélgica", "BIH": "Bósnia e Herzegovina",
     "BLR": "Belarus", "BOL": "Bolívia", "BRA": "Brasil", "BUL": "Bulgária", "CAN": "Canadá", "CHI": "Chile",
     "CHN": "China", "COL": "Colômbia", "CRO": "Croácia", "CYP": "Chipre", "CZE": "Tchéquia",
     "DEN": "Dinamarca", "ECU": "Equador", "EGY": "Egito", "ESP": "Espanha", "EST": "Estônia",
     "FIN": "Finlândia", "FRA": "França", "GBR": "Grã-Bretanha", "GEO": "Geórgia", "GER": "Alemanha",
-    "GRE": "Grécia", "HKG": "Hong Kong", "HUN": "Hungria", "IND": "Índia", "IRL": "Irlanda",
+    "GRE": "Grécia", "HKG": "Hong Kong", "HUN": "Hungria", "INA": "Indonésia", "IND": "Índia", "IRL": "Irlanda",
     "ISR": "Israel", "ITA": "Itália", "JPN": "Japão", "KAZ": "Cazaquistão", "KOR": "Coreia do Sul",
     "LAT": "Letônia", "LTU": "Lituânia", "MDA": "Moldávia", "MEX": "México", "MON": "Mônaco",
-    "NED": "Países Baixos", "NOR": "Noruega", "NZL": "Nova Zelândia", "PAR": "Paraguai", "PER": "Peru",
-    "POL": "Polônia", "POR": "Portugal", "ROU": "Romênia", "RSA": "África do Sul", "RUS": "Rússia",
+    "NED": "Países Baixos", "NOR": "Noruega", "NZL": "Nova Zelândia", "PAR": "Paraguai", "PER": "Peru", "PHI": "Filipinas",
+    "POL": "Polônia", "POR": "Portugal", "ROM": "Romênia", "ROU": "Romênia", "RSA": "África do Sul", "RUS": "Rússia",
     "SER": "Sérvia", "SRB": "Sérvia", "SLO": "Eslovênia", "SUI": "Suíça", "SVK": "Eslováquia",
-    "SWE": "Suécia", "TPE": "Taiwan", "TUN": "Tunísia", "TUR": "Turquia", "UKR": "Ucrânia",
+    "SWE": "Suécia", "THA": "Tailândia", "TPE": "Taiwan", "TUN": "Tunísia", "TUR": "Turquia", "UKR": "Ucrânia",
     "URU": "Uruguai", "USA": "Estados Unidos", "UZB": "Uzbequistão",
 }
 
@@ -57,12 +60,12 @@ def _jogador(linha) -> dict:
             "pontos": int(round(float(linha.get("points") or 0)))}
 
 
-def interpretar_ranking(dados, limite: int = 100) -> dict:
+def interpretar_ranking(dados, limite: int = 100, circuito: str = "atp") -> dict:
     try:
-        bloco = next(r for r in dados["rankings"] if r.get("type") == "atp")
+        bloco = next(r for r in dados["rankings"] if r.get("type") == circuito)
         linhas = bloco["ranks"]
     except (KeyError, TypeError, StopIteration, AttributeError):
-        raise ValueError("a resposta não tem o ranking da ATP")
+        raise ValueError(f"a resposta não tem o ranking da {circuito.upper()}")
     jogadores = []
     for linha in linhas:
         try:
@@ -76,8 +79,8 @@ def interpretar_ranking(dados, limite: int = 100) -> dict:
     return {"atualizadoEm": _data_iso(bloco.get("update")), "fonte": "ESPN", "jogadores": jogadores}
 
 
-def baixar_ranking(url: str = URL_RANKING, timeout: int = 20) -> dict:
-    pedido = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; NoticiasTenis/1.0)"})
+def baixar_ranking(circuito: str = "atp", timeout: int = 20) -> dict:
+    pedido = urllib.request.Request(URLS[circuito], headers={"User-Agent": "Mozilla/5.0 (compatible; NoticiasTenis/1.0)"})
     with urllib.request.urlopen(pedido, timeout=timeout) as resposta:
         return json.loads(resposta.read().decode("utf-8"))
 
@@ -94,14 +97,15 @@ def _ler_guardado(caminho: str):
         return None
 
 
-def atualizar_ranking(caminho: str, agora: datetime, baixar=baixar_ranking, validade: timedelta = VALIDADE):
+def atualizar_ranking(caminho: str, agora: datetime, baixar=baixar_ranking, validade: timedelta = VALIDADE,
+                      circuito: str = "atp"):
     guardado = _ler_guardado(caminho)
     if guardado:
         buscado = datetime.strptime(guardado["buscadoEm"], FORMATO).replace(tzinfo=timezone.utc)
         if agora - buscado < validade:
             return guardado
     try:
-        novo = interpretar_ranking(baixar())
+        novo = interpretar_ranking(baixar(), circuito=circuito)
     except Exception as erro:  # fonte fora do ar ou formato novo: fica o último ranking
         print(f"ranking: não deu para atualizar ({erro})")
         return guardado

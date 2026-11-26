@@ -20,12 +20,12 @@ def jogador(posicao, nome, pais="GER", alt="Germany", anterior=None, pontos=1000
             "athlete": {"displayName": nome, "citizenshipCountry": pais, "flagAltText": alt}}
 
 
-def resposta_espn(qtd=120, update="2026-11-19T08:00Z"):
+def resposta_espn(qtd=120, update="2026-11-19T08:00Z", circuito="atp"):
     ranks = [jogador(i, f"Jogador {i}", pontos=10000.0 - i) for i in range(1, qtd + 1)]
     ranks[0] = jogador(1, "Alexander Zverev", pontos=10350.0)
     if qtd > 45:
         ranks[45] = jogador(46, "Joao Fonseca", "BRA", "Brazil", anterior=48, pontos=1200.0)
-    return {"rankings": [{"name": "ATP", "type": "atp", "update": update, "ranks": ranks}]}
+    return {"rankings": [{"name": circuito.upper(), "type": circuito, "update": update, "ranks": ranks}]}
 
 
 class TestInterpretar(unittest.TestCase):
@@ -48,6 +48,16 @@ class TestInterpretar(unittest.TestCase):
         resultado = interpretar_ranking(dados)
         self.assertNotIn(2, [j["posicao"] for j in resultado["jogadores"]])
 
+    def test_ranking_da_wta(self):
+        resultado = interpretar_ranking(resposta_espn(circuito="wta"), circuito="wta")
+        self.assertEqual(len(resultado["jogadores"]), 100)
+        with self.assertRaises(ValueError):
+            interpretar_ranking(resposta_espn(circuito="wta"), circuito="atp")
+
+    def test_endereco_de_cada_circuito(self):
+        self.assertTrue(ranking.URLS["atp"].endswith("/tennis/atp/rankings"))
+        self.assertTrue(ranking.URLS["wta"].endswith("/tennis/wta/rankings"))
+
     def test_formato_estranho_da_erro(self):
         for dados in ({}, {"rankings": []}, {"rankings": [{"type": "wta", "ranks": []}]},
                       resposta_espn(qtd=5), "texto"):
@@ -60,6 +70,8 @@ class TestPais(unittest.TestCase):
         self.assertEqual(nome_do_pais("BRA"), "Brasil")
         self.assertEqual(nome_do_pais("GER"), "Alemanha")
         self.assertEqual(nome_do_pais("SER"), "Sérvia")
+        self.assertEqual(nome_do_pais("ROM"), "Romênia")
+        self.assertEqual(nome_do_pais("PHI"), "Filipinas")
         self.assertEqual(nome_do_pais("XYZ", "Atlantis"), "Atlantis")
         self.assertEqual(nome_do_pais(None), "")
 

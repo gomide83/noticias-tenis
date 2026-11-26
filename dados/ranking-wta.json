@@ -1,0 +1,807 @@
+{
+ "atualizadoEm": "2026-11-19T08:00:00Z",
+ "fonte": "ESPN",
+ "jogadores": [
+  {
+   "posicao": 1,
+   "anterior": 1,
+   "nome": "Elena Rybakina",
+   "pais": "KAZ",
+   "paisNome": "Kazakhstan",
+   "pontos": 8099
+  },
+  {
+   "posicao": 2,
+   "anterior": 2,
+   "nome": "Mirra Andreeva",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 7806
+  },
+  {
+   "posicao": 3,
+   "anterior": 3,
+   "nome": "Aryna Sabalenka",
+   "pais": "BLR",
+   "paisNome": "Belarus",
+   "pontos": 6685
+  },
+  {
+   "posicao": 4,
+   "anterior": 4,
+   "nome": "Coco Gauff",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 6163
+  },
+  {
+   "posicao": 5,
+   "anterior": 5,
+   "nome": "Jessica Pegula",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 6160
+  },
+  {
+   "posicao": 6,
+   "anterior": 6,
+   "nome": "Elina Svitolina",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 5921
+  },
+  {
+   "posicao": 7,
+   "anterior": 7,
+   "nome": "Linda Noskova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 4743
+  },
+  {
+   "posicao": 8,
+   "anterior": 8,
+   "nome": "Karolina Muchova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 4665
+  },
+  {
+   "posicao": 9,
+   "anterior": 9,
+   "nome": "Iga Swiatek",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 4188
+  },
+  {
+   "posicao": 10,
+   "anterior": 10,
+   "nome": "Marta Kostyuk",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 3910
+  },
+  {
+   "posicao": 11,
+   "anterior": 11,
+   "nome": "Diana Shnaider",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 3238
+  },
+  {
+   "posicao": 12,
+   "anterior": 12,
+   "nome": "Maja Chwalinska",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 3004
+  },
+  {
+   "posicao": 13,
+   "anterior": 13,
+   "nome": "Iva Jovic",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 2941
+  },
+  {
+   "posicao": 14,
+   "anterior": 14,
+   "nome": "Elise Mertens",
+   "pais": "BEL",
+   "paisNome": "Belgium",
+   "pontos": 2540
+  },
+  {
+   "posicao": 15,
+   "anterior": 15,
+   "nome": "Alexandra Eala",
+   "pais": "PHI",
+   "paisNome": "Philippines",
+   "pontos": 2392
+  },
+  {
+   "posicao": 16,
+   "anterior": 16,
+   "nome": "Sorana Cirstea",
+   "pais": "ROM",
+   "paisNome": "Romania",
+   "pontos": 2386
+  },
+  {
+   "posicao": 17,
+   "anterior": 17,
+   "nome": "Naomi Osaka",
+   "pais": "JPN",
+   "paisNome": "Japan",
+   "pontos": 2315
+  },
+  {
+   "posicao": 18,
+   "anterior": 18,
+   "nome": "Leylah Fernandez",
+   "pais": "CAN",
+   "paisNome": "Canada",
+   "pontos": 2201
+  },
+  {
+   "posicao": 19,
+   "anterior": 19,
+   "nome": "Madison Keys",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 2175
+  },
+  {
+   "posicao": 20,
+   "anterior": 20,
+   "nome": "Belinda Bencic",
+   "pais": "SUI",
+   "paisNome": "Switzerland",
+   "pontos": 2168
+  },
+  {
+   "posicao": 21,
+   "anterior": 21,
+   "nome": "Victoria Mboko",
+   "pais": "CAN",
+   "paisNome": "Canada",
+   "pontos": 2143
+  },
+  {
+   "posicao": 22,
+   "anterior": 22,
+   "nome": "Zheng Qinwen",
+   "pais": "CHN",
+   "paisNome": "China",
+   "pontos": 2017
+  },
+  {
+   "posicao": 23,
+   "anterior": 23,
+   "nome": "Amanda Anisimova",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1963
+  },
+  {
+   "posicao": 24,
+   "anterior": 24,
+   "nome": "Marie Bouzkova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1959
+  },
+  {
+   "posicao": 25,
+   "anterior": 25,
+   "nome": "Jelena Ostapenko",
+   "pais": "LAT",
+   "paisNome": "Latvia",
+   "pontos": 1916
+  },
+  {
+   "posicao": 26,
+   "anterior": 26,
+   "nome": "Anna Kalinskaya",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 1913
+  },
+  {
+   "posicao": 27,
+   "anterior": 27,
+   "nome": "Emma Navarro",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1819
+  },
+  {
+   "posicao": 28,
+   "anterior": 28,
+   "nome": "Anastasia Potapova",
+   "pais": "AUT",
+   "paisNome": "Austria",
+   "pontos": 1814
+  },
+  {
+   "posicao": 29,
+   "anterior": 29,
+   "nome": "Maria Sakkari",
+   "pais": "GRE",
+   "paisNome": "Greece",
+   "pontos": 1779
+  },
+  {
+   "posicao": 30,
+   "anterior": 30,
+   "nome": "Nikola Bartunkova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1711
+  },
+  {
+   "posicao": 31,
+   "anterior": 31,
+   "nome": "Ann Li",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1681
+  },
+  {
+   "posicao": 32,
+   "anterior": 32,
+   "nome": "Ekaterina Alexandrova",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 1641
+  },
+  {
+   "posicao": 33,
+   "anterior": 33,
+   "nome": "Sara Bejlek",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1614
+  },
+  {
+   "posicao": 34,
+   "anterior": 34,
+   "nome": "Diane Parry",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 1521
+  },
+  {
+   "posicao": 35,
+   "anterior": 35,
+   "nome": "Jasmine Paolini",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 1512
+  },
+  {
+   "posicao": 36,
+   "anterior": 37,
+   "nome": "Peyton Stearns",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1316
+  },
+  {
+   "posicao": 37,
+   "anterior": 36,
+   "nome": "Talia Gibson",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 1296
+  },
+  {
+   "posicao": 38,
+   "anterior": 38,
+   "nome": "Wang Xinyu",
+   "pais": "CHN",
+   "paisNome": "China",
+   "pontos": 1288
+  },
+  {
+   "posicao": 39,
+   "anterior": 39,
+   "nome": "Donna Vekic",
+   "pais": "CRO",
+   "paisNome": "Croatia",
+   "pontos": 1281
+  },
+  {
+   "posicao": 40,
+   "anterior": 40,
+   "nome": "Liudmila Samsonova",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 1234
+  },
+  {
+   "posicao": 41,
+   "anterior": 41,
+   "nome": "Ashlyn Krueger",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1233
+  },
+  {
+   "posicao": 42,
+   "anterior": 42,
+   "nome": "Daria Snigur",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 1223
+  },
+  {
+   "posicao": 43,
+   "anterior": 43,
+   "nome": "Magda Linette",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 1176
+  },
+  {
+   "posicao": 44,
+   "anterior": 44,
+   "nome": "Cristina Bucsa",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 1176
+  },
+  {
+   "posicao": 45,
+   "anterior": 45,
+   "nome": "Kamilla Rakhimova",
+   "pais": "UZB",
+   "paisNome": "Uzbekistan",
+   "pontos": 1164
+  },
+  {
+   "posicao": 46,
+   "anterior": 46,
+   "nome": "Hailey Baptiste",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1153
+  },
+  {
+   "posicao": 47,
+   "anterior": 48,
+   "nome": "Katerina Siniakova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1143
+  },
+  {
+   "posicao": 48,
+   "anterior": 47,
+   "nome": "Kimberly Birrell",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 1137
+  },
+  {
+   "posicao": 49,
+   "anterior": 49,
+   "nome": "Barbora Krejcikova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1133
+  },
+  {
+   "posicao": 50,
+   "anterior": 50,
+   "nome": "Katie Boulter",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 1125
+  },
+  {
+   "posicao": 51,
+   "anterior": 51,
+   "nome": "Magdalena Frech",
+   "pais": "POL",
+   "paisNome": "Poland",
+   "pontos": 1110
+  },
+  {
+   "posicao": 52,
+   "anterior": 52,
+   "nome": "Karolina Pliskova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 1105
+  },
+  {
+   "posicao": 53,
+   "anterior": 53,
+   "nome": "Sonay Kartal",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 1097
+  },
+  {
+   "posicao": 54,
+   "anterior": 54,
+   "nome": "Lilli Tagger",
+   "pais": "AUT",
+   "paisNome": "Austria",
+   "pontos": 1091
+  },
+  {
+   "posicao": 55,
+   "anterior": 55,
+   "nome": "Yuliia Starodubtseva",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 1090
+  },
+  {
+   "posicao": 56,
+   "anterior": 56,
+   "nome": "Anhelina Kalinina",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 1087
+  },
+  {
+   "posicao": 57,
+   "anterior": 57,
+   "nome": "Paula Badosa",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 1076
+  },
+  {
+   "posicao": 58,
+   "anterior": 58,
+   "nome": "Clara Tauson",
+   "pais": "DEN",
+   "paisNome": "Denmark",
+   "pontos": 1074
+  },
+  {
+   "posicao": 59,
+   "anterior": 59,
+   "nome": "Alycia Parks",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 1064
+  },
+  {
+   "posicao": 60,
+   "anterior": 60,
+   "nome": "Janice Tjen",
+   "pais": "INA",
+   "paisNome": "Indonesia",
+   "pontos": 1033
+  },
+  {
+   "posicao": 61,
+   "anterior": 61,
+   "nome": "Elena-Gabriela Ruse",
+   "pais": "ROM",
+   "paisNome": "Romania",
+   "pontos": 1033
+  },
+  {
+   "posicao": 62,
+   "anterior": 63,
+   "nome": "Zeynep Sonmez",
+   "pais": "TUR",
+   "paisNome": "Türkiye",
+   "pontos": 1011
+  },
+  {
+   "posicao": 63,
+   "anterior": 65,
+   "nome": "Yulia Putintseva",
+   "pais": "KAZ",
+   "paisNome": "Kazakhstan",
+   "pontos": 1000
+  },
+  {
+   "posicao": 64,
+   "anterior": 62,
+   "nome": "Lanlana Tararudee",
+   "pais": "THA",
+   "paisNome": "Thailand",
+   "pontos": 1000
+  },
+  {
+   "posicao": 65,
+   "anterior": 66,
+   "nome": "Catherine McNally",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 999
+  },
+  {
+   "posicao": 66,
+   "anterior": 67,
+   "nome": "Tamara Korpatsch",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 997
+  },
+  {
+   "posicao": 67,
+   "anterior": 68,
+   "nome": "Tatjana Maria",
+   "pais": "GER",
+   "paisNome": "Germany",
+   "pontos": 996
+  },
+  {
+   "posicao": 68,
+   "anterior": 69,
+   "nome": "Claire Liu",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 972
+  },
+  {
+   "posicao": 69,
+   "anterior": 64,
+   "nome": "Mayar Sherif",
+   "pais": "EGY",
+   "paisNome": "Egypt",
+   "pontos": 959
+  },
+  {
+   "posicao": 70,
+   "anterior": 71,
+   "nome": "Camila Osorio",
+   "pais": "COL",
+   "paisNome": "Colombia",
+   "pontos": 953
+  },
+  {
+   "posicao": 71,
+   "anterior": 73,
+   "nome": "Kaitlin Quevedo",
+   "pais": "ESP",
+   "paisNome": "Spain",
+   "pontos": 937
+  },
+  {
+   "posicao": 72,
+   "anterior": 72,
+   "nome": "Maria Timofeeva",
+   "pais": "UZB",
+   "paisNome": "Uzbekistan",
+   "pontos": 932
+  },
+  {
+   "posicao": 73,
+   "anterior": 74,
+   "nome": "Elisabetta Cocciaretto",
+   "pais": "ITA",
+   "paisNome": "Italy",
+   "pontos": 931
+  },
+  {
+   "posicao": 74,
+   "anterior": 75,
+   "nome": "Daria Kasatkina",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 928
+  },
+  {
+   "posicao": 75,
+   "anterior": 76,
+   "nome": "Anna Bondar",
+   "pais": "HUN",
+   "paisNome": "Hungary",
+   "pontos": 913
+  },
+  {
+   "posicao": 76,
+   "anterior": 77,
+   "nome": "Bianca Andreescu",
+   "pais": "CAN",
+   "paisNome": "Canada",
+   "pontos": 900
+  },
+  {
+   "posicao": 77,
+   "anterior": 78,
+   "nome": "Antonia Ruzic",
+   "pais": "CRO",
+   "paisNome": "Croatia",
+   "pontos": 898
+  },
+  {
+   "posicao": 78,
+   "anterior": 79,
+   "nome": "Alina Korneeva",
+   "pais": "RUS",
+   "paisNome": "Russia",
+   "pontos": 895
+  },
+  {
+   "posicao": 79,
+   "anterior": 70,
+   "nome": "Oleksandra Oliynykova",
+   "pais": "UKR",
+   "paisNome": "Ukraine",
+   "pontos": 886
+  },
+  {
+   "posicao": 80,
+   "anterior": 80,
+   "nome": "Mananchaya Sawangkaew",
+   "pais": "THA",
+   "paisNome": "Thailand",
+   "pontos": 886
+  },
+  {
+   "posicao": 81,
+   "anterior": 81,
+   "nome": "Katie Volynets",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 874
+  },
+  {
+   "posicao": 82,
+   "anterior": 82,
+   "nome": "Jaqueline Cristian",
+   "pais": "ROM",
+   "paisNome": "Romania",
+   "pontos": 869
+  },
+  {
+   "posicao": 83,
+   "anterior": 83,
+   "nome": "Wang Xiyu",
+   "pais": "CHN",
+   "paisNome": "China",
+   "pontos": 868
+  },
+  {
+   "posicao": 84,
+   "anterior": 84,
+   "nome": "Alina Charaeva",
+   "pais": "ARM",
+   "paisNome": "Armenia",
+   "pontos": 859
+  },
+  {
+   "posicao": 85,
+   "anterior": 85,
+   "nome": "Harriet Dart",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 854
+  },
+  {
+   "posicao": 86,
+   "anterior": 86,
+   "nome": "Tereza Valentova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 853
+  },
+  {
+   "posicao": 87,
+   "anterior": 87,
+   "nome": "Polina Kudermetova",
+   "pais": "UZB",
+   "paisNome": "Uzbekistan",
+   "pontos": 852
+  },
+  {
+   "posicao": 88,
+   "anterior": 88,
+   "nome": "Panna Udvardy",
+   "pais": "HUN",
+   "paisNome": "Hungary",
+   "pontos": 848
+  },
+  {
+   "posicao": 89,
+   "anterior": 89,
+   "nome": "Petra Marcinko",
+   "pais": "CRO",
+   "paisNome": "Croatia",
+   "pontos": 845
+  },
+  {
+   "posicao": 90,
+   "anterior": 91,
+   "nome": "Aliaksandra Sasnovich",
+   "pais": "BLR",
+   "paisNome": "Belarus",
+   "pontos": 839
+  },
+  {
+   "posicao": 91,
+   "anterior": 92,
+   "nome": "Maya Joint",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 832
+  },
+  {
+   "posicao": 92,
+   "anterior": 93,
+   "nome": "Taylor Townsend",
+   "pais": "USA",
+   "paisNome": "USA",
+   "pontos": 831
+  },
+  {
+   "posicao": 93,
+   "anterior": 94,
+   "nome": "Viktorija Golubic",
+   "pais": "SUI",
+   "paisNome": "Switzerland",
+   "pontos": 831
+  },
+  {
+   "posicao": 94,
+   "anterior": 95,
+   "nome": "Taylah Preston",
+   "pais": "AUS",
+   "paisNome": "Australia",
+   "pontos": 828
+  },
+  {
+   "posicao": 95,
+   "anterior": 96,
+   "nome": "Sinja Kraus",
+   "pais": "AUT",
+   "paisNome": "Austria",
+   "pontos": 814
+  },
+  {
+   "posicao": 96,
+   "anterior": 97,
+   "nome": "Darja Vidmanova",
+   "pais": "CZE",
+   "paisNome": "Czechia",
+   "pontos": 812
+  },
+  {
+   "posicao": 97,
+   "anterior": 99,
+   "nome": "Fiona Ferro",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 795
+  },
+  {
+   "posicao": 98,
+   "anterior": 98,
+   "nome": "Zhang Shuai",
+   "pais": "CHN",
+   "paisNome": "China",
+   "pontos": 792
+  },
+  {
+   "posicao": 99,
+   "anterior": 100,
+   "nome": "Francesca Jones",
+   "pais": "GBR",
+   "paisNome": "Great Britain",
+   "pontos": 778
+  },
+  {
+   "posicao": 100,
+   "anterior": 101,
+   "nome": "Anna Blinkova",
+   "pais": "FRA",
+   "paisNome": "France",
+   "pontos": 776
+  }
+ ],
+ "buscadoEm": "2026-11-26T19:09:19Z"
+}

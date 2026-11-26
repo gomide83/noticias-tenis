@@ -46,11 +46,22 @@ RANKING = {
 }
 
 
-def resposta_espn():
+RANKING_WTA = {
+    "atualizadoEm": "2026-11-19T08:00:00Z", "fonte": "ESPN", "buscadoEm": "2026-11-26T14:00:00Z",
+    "jogadores": [
+        {"posicao": 1, "anterior": 1, "nome": "Elena Rybakina", "pais": "KAZ", "paisNome": "Kazakhstan",
+         "pontos": 8099},
+        {"posicao": 2, "anterior": 2, "nome": "Mirra Andreeva", "pais": "RUS", "paisNome": "Russia", "pontos": 7806},
+    ],
+}
+
+
+def resposta_espn(circuito):
+    nome = "Jogador" if circuito == "atp" else "Jogadora"
     ranks = [{"current": i, "previous": i, "points": 5000.0 - i,
-              "athlete": {"displayName": f"Jogador {i}", "citizenshipCountry": "ESP", "flagAltText": "Spain"}}
+              "athlete": {"displayName": f"{nome} {i}", "citizenshipCountry": "ESP", "flagAltText": "Spain"}}
              for i in range(1, 101)]
-    return {"rankings": [{"type": "atp", "update": "2026-11-19T08:00Z", "ranks": ranks}]}
+    return {"rankings": [{"type": circuito, "update": "2026-11-19T08:00Z", "ranks": ranks}]}
 
 
 class TestJuntar(unittest.TestCase):
@@ -160,6 +171,20 @@ class TestRanking(unittest.TestCase):
         self.assertNotIn("<b>Cobolli</b>", html)
         self.assertIn("&lt;b&gt;Cobolli&lt;/b&gt;", html)
 
+    def test_pagina_do_ranking_da_wta(self):
+        html = renderizar_ranking(RANKING_WTA, AGORA, "wta")
+        self.assertIn("<title>Ranking WTA | Tênis Notícias</title>", html)
+        self.assertIn(f'rel="canonical" href="{URL}ranking-wta.html"', html)
+        self.assertIn("feminino", html)
+        self.assertIn("Elena Rybakina", html)
+        self.assertIn("Cazaquistão", html)
+        self.assertIn("Nenhuma brasileira está entre as 100 primeiras", html)
+        self.assertIn('<th scope="col">Jogadora</th>', html)
+
+    def test_aviso_quando_nao_ha_brasileiro(self):
+        so_estrangeiros = dict(RANKING, jogadores=RANKING["jogadores"][:3])
+        self.assertIn("Nenhum brasileiro está entre os 100 primeiros", renderizar_ranking(so_estrangeiros, AGORA))
+
     def test_sem_ranking(self):
         self.assertIn("O ranking não está disponível agora", renderizar_ranking(None, AGORA))
 
@@ -167,6 +192,8 @@ class TestRanking(unittest.TestCase):
         self.assertIn('href="ranking.html"', renderizar_pagina([noticia("n-a")], AGORA))
         self.assertIn('href="../ranking.html"', renderizar_noticia(noticia("n-a"), AGORA))
         self.assertIn('href="ranking.html"', renderizar_sobre(AGORA))
+        self.assertIn('href="ranking-wta.html"', renderizar_pagina([noticia("n-a")], AGORA))
+        self.assertIn('href="../ranking-wta.html"', renderizar_noticia(noticia("n-a"), AGORA))
 
 
 class TestOutrasPaginas(unittest.TestCase):
@@ -182,6 +209,7 @@ class TestOutrasPaginas(unittest.TestCase):
         self.assertIn(f"<loc>{URL}</loc>", xml)
         self.assertIn(f"<loc>{URL}sobre.html</loc>", xml)
         self.assertIn(f"<loc>{URL}ranking.html</loc>", xml)
+        self.assertIn(f"<loc>{URL}ranking-wta.html</loc>", xml)
         self.assertIn(f"<loc>{URL}noticias/fonseca-vence-123456.html</loc>", xml)
         self.assertIn("<lastmod>2026-11-26T14:30:00+00:00</lastmod>", xml)
         self.assertIn("<lastmod>2026-11-26T13:30:00+00:00</lastmod>", xml)
@@ -210,7 +238,7 @@ class TestMain(unittest.TestCase):
         with open(os.path.join(raiz, "dados", "publicadas.json"), encoding="utf-8") as arquivo:
             publicadas = json.load(arquivo)
         self.assertEqual([n["id"] for n in publicadas], ["n-novo000001", "n-antigo000002"])
-        for nome in ("index.html", "sobre.html", "ranking.html", "sitemap.xml", "robots.txt",
+        for nome in ("index.html", "sobre.html", "ranking.html", "ranking-wta.html", "sitemap.xml", "robots.txt",
                      "noticias/noticia-nova-000001.html", "noticias/noticia-antiga-000002.html"):
             self.assertTrue(os.path.exists(os.path.join(raiz, "site", nome)), nome)
         self.assertFalse(os.path.exists(pagina_velha))
@@ -220,6 +248,10 @@ class TestMain(unittest.TestCase):
             self.assertEqual(len(json.load(arquivo)["jogadores"]), 100)
         with open(os.path.join(raiz, "site", "ranking.html"), encoding="utf-8") as arquivo:
             self.assertIn("Jogador 100", arquivo.read())
+        with open(os.path.join(raiz, "dados", "ranking-wta.json"), encoding="utf-8") as arquivo:
+            self.assertEqual(json.load(arquivo)["jogadores"][0]["nome"], "Jogadora 1")
+        with open(os.path.join(raiz, "site", "ranking-wta.html"), encoding="utf-8") as arquivo:
+            self.assertIn("Jogadora 100", arquivo.read())
 
 
 if __name__ == "__main__":

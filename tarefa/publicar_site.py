@@ -2,9 +2,9 @@
 
 Junta as notícias novas da rodada (pasta do lote) às já publicadas em
 dados/publicadas.json (guarda 30 dias), gera a página inicial (últimos 7 dias),
-uma página para cada notícia, a página Sobre, a página do Ranking ATP (dados
-da ESPN, atualizados a cada 6 horas), o sitemap.xml e o robots.txt, e envia ao
-GitHub, que publica o site.
+uma página para cada notícia, a página Sobre, as páginas dos rankings ATP e
+WTA (dados da ESPN, atualizados a cada 6 horas), o sitemap.xml e o robots.txt,
+e envia ao GitHub, que publica o site.
 
 Uso: python tarefa/publicar_site.py --lote tarefa/trabalho/lote
 """
@@ -34,6 +34,16 @@ CATEGORIAS = ("ATP", "WTA", "Brasileiros", "Grand Slam", "Outros")
 CLASSES = {"ATP": "atp", "WTA": "wta", "Brasileiros": "br", "Grand Slam": "slam", "Outros": "outros"}
 IDIOMAS = {"en": "inglês", "fr": "francês", "es": "espanhol", "it": "italiano"}
 DIAS_SEMANA = ("segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo")
+CIRCUITOS = {
+    "atp": {"titulo": "Ranking ATP", "pagina": "ranking.html", "dados": "ranking.json", "genero": "masculino", "coluna": "Jogador",
+            "brasileiros": "Brasileiros no top 100", "destaque": "Brasileiros em destaque.",
+            "nenhum": "Nenhum brasileiro está entre os 100 primeiros.",
+            "descricao": "Os 100 primeiros do ranking de simples da ATP, com pontos e quem subiu ou caiu."},
+    "wta": {"titulo": "Ranking WTA", "pagina": "ranking-wta.html", "dados": "ranking-wta.json", "genero": "feminino", "coluna": "Jogadora",
+            "brasileiros": "Brasileiras no top 100", "destaque": "Brasileiras em destaque.",
+            "nenhum": "Nenhuma brasileira está entre as 100 primeiras.",
+            "descricao": "As 100 primeiras do ranking de simples da WTA, com pontos e quem subiu ou caiu."},
+}
 MESES = ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
          "setembro", "outubro", "novembro", "dezembro")
 
@@ -152,7 +162,8 @@ def _layout(titulo: str, descricao: str, url: str, topo: str, conteudo: str, rai
 
 def _menu(raiz: str) -> str:
     return (f'<nav class="menu" aria-label="Seções do site"><a href="{raiz or "./"}">Notícias</a>'
-            f'<a href="{raiz}ranking.html">Ranking ATP</a><a href="{raiz}sobre.html">Sobre</a></nav>')
+            f'<a href="{raiz}ranking.html">Ranking ATP</a><a href="{raiz}ranking-wta.html">Ranking WTA</a>'
+            f'<a href="{raiz}sobre.html">Sobre</a></nav>')
 
 
 def _topo_inicial(agora: datetime) -> str:
@@ -259,8 +270,8 @@ def _variacao(jogador: dict) -> str:
             f'<span class="sr"> {texto}</span></span>')
 
 
-def renderizar_ranking(dados, agora: datetime) -> str:
-    descricao = "Os 100 primeiros do ranking de simples da ATP, com pontos e quem subiu ou caiu."
+def renderizar_ranking(dados, agora: datetime, circuito: str = "atp") -> str:
+    info = CIRCUITOS[circuito]
     if not dados or not dados.get("jogadores"):
         corpo = ('<div class="mensagem"><h2>O ranking não está disponível agora</h2>'
                  "<p>Ele volta a aparecer aqui na próxima atualização do site.</p></div>")
@@ -278,20 +289,24 @@ def renderizar_ranking(dados, agora: datetime) -> str:
         if brasileiros:
             nomes = [f'{_e(j["nome"])} ({int(j["posicao"])}º)' for j in brasileiros]
             lista = nomes[0] if len(nomes) == 1 else ", ".join(nomes[:-1]) + " e " + nomes[-1]
-            destaque = f'<p class="destaque-br">Brasileiros no top 100: {lista}.</p>'
+            destaque = f'<p class="destaque-br">{info["brasileiros"]}: {lista}.</p>'
+        else:
+            destaque = f'<p class="nota">{info["nenhum"]}</p>'
         corpo = (f"{destaque}"
                  '<div class="tabela"><table class="ranking"><caption class="sr">Ranking ATP de simples</caption>'
-                 '<thead><tr><th scope="col">Pos.</th><th scope="col">Jogador</th>'
+                 '<thead><tr><th scope="col">Pos.</th>'
+                 f'<th scope="col">{info["coluna"]}</th>'
                  '<th scope="col" class="num">Pontos</th><th scope="col" class="num">Variação</th></tr></thead>'
                  "<tbody>" + "".join(linhas) + "</tbody></table></div>"
                  f'<p class="nota">Dados de {data:%d/%m/%Y}, da {_e(dados.get("fonte") or "ESPN")}. '
-                 "A variação compara com o ranking anterior. Brasileiros em destaque.</p>")
+                 f'A variação compara com o ranking anterior.{" " + info["destaque"] if brasileiros else ""}</p>')
     conteudo = ('<main><div class="faixa artigo"><article>'
-                "<h1>Ranking ATP</h1>"
-                "<p>Os 100 primeiros do ranking de simples masculino.</p>"
+                f'<h1>{info["titulo"]}</h1>'
+                f'<p>O top 100 do ranking de simples {info["genero"]}.</p>'
                 f"{corpo}"
                 '</article><p class="voltar"><a href="./">Ver todas as notícias</a></p></div></main>')
-    return _layout(f"Ranking ATP | {NOME}", descricao, URL_SITE + "ranking.html", _topo_interno(""), conteudo, "")
+    return _layout(f'{info["titulo"]} | {NOME}', info["descricao"], URL_SITE + info["pagina"], _topo_interno(""),
+                   conteudo, "")
 
 
 def renderizar_sitemap(noticias: list, agora: datetime) -> str:
@@ -300,6 +315,7 @@ def renderizar_sitemap(noticias: list, agora: datetime) -> str:
 
     linhas = [entrada(URL_SITE, agora.astimezone(timezone.utc)),
               entrada(URL_SITE + "ranking.html", agora.astimezone(timezone.utc)),
+              entrada(URL_SITE + "ranking-wta.html", agora.astimezone(timezone.utc)),
               entrada(URL_SITE + "sobre.html", agora.astimezone(timezone.utc))]
     for n in noticias:
         linhas.append(entrada(_url_noticia(n), _ler_iso(n.get("criadoEm") or n["publicadoEm"])))
@@ -364,9 +380,11 @@ def main(argv=None, agora=None, baixar_ranking=None) -> list:
         _gravar(os.path.join(site, "noticias", slug(n) + ".html"), renderizar_noticia(n, agora))
     _gravar(os.path.join(site, "index.html"), renderizar_pagina(noticias, agora))
     _gravar(os.path.join(site, "sobre.html"), renderizar_sobre(agora, _nomes_das_fontes(args.raiz)))
-    ranking_atual = ranking.atualizar_ranking(os.path.join(args.raiz, "dados", "ranking.json"), agora,
-                                              baixar_ranking or ranking.baixar_ranking)
-    _gravar(os.path.join(site, "ranking.html"), renderizar_ranking(ranking_atual, agora))
+    baixar = baixar_ranking or ranking.baixar_ranking
+    for circuito, info in CIRCUITOS.items():
+        atual = ranking.atualizar_ranking(os.path.join(args.raiz, "dados", info["dados"]), agora,
+                                          lambda c=circuito: baixar(c), circuito=circuito)
+        _gravar(os.path.join(site, info["pagina"]), renderizar_ranking(atual, agora, circuito))
     _gravar(os.path.join(site, "sitemap.xml"), renderizar_sitemap(noticias, agora))
     _gravar(os.path.join(site, "robots.txt"), ROBOTS)
     print(f"site: {len(noticias)} notícias publicadas nos últimos {DIAS_GUARDADOS} dias")

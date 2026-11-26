@@ -24,4 +24,8 @@ Quem lê as notícias quer ver também a posição dos jogadores, em português,
 - Planilhas públicas no GitHub (Sackmann): o arquivo de ranking atual não existe mais (404).
 
 ## Fora do escopo
-- Ranking na página do Claude (artifact) e ranking da WTA: dá para fazer depois, se o usuário pedir.
+- Ranking na página do Claude (artifact): dá para fazer depois, se o usuário pedir.
+
+## Acréscimo (mesmo dia): ranking da WTA
+O usuário pediu também a WTA. Mesma fonte (`.../tennis/wta/rankings`), página `site/ranking-wta.html`,
+dados em `dados/ranking-wta.json`, link "Ranking WTA" no menu. Sem brasileiras no top 100, a página diz isso.
