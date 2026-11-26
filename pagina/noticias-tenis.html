@@ -351,6 +351,7 @@ a { color: var(--link); }
   var IDIOMAS = { en: "inglês", fr: "francês", es: "espanhol", it: "italiano", de: "alemão" };
   var LIMITE_CLAUDE_MIN = 120;
   var LIMITE_ROBO_MIN = 180;
+  var LIMITE_NOVIDADE_MIN = 360;
   var CHAVE_FILTRO = "noticias-tenis-filtro";
 
   var noticias = [];
@@ -482,6 +483,16 @@ a { color: var(--link); }
     var semRobo = minutosDesde(estado.coletaEm);
     if (semRobo !== null && semRobo > LIMITE_ROBO_MIN) {
       elAvisos.appendChild(criar("p", "aviso", "O robô que coleta as notícias no GitHub está parado há " + duracao(semRobo) + "."));
+      return;
+    }
+    var total = typeof estado.totalFontes === "number" ? estado.totalFontes : 0;
+    var falhas = Array.isArray(estado.fontesComFalha) ? estado.fontesComFalha.length : 0;
+    if (total > 0 && falhas * 2 >= total) {
+      elAvisos.appendChild(criar("p", "aviso", falhas + " de " + total + " fontes falharam na última coleta do robô."));
+    }
+    var semNovidade = minutosDesde(estado.novidadeEm);
+    if (semNovidade !== null && semNovidade > LIMITE_NOVIDADE_MIN) {
+      elAvisos.appendChild(criar("p", "aviso", "O robô não traz notícias novas há " + duracao(semNovidade) + "."));
     }
   }
 
@@ -593,7 +604,12 @@ a { color: var(--link); }
   }
 
   render();
-  setInterval(render, 60000);
+  // a cada minuto só os horários mudam; os filtros ficam como estão para não perder o foco
+  setInterval(function () {
+    renderStatus();
+    renderAvisos();
+    renderLista();
+  }, 60000);
 
   function iniciar(db) {
     var timer = setTimeout(function () {
@@ -613,7 +629,7 @@ a { color: var(--link); }
       render();
     }
 
-    db.collection("noticias").orderBy("publicadoEm", "desc").limit(300).onSnapshot(function (snap) {
+    db.collection("noticias").orderBy("publicadoEm", "desc").limit(1000).onSnapshot(function (snap) {
       noticias = snap.docs.filter(function (d) { return d.exists; }).map(normalizarNoticia)
         .filter(function (n) { return n.titulo; });
       confirmado(snap);

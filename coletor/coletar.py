@@ -22,6 +22,7 @@ ARQUIVO_FONTES = os.path.join(PASTA, "fontes.json")
 DIAS_GUARDADOS = 3
 MAXIMO_NOTICIAS = 600
 SINAL_DE_VIDA = timedelta(hours=2)
+DIAS_VISTOS = 10  # itens sem data não voltam como novos enquanto estiverem aqui
 FOLGA_FUTURO = timedelta(minutes=10)
 
 BLOQUEADOS = [
@@ -29,7 +30,8 @@ BLOQUEADOS = [
     "pickleball", "sneaker", "sneakers", "calcado", "calcados", "sapatilha",
     "sapatilhas", "placar ao vivo", "resultados ao vivo", "live score",
     "sofascore", "flashscore", "palpite", "palpites", "prognostico",
-    "prognosticos", "odds", "apostas", "betting", "prediction", "predictions",
+    "prognosticos", "betting", "betting odds", "casas de apostas", "casa de apostas",
+    "onde apostar", "prediction", "predictions",
 ]
 TERMOS_DE_TENIS = [
     "atp", "wta", "tenista", "tenistas", "tennis", "grand slam", "wimbledon",
@@ -90,7 +92,7 @@ def eh_tenis(item: dict, exige_termo: bool) -> bool:
     return True
 
 
-def mesclar(antigas: list, novas: list, agora: datetime) -> list:
+def mesclar(antigas: list, novas: list, agora: datetime, vistos=None) -> list:
     agora_iso = _iso(agora)
     limite_futuro = agora + FOLGA_FUTURO
     corte = agora - timedelta(days=DIAS_GUARDADOS)
@@ -105,12 +107,13 @@ def mesclar(antigas: list, novas: list, agora: datetime) -> list:
         noticia = dict(bruta)
         noticia["id"] = id_estavel(noticia["link"])
         titulo_norm = normalizar_titulo(noticia["titulo"])
-        if noticia["id"] in vistos_id or titulo_norm in vistos_titulo:
+        if noticia["id"] in vistos_id or titulo_norm in vistos_titulo or noticia["id"] in (vistos or {}):
             continue
         noticia["coletadoEm"] = agora_iso
         publicado = noticia.get("publicadoEm")
         if not publicado or _ler_iso(publicado) > limite_futuro:
             noticia["publicadoEm"] = agora_iso
+            noticia["dataEstimada"] = True
         vistos_id.add(noticia["id"])
         vistos_titulo.add(titulo_norm)
         juntas.append(noticia)
@@ -118,6 +121,15 @@ def mesclar(antigas: list, novas: list, agora: datetime) -> list:
     recentes = [n for n in juntas if _ler_iso(n["publicadoEm"]) >= corte]
     recentes.sort(key=lambda n: n["publicadoEm"], reverse=True)
     return recentes[:MAXIMO_NOTICIAS]
+
+
+def atualizar_vistos(vistos: dict, noticias: list, agora: datetime) -> dict:
+    corte = agora - timedelta(days=DIAS_VISTOS)
+    atualizados = {i: quando for i, quando in (vistos or {}).items() if _ler_iso(quando) >= corte}
+    for noticia in noticias:
+        if noticia.get("dataEstimada"):
+            atualizados.setdefault(noticia["id"], noticia["coletadoEm"])
+    return atualizados
 
 
 def precisa_salvar(anterior, novas_noticias: list, agora: datetime) -> bool:
@@ -166,11 +178,14 @@ def main(caminho_saida: str = "noticias.json", fontes=None, agora=None) -> dict:
             novas.extend(itens)
 
     antigas = anterior.get("noticias", []) if anterior else []
-    noticias = mesclar(antigas, novas, agora)
+    vistos = anterior.get("vistos", {}) if anterior else {}
+    noticias = mesclar(antigas, novas, agora, vistos)
+    vistos = atualizar_vistos(vistos, noticias, agora)
     ids_antes = {n["id"] for n in antigas}
     quantas_novas = sum(1 for n in noticias if n["id"] not in ids_antes)
 
-    resultado = {"atualizadoEm": _iso(agora), "fontesComFalha": falhas, "noticias": noticias}
+    resultado = {"atualizadoEm": _iso(agora), "totalFontes": len(fontes), "fontesComFalha": falhas,
+                 "vistos": vistos, "noticias": noticias}
     if precisa_salvar(anterior, noticias, agora):
         with open(caminho_saida, "w", encoding="utf-8", newline="\n") as arquivo:
             json.dump(resultado, arquivo, ensure_ascii=False, indent=1)

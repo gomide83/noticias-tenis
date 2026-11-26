@@ -14,7 +14,7 @@
 
 - Tudo que o leitor vê está em português (pt-BR).
 - Tema: tênis, o esporte. Fora: tênis de mesa, beach tennis, padel, pickleball, calçados, placar ao vivo, palpites/apostas.
-- Robô: a cada 30 min (`*/30 * * * *`), também manual (`workflow_dispatch`); guarda 3 dias, no máximo 600 notícias.
+- Robô: a cada 30 min (`7,37 * * * *`), também manual (`workflow_dispatch`); guarda 3 dias, no máximo 600 notícias.
 - Tarefa do Claude: a cada 30 min; até 15 fatos novos por rodada; ignora candidatos com mais de 24 h; apaga da página notícias com mais de 7 dias.
 - Categorias exatas: `ATP`, `WTA`, `Brasileiros`, `Grand Slam`, `Outros`.
 - Avisos: página avisa se o Claude não atualiza há mais de 2 h e se o robô não coleta há mais de 3 h. (Decisão de quem constrói: o robô grava um "sinal de vida" a cada 2 h mesmo sem notícia nova, então 3 h de silêncio significa robô parado.)

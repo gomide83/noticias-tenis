@@ -99,6 +99,10 @@ class TestAuxiliares(unittest.TestCase):
         self.assertIsNone(para_iso(None))
         self.assertIsNone(para_iso(""))
 
+    def test_para_iso_ano_absurdo(self):
+        self.assertIsNone(para_iso("0001-01-01T00:30:00+01:00"))
+        self.assertIsNone(para_iso("Mon, 01 Jan 1990 00:00:00 +0000"))
+
     def test_limpar_texto(self):
         self.assertEqual(limpar_texto("<p>A&nbsp;&amp;  B</p>"), "A & B")
         self.assertEqual(limpar_texto(None), "")

@@ -107,22 +107,30 @@ def main(argv=None, agora=None) -> list:
     ja_tratados = set(antigos)
     por_id = {n["id"]: n for n in robo.get("noticias", []) if n["id"] not in ja_tratados}
 
-    writes, usados = [], set()
+    writes, usados, aceitos = [], set(), []
     for fato in decisoes.get("fatos", []):
         montada = montar_noticia(fato, por_id, agora)
-        if montada is None or montada[0] in usados:
+        if montada is None:
+            continue  # fato rejeitado: seus ids voltam como candidatos na próxima rodada
+        _, dados = montada
+        doc_id = next(("n-" + i for i in dados["idsRobo"] if "n-" + i not in usados), None)
+        if doc_id is None:
             continue
-        doc_id, dados = montada
         usados.add(doc_id)
+        aceitos.append({"idsRobo": dados["idsRobo"]})
         writes.append(_gravar(args.saida, "noticias", doc_id, dados))
 
     ids_atuais = {n["id"] for n in robo.get("noticias", [])}
-    tratados = novos_tratados(antigos, decisoes, ids_atuais)
+    tratados = novos_tratados(antigos, {"fatos": aceitos, "descartados": decisoes.get("descartados", [])},
+                              ids_atuais)
     writes.append(_gravar(args.saida, "meta", "tratados", {"ids": tratados}, args.versao_tratados))
+    coletas = [n["coletadoEm"] for n in robo.get("noticias", []) if n.get("coletadoEm")]
     estado = {
         "atualizadoEm": _iso(agora),
         "coletaEm": robo.get("atualizadoEm"),
         "fontesComFalha": robo.get("fontesComFalha", []),
+        "totalFontes": robo.get("totalFontes"),
+        "novidadeEm": max(coletas) if coletas else None,
         "novasNaRodada": len(usados),
     }
     writes.append(_gravar(args.saida, "meta", "estado", estado, args.versao_estado))

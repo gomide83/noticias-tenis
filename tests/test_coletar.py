@@ -55,6 +55,12 @@ class TestFiltro(unittest.TestCase):
         self.assertTrue(eh_tenis(item("Fonseca vence e avança", "https://a"), True))
         self.assertTrue(eh_tenis(item("Qualquer manchete", "https://a"), False))
 
+    def test_eh_tenis_nao_bloqueia_odds_e_apostas_comuns(self):
+        self.assertTrue(eh_tenis(item("Fonseca defies the odds to reach the final", "https://a"), False))
+        self.assertTrue(eh_tenis(item("Fonseca é uma das apostas do Brasil para 2027", "https://a"), False))
+        self.assertFalse(eh_tenis(item("Sinner x Alcaraz: betting odds and tips", "https://a"), False))
+        self.assertFalse(eh_tenis(item("Melhores casas de apostas para o ATP Finals", "https://a"), False))
+
     def test_eh_tenis_bloqueia_fonte(self):
         self.assertFalse(eh_tenis(item("Sinner x Alcaraz: quem vence?", "https://a", fonte="SportyTrader Portugal"), True))
         self.assertFalse(eh_tenis(item("Fonseca vence no ATP", "https://a", fonte="Flashscore.pt"), True))
@@ -109,6 +115,27 @@ class TestMesclar(unittest.TestCase):
         self.assertEqual(resultado[-1]["titulo"], "Notícia 599")
 
 
+class TestVistos(unittest.TestCase):
+    def test_mesclar_marca_data_estimada(self):
+        resultado = mesclar([], [item("Sem data", "https://a.com/s", publicado=None),
+                                 item("Com data", "https://a.com/c")], AGORA)
+        por_titulo = {n["titulo"]: n for n in resultado}
+        self.assertTrue(por_titulo["Sem data"].get("dataEstimada"))
+        self.assertFalse(por_titulo["Com data"].get("dataEstimada", False))
+
+    def test_mesclar_nao_recicla_item_ja_visto(self):
+        vistos = {id_estavel("https://a.com/s"): iso(AGORA - timedelta(days=4))}
+        resultado = mesclar([], [item("Sem data", "https://a.com/s", publicado=None)], AGORA, vistos)
+        self.assertEqual(resultado, [])
+
+    def test_atualizar_vistos(self):
+        noticias = mesclar([], [item("Sem data", "https://a.com/s", publicado=None),
+                                item("Com data", "https://a.com/c")], AGORA)
+        antigos = {"velho": iso(AGORA - timedelta(days=11)), "recente": iso(AGORA - timedelta(days=9))}
+        vistos = coletar.atualizar_vistos(antigos, noticias, AGORA)
+        self.assertEqual(set(vistos), {"recente", id_estavel("https://a.com/s")})
+
+
 class TestPrecisaSalvar(unittest.TestCase):
     def setUp(self):
         self.noticias = [{"id": "a"}, {"id": "b"}]
@@ -148,6 +175,17 @@ class TestMain(unittest.TestCase):
         self.assertEqual(dados["fontesComFalha"], ["Portal Quebrado"])
         self.assertEqual([n["titulo"] for n in dados["noticias"]], ["Fonseca vence no ATP"])
         self.assertEqual(dados["atualizadoEm"], iso(AGORA))
+
+    def test_main_grava_total_de_fontes_e_vistos(self):
+        fontes = [{"id": "ok", "nome": "Portal OK", "url": "https://ok.com/feed", "idioma": "pt"}]
+        with tempfile.TemporaryDirectory() as pasta:
+            saida = os.path.join(pasta, "noticias.json")
+            with mock.patch.object(coletar, "baixar", lambda url, timeout=15: RSS_OK):
+                coletar.main(caminho_saida=saida, fontes=fontes, agora=AGORA)
+            with open(saida, encoding="utf-8") as arquivo:
+                dados = json.load(arquivo)
+        self.assertEqual(dados["totalFontes"], 1)
+        self.assertEqual(dados["vistos"], {})
 
     def test_main_xml_invalido_vira_falha(self):
         fontes = [{"id": "h", "nome": "Portal HTML", "url": "https://h.com/feed", "idioma": "pt"}]

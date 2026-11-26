@@ -88,7 +88,8 @@ class TestMain(unittest.TestCase):
         pasta = tempfile.mkdtemp()
         self.addCleanup(shutil.rmtree, pasta, True)
         escrever(os.path.join(pasta, "noticias.json"),
-                 {"atualizadoEm": "2026-11-25T21:30:00Z", "fontesComFalha": ["Terra"], "noticias": list(POR_ID.values())})
+                 {"atualizadoEm": "2026-11-25T21:30:00Z", "fontesComFalha": ["Terra"], "totalFontes": 22,
+                  "noticias": list(POR_ID.values())})
         if tratados is not None:
             escrever(os.path.join(pasta, "db", "meta", "tratados.json"), tratados)
         escrever(os.path.join(pasta, "decisoes.json"), decisoes)
@@ -106,7 +107,8 @@ class TestMain(unittest.TestCase):
             self.assertNotIn("if_version", w)
         self.assertEqual(set(ler(writes[1]["file_path"])["ids"]), {"a", "b", "c"})
         self.assertEqual(ler(writes[2]["file_path"]), {"atualizadoEm": iso(AGORA), "coletaEm": "2026-11-25T21:30:00Z",
-                                                        "fontesComFalha": ["Terra"], "novasNaRodada": 1})
+                                                        "fontesComFalha": ["Terra"], "totalFontes": 22,
+                                                        "novidadeEm": iso(AGORA), "novasNaRodada": 1})
 
     def test_main_usa_versao_e_nao_republica_tratado(self):
         _, writes = self.rodar({"fatos": [fato(["x", "a"])], "descartados": []},
@@ -115,6 +117,21 @@ class TestMain(unittest.TestCase):
         self.assertEqual(writes[0]["doc_id"], "n-a")
         self.assertEqual(writes[1]["if_version"], 7)
         self.assertEqual(writes[2]["if_version"], 3)
+
+    def test_fato_rejeitado_nao_vira_tratado(self):
+        _, writes = self.rodar({"fatos": [dict(fato(["a"]), resumo=""), fato(["b"])], "descartados": []})
+        self.assertEqual(set(ler(writes[-2]["file_path"])["ids"]), {"b"})
+
+    def test_conflito_de_doc_id_usa_proximo_id(self):
+        _, writes = self.rodar({"fatos": [fato(["a"]), fato(["a", "b"])], "descartados": []})
+        self.assertEqual([w["doc_id"] for w in writes[:2]], ["n-a", "n-b"])
+        self.assertEqual(set(ler(writes[-2]["file_path"])["ids"]), {"a", "b"})
+
+    def test_estado_tem_saude_do_robo(self):
+        _, writes = self.rodar({"fatos": [], "descartados": []})
+        estado = ler(writes[-1]["file_path"])
+        self.assertEqual(estado["totalFontes"], 22)
+        self.assertEqual(estado["novidadeEm"], iso(AGORA))
 
     def test_main_sem_fatos_so_atualiza_meta(self):
         _, writes = self.rodar({"fatos": [], "descartados": []})

@@ -37,18 +37,30 @@ def _formatar_utc(data: datetime) -> str:
     return data.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def para_iso(data_texto):
-    if not data_texto or not data_texto.strip():
-        return None
-    data_texto = data_texto.strip()
+ANO_MINIMO = 2000
+
+
+def _interpretar_data(data_texto: str):
     try:
-        return _formatar_utc(parsedate_to_datetime(data_texto))
-    except (TypeError, ValueError, IndexError):
+        return parsedate_to_datetime(data_texto)
+    except (TypeError, ValueError, IndexError, OverflowError):
         pass
     try:
         iso = data_texto[:-1] + "+00:00" if data_texto.endswith("Z") else data_texto
-        return _formatar_utc(datetime.fromisoformat(iso))
-    except ValueError:
+        return datetime.fromisoformat(iso)
+    except (ValueError, OverflowError):
+        return None
+
+
+def para_iso(data_texto):
+    if not data_texto or not data_texto.strip():
+        return None
+    data = _interpretar_data(data_texto.strip())
+    if data is None or data.year < ANO_MINIMO:
+        return None
+    try:
+        return _formatar_utc(data)
+    except (ValueError, OverflowError):
         return None
 
 
