@@ -7,10 +7,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/130.0 Safari/537.36"
-)
+# Identificador simples: o ESPN recusa o de navegador completo, e todas as fontes aceitam este.
+USER_AGENT = "Mozilla/5.0 (compatible; NoticiasTenis/1.0)"
 LIMITE_TRECHO = 500
 
 _TAGS = re.compile(r"<[^>]+>")
