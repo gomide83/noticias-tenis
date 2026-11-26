@@ -76,6 +76,7 @@ class TestMain(unittest.TestCase):
         self.assertEqual([c["id"] for c in resultado["candidatos"]], ["b"])
         self.assertEqual(resultado["jaPublicadas"], ["Já publicada"])
         self.assertEqual(resultado["robo"], {"atualizadoEm": iso(AGORA), "fontesComFalha": ["X"]})
+        self.assertIn("resumoDoDia", resultado)
 
     def test_main_sem_banco_ainda(self):
         with tempfile.TemporaryDirectory() as pasta:
@@ -89,6 +90,44 @@ class TestMain(unittest.TestCase):
                 resultado = json.load(arquivo)
         self.assertEqual([c["id"] for c in resultado["candidatos"]], ["a"])
         self.assertEqual(resultado["jaPublicadas"], [])
+
+
+def _gravar_doc(pasta, nome, conteudo):
+    os.makedirs(pasta, exist_ok=True)
+    with open(os.path.join(pasta, nome), "w", encoding="utf-8") as arquivo:
+        json.dump(conteudo, arquivo, ensure_ascii=False)
+
+
+class TestResumoDoDia(unittest.TestCase):
+    NOITE = datetime(2026, 11, 26, 0, 30, 0, tzinfo=timezone.utc)  # 21:30 de 25/11 em Brasília
+
+    def brasileira(self, publicado="2026-11-25T20:00:00Z", categoria="Brasileiros"):
+        return {"titulo": "Fonseca vence", "resumo": "Fonseca venceu.", "categoria": categoria,
+                "publicadoEm": publicado, "criadoEm": publicado}
+
+    def test_pendente_depois_das_21h(self):
+        with tempfile.TemporaryDirectory() as db:
+            _gravar_doc(os.path.join(db, "noticias"), "n-a.json", self.brasileira())
+            _gravar_doc(os.path.join(db, "noticias"), "n-b.json", self.brasileira(categoria="ATP"))
+            resumo = preparar.resumo_do_dia(db, self.NOITE)
+        self.assertEqual(resumo["data"], "2026-11-25")
+        self.assertEqual(resumo["brasileirasDeHoje"], [{"titulo": "Fonseca vence", "resumo": "Fonseca venceu."}])
+
+    def test_antes_das_21h_nao_pede(self):
+        with tempfile.TemporaryDirectory() as db:
+            _gravar_doc(os.path.join(db, "noticias"), "n-a.json", self.brasileira())
+            self.assertIsNone(preparar.resumo_do_dia(db, datetime(2026, 11, 25, 22, 0, tzinfo=timezone.utc)))
+
+    def test_ja_feito_nao_pede(self):
+        with tempfile.TemporaryDirectory() as db:
+            _gravar_doc(os.path.join(db, "noticias"), "n-a.json", self.brasileira())
+            _gravar_doc(os.path.join(db, "noticias"), "resumo-2026-11-25.json", self.brasileira())
+            self.assertIsNone(preparar.resumo_do_dia(db, self.NOITE))
+
+    def test_sem_brasileiros_no_dia_nao_pede(self):
+        with tempfile.TemporaryDirectory() as db:
+            _gravar_doc(os.path.join(db, "noticias"), "n-a.json", self.brasileira(publicado="2026-11-24T20:00:00Z"))
+            self.assertIsNone(preparar.resumo_do_dia(db, self.NOITE))
 
 
 if __name__ == "__main__":

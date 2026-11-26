@@ -9,9 +9,11 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "tarefa"))
 
 import publicar_site  # noqa: E402
-from publicar_site import juntar, renderizar_pagina, renderizar_sitemap  # noqa: E402
+from publicar_site import (juntar, renderizar_noticia, renderizar_pagina, renderizar_sitemap,  # noqa: E402
+                           renderizar_sobre, slug)
 
 AGORA = datetime(2026, 11, 26, 14, 30, 0, tzinfo=timezone.utc)  # 11:30 em Brasília
+URL = "https://gomide83.github.io/noticias-tenis/"
 
 
 def iso(data):
@@ -39,12 +41,24 @@ class TestJuntar(unittest.TestCase):
         self.assertEqual([n["id"] for n in resultado], ["n-b", "n-a"])
         self.assertEqual(resultado[1]["titulo"], "Novo título")
 
-    def test_descarta_mais_de_7_dias(self):
-        resultado = juntar([noticia("n-velha", horas_atras=24 * 8)], [noticia("n-nova")], AGORA)
-        self.assertEqual([n["id"] for n in resultado], ["n-nova"])
+    def test_guarda_30_dias(self):
+        resultado = juntar([noticia("n-31", horas_atras=24 * 31), noticia("n-10", horas_atras=24 * 10)],
+                           [noticia("n-nova")], AGORA)
+        self.assertEqual([n["id"] for n in resultado], ["n-nova", "n-10"])
 
 
-class TestPagina(unittest.TestCase):
+class TestSlug(unittest.TestCase):
+    def test_slug(self):
+        self.assertEqual(slug({"id": "n-c74208cd0576e7b0", "titulo": "Itália sofre, decide nas duplas!"}),
+                         "italia-sofre-decide-nas-duplas-76e7b0")
+
+    def test_slug_longo_e_estranho(self):
+        s = slug({"id": "n-abc123", "titulo": "<b>" + "palavra " * 30})
+        self.assertLessEqual(len(s), 80)
+        self.assertRegex(s, r"^[a-z0-9-]+$")
+
+
+class TestPaginaInicial(unittest.TestCase):
     def test_escapa_texto_e_so_aceita_https(self):
         perigosa = noticia("n-x", titulo='<script>alert("x")</script>', link="javascript:alert(1)")
         html = renderizar_pagina([perigosa], AGORA)
@@ -53,7 +67,6 @@ class TestPagina(unittest.TestCase):
         self.assertNotIn("javascript:alert", html)
 
     def test_agrupa_por_dia_no_horario_de_brasilia(self):
-        # 01:30 UTC do dia 26 ainda é dia 25 em Brasília (22:30)
         madrugada = dict(noticia("n-m"), publicadoEm="2026-11-26T01:30:00Z")
         html = renderizar_pagina([noticia("n-d", horas_atras=1), madrugada], AGORA)
         self.assertIn("quinta-feira, 26 de novembro", html)
@@ -65,18 +78,59 @@ class TestPagina(unittest.TestCase):
         self.assertIn("<title>Tênis Notícias</title>", html)
         self.assertIn('<html lang="pt-BR">', html)
         self.assertIn('name="description"', html)
-        self.assertIn('rel="canonical" href="https://gomide83.github.io/noticias-tenis/"', html)
+        self.assertIn(f'rel="canonical" href="{URL}"', html)
+        self.assertIn(f'property="og:image" content="{URL}previa.png"', html)
         self.assertIn('data-categoria="WTA"', html)
         self.assertIn("Atualizado em 26/11/2026 às 11:30", html)
 
+    def test_titulos_levam_a_pagina_da_noticia(self):
+        n = noticia("n-abcdef123456", titulo="Fonseca vence")
+        html = renderizar_pagina([n], AGORA)
+        self.assertIn('href="noticias/fonseca-vence-123456.html"', html)
+        self.assertIn('href="sobre.html"', html)
+
+    def test_pagina_inicial_mostra_so_7_dias(self):
+        html = renderizar_pagina([noticia("n-nova", titulo="Nova"), noticia("n-velha", horas_atras=24 * 10,
+                                                                            titulo="Velha")], AGORA)
+        self.assertIn("Nova", html)
+        self.assertNotIn("Velha", html)
+
     def test_pagina_vazia(self):
-        html = renderizar_pagina([], AGORA)
-        self.assertIn("Ainda não há notícias", html)
+        self.assertIn("Ainda não há notícias", renderizar_pagina([], AGORA))
+
+
+class TestPaginaDaNoticia(unittest.TestCase):
+    def test_pagina_da_noticia(self):
+        n = noticia("n-abcdef123456", titulo='Fonseca vence & "avança"', categoria="Brasileiros")
+        html = renderizar_noticia(n, AGORA)
+        self.assertIn("<title>Fonseca vence &amp; &quot;avança&quot; | Tênis Notícias</title>", html)
+        self.assertIn(f'rel="canonical" href="{URL}noticias/fonseca-vence-avanca-123456.html"', html)
+        self.assertIn('name="description" content="Resumo n-abcdef123456."', html)
+        self.assertIn(f'property="og:image" content="{URL}previa.png"', html)
+        self.assertIn('href="../"', html)
+        self.assertIn('href="https://ge.globo.com/x"', html)
+        self.assertIn("quinta-feira, 26 de novembro de 2026, às 10:30", html)
+
+    def test_pagina_da_noticia_sem_fontes(self):
+        n = dict(noticia("n-resumo"), fontes=[])
+        self.assertIn("Resumo n-resumo.", renderizar_noticia(n, AGORA))
+
+
+class TestOutrasPaginas(unittest.TestCase):
+    def test_sobre(self):
+        html = renderizar_sobre(AGORA)
+        self.assertIn("<title>Sobre | Tênis Notícias</title>", html)
+        self.assertIn("Claude", html)
+        self.assertIn(f'rel="canonical" href="{URL}sobre.html"', html)
 
     def test_sitemap(self):
-        xml = renderizar_sitemap(AGORA)
-        self.assertIn("<loc>https://gomide83.github.io/noticias-tenis/</loc>", xml)
+        n = noticia("n-abcdef123456", titulo="Fonseca vence")
+        xml = renderizar_sitemap([n], AGORA)
+        self.assertIn(f"<loc>{URL}</loc>", xml)
+        self.assertIn(f"<loc>{URL}sobre.html</loc>", xml)
+        self.assertIn(f"<loc>{URL}noticias/fonseca-vence-123456.html</loc>", xml)
         self.assertIn("<lastmod>2026-11-26T14:30:00+00:00</lastmod>", xml)
+        self.assertIn("<lastmod>2026-11-26T13:30:00+00:00</lastmod>", xml)
 
 
 class TestMain(unittest.TestCase):
@@ -85,24 +139,29 @@ class TestMain(unittest.TestCase):
         self.addCleanup(shutil.rmtree, raiz, True)
         lote = os.path.join(raiz, "tarefa", "trabalho", "lote", "noticias")
         os.makedirs(lote)
-        dados = noticia("n-novo")
+        dados = noticia("n-novo000001", titulo="Notícia nova")
         dados.pop("id")
-        with open(os.path.join(lote, "n-novo.json"), "w", encoding="utf-8") as arquivo:
+        with open(os.path.join(lote, "n-novo000001.json"), "w", encoding="utf-8") as arquivo:
             json.dump(dados, arquivo, ensure_ascii=False)
         os.makedirs(os.path.join(raiz, "dados"))
         with open(os.path.join(raiz, "dados", "publicadas.json"), "w", encoding="utf-8") as arquivo:
-            json.dump([noticia("n-antigo", horas_atras=3)], arquivo)
+            json.dump([noticia("n-antigo000002", horas_atras=3, titulo="Notícia antiga")], arquivo)
+        pagina_velha = os.path.join(raiz, "site", "noticias", "sumiu-000000.html")
+        os.makedirs(os.path.dirname(pagina_velha))
+        open(pagina_velha, "w").close()
 
         publicar_site.main(["--raiz", raiz, "--lote", os.path.join(raiz, "tarefa", "trabalho", "lote"),
                             "--sem-git"], agora=AGORA)
 
         with open(os.path.join(raiz, "dados", "publicadas.json"), encoding="utf-8") as arquivo:
             publicadas = json.load(arquivo)
-        self.assertEqual([n["id"] for n in publicadas], ["n-novo", "n-antigo"])
-        for nome in ("index.html", "sitemap.xml", "robots.txt"):
+        self.assertEqual([n["id"] for n in publicadas], ["n-novo000001", "n-antigo000002"])
+        for nome in ("index.html", "sobre.html", "sitemap.xml", "robots.txt",
+                     "noticias/noticia-nova-000001.html", "noticias/noticia-antiga-000002.html"):
             self.assertTrue(os.path.exists(os.path.join(raiz, "site", nome)), nome)
+        self.assertFalse(os.path.exists(pagina_velha))
         with open(os.path.join(raiz, "site", "robots.txt"), encoding="utf-8") as arquivo:
-            self.assertIn("Sitemap: https://gomide83.github.io/noticias-tenis/sitemap.xml", arquivo.read())
+            self.assertIn(f"Sitemap: {URL}sitemap.xml", arquivo.read())
 
 
 if __name__ == "__main__":

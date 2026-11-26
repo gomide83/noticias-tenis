@@ -133,6 +133,19 @@ class TestMain(unittest.TestCase):
         self.assertEqual(estado["totalFontes"], 22)
         self.assertEqual(estado["novidadeEm"], iso(AGORA))
 
+    def test_resumo_do_dia(self):
+        resumo = {"resumoDoDia": "2026-11-25", "titulo": "Resumo do dia dos brasileiros - 25/11",
+                  "resumo": "Dia bom para os brasileiros.", "categoria": "ATP"}
+        _, writes = self.rodar({"fatos": [resumo, {"resumoDoDia": "ontem", "titulo": "x", "resumo": "y"}],
+                                "descartados": []})
+        self.assertEqual([w["doc_id"] for w in writes], ["resumo-2026-11-25", "tratados", "estado"])
+        dados = ler(writes[0]["file_path"])
+        self.assertEqual(dados["categoria"], "Brasileiros")
+        self.assertEqual(dados["fontes"], [])
+        self.assertEqual(dados["idsRobo"], [])
+        self.assertEqual(dados["publicadoEm"], iso(AGORA))
+        self.assertEqual(ler(writes[-1]["file_path"])["novasNaRodada"], 1)
+
     def test_main_sem_fatos_so_atualiza_meta(self):
         _, writes = self.rodar({"fatos": [], "descartados": []})
         self.assertEqual([w["doc_id"] for w in writes], ["tratados", "estado"])

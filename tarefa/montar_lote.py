@@ -16,6 +16,7 @@ meta/tratados e meta/estado (os arquivos do out_dir não trazem a versão).
 import argparse
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 
@@ -58,6 +59,17 @@ def montar_noticia(fato: dict, por_id: dict, agora: datetime):
         "idsRobo": ids,
     }
     return "n-" + ids[0], dados
+
+
+def montar_resumo_do_dia(fato: dict, agora: datetime):
+    data = str(fato.get("resumoDoDia") or "")
+    titulo = (fato.get("titulo") or "").strip()
+    resumo = (fato.get("resumo") or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", data) or not titulo or not resumo:
+        return None
+    dados = {"titulo": titulo, "resumo": resumo, "categoria": "Brasileiros", "fontes": [],
+             "publicadoEm": _iso(agora), "criadoEm": _iso(agora), "idsRobo": []}
+    return "resumo-" + data, dados
 
 
 def novos_tratados(antigos: list, decisoes: dict, ids_atuais: set) -> list:
@@ -109,6 +121,12 @@ def main(argv=None, agora=None) -> list:
 
     writes, usados, aceitos = [], set(), []
     for fato in decisoes.get("fatos", []):
+        if "resumoDoDia" in fato:
+            especial = montar_resumo_do_dia(fato, agora)
+            if especial and especial[0] not in usados:
+                usados.add(especial[0])
+                writes.append(_gravar(args.saida, "noticias", especial[0], especial[1]))
+            continue
         montada = montar_noticia(fato, por_id, agora)
         if montada is None:
             continue  # fato rejeitado: seus ids voltam como candidatos na próxima rodada

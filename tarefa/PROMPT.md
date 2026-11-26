@@ -91,6 +91,12 @@ Candidatos que você juntou a um fato vão em `idsRobo` daquele fato, não em `d
 Candidatos que ficaram de fora **só por causa do limite de 15** não entram em nenhuma lista:
 eles voltam na próxima rodada.
 
+**Resumo do dia dos brasileiros.** Se `candidatos.json` tiver `resumoDoDia` diferente de
+`null`, acrescente um fato extra, que não conta no limite de 15:
+`{"resumoDoDia": "<data>", "titulo": "Resumo do dia dos brasileiros – DD/MM", "resumo": "...", "categoria": "Brasileiros"}`.
+O resumo tem de 3 a 6 frases, junta os resultados e as notícias de `brasileirasDeHoje` num
+texto corrido e usa só o que está nesses textos. Esse fato não leva `idsRobo`.
+
 Grave `tarefa/trabalho/decisoes.json` (UTF-8) neste formato:
 
 ```json

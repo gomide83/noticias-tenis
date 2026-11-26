@@ -16,6 +16,8 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 LIMITE_TRECHO = 300
+BRASILIA = timezone(timedelta(hours=-3))
+HORA_DO_RESUMO = 21  # horário de Brasília
 CAMPOS = ("id", "titulo", "link", "fonte", "via", "idioma", "publicadoEm")
 
 
@@ -47,6 +49,29 @@ def titulos_publicados(pasta_db: str) -> list:
     return titulos
 
 
+def resumo_do_dia(pasta_db: str, agora: datetime):
+    """Depois das 21h de Brasília, pede o resumo do dia dos brasileiros, uma vez por dia."""
+    local = agora.astimezone(BRASILIA)
+    if local.hour < HORA_DO_RESUMO:
+        return None
+    data = local.strftime("%Y-%m-%d")
+    pasta = os.path.join(pasta_db, "noticias")
+    if os.path.exists(os.path.join(pasta, f"resumo-{data}.json")):
+        return None
+    do_dia = []
+    for caminho in sorted(glob.glob(os.path.join(pasta, "*.json"))):
+        corpo = carregar_corpo(caminho)
+        if corpo.get("categoria") != "Brasileiros" or os.path.basename(caminho).startswith("resumo-"):
+            continue
+        datas = {_ler_iso(corpo[c]).astimezone(BRASILIA).strftime("%Y-%m-%d")
+                 for c in ("publicadoEm", "criadoEm") if corpo.get(c)}
+        if data in datas:
+            do_dia.append({"titulo": corpo.get("titulo", ""), "resumo": corpo.get("resumo", "")})
+    if not do_dia:
+        return None
+    return {"data": data, "brasileirasDeHoje": do_dia}
+
+
 def selecionar_candidatos(noticias: list, tratados: set, agora: datetime,
                           max_idade_h: int = 24, limite: int = 80) -> list:
     corte = agora - timedelta(hours=max_idade_h)
@@ -75,11 +100,14 @@ def main(argv=None, agora=None) -> dict:
         "robo": {"atualizadoEm": robo.get("atualizadoEm"), "fontesComFalha": robo.get("fontesComFalha", [])},
         "jaPublicadas": titulos_publicados(args.db),
         "candidatos": candidatos,
+        "resumoDoDia": resumo_do_dia(args.db, agora),
     }
     os.makedirs(os.path.dirname(os.path.abspath(args.saida)), exist_ok=True)
     with open(args.saida, "w", encoding="utf-8") as arquivo:
         json.dump(resultado, arquivo, ensure_ascii=False, indent=1)
     print(f"{len(candidatos)} candidatos")
+    if resultado["resumoDoDia"]:
+        print(f"resumo do dia dos brasileiros pendente: {resultado['resumoDoDia']['data']}")
     return resultado
 
 
