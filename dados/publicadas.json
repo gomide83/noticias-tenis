@@ -1,5 +1,83 @@
 [
  {
+  "titulo": "Zanellato vence cabeça 2 e brasileiros têm rodada perfeita em Florianópolis",
+  "resumo": "Os brasileiros venceram todos os jogos das oitavas de final do Challenger 75 de Florianópolis nesta quinta-feira. Depois de Felipe Meligeni e Eduardo Ribeiro, Igor Marcondes e Nicolas Zanellato também avançaram às quartas. Zanellato, de 24 anos e 691º do mundo, conquistou a maior vitória da carreira ao derrotar o cabeça de chave 2, um dinamarquês.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/zanellato-vai-quartas-florianopolis/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/marcondes-e-zanellato-completam-rodada-perfeita-dos-brasileiros-em-floripa.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T20:05:25Z",
+  "criadoEm": "2026-11-26T20:07:19Z",
+  "idsRobo": [
+   "5e058cfd1e13024f",
+   "9aca744871a7ef68"
+  ],
+  "id": "n-5e058cfd1e13024f"
+ },
+ {
+  "titulo": "Jodar vira contra Rodionov e coloca a Espanha na semifinal da Copa Davis",
+  "resumo": "Rafael Jodar, número 10 do mundo, venceu a segunda partida da Espanha contra a Áustria e garantiu a vaga nas semifinais da Copa Davis nesta quinta-feira, em Bolonha. O espanhol buscou uma grande virada sobre Jurij Rodionov, 119º do ranking, com direito a um set sem perder games. Com a classificação definida, Carlos Alcaraz ficou de folga.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/jodar-vira-classifica-espanha-davis/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T19:46:04Z",
+  "criadoEm": "2026-11-26T20:07:19Z",
+  "idsRobo": [
+   "14d90a4623bd2b0f"
+  ],
+  "id": "n-14d90a4623bd2b0f"
+ },
+ {
+  "titulo": "Com a temporada encerrada, tenistas da WTA aproveitam as férias",
+  "resumo": "Depois de uma temporada com 50 torneios em 26 países e territórios, as jogadoras do circuito da WTA estão de férias para descansar longe das quadras. Iga Swiatek, hexacampeã de Grand Slam, viajou para as Maldivas.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/temporada-encerrada-veja-como-as-jogadoras-estao-curtindo-as-ferias.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T19:34:37Z",
+  "criadoEm": "2026-11-26T20:07:19Z",
+  "idsRobo": [
+   "c793ce2dc49c63d3"
+  ],
+  "id": "n-c793ce2dc49c63d3"
+ },
+ {
+  "titulo": "Os cinco melhores resultados de Zverev em 2026, temporada encerrada na Davis",
+  "resumo": "A eliminação da Alemanha pela Grã-Bretanha na Copa Davis encerrou a temporada de 2026 de Alexander Zverev. O Yahoo Sports relembrou os cinco melhores resultados do alemão no ano. No confronto, Cameron Norrie abriu vantagem para os britânicos.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/alexander-zverev-five-best-results-193000946.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T19:30:00Z",
+  "criadoEm": "2026-11-26T20:07:19Z",
+  "idsRobo": [
+   "d59ed4066e71d797"
+  ],
+  "id": "n-d59ed4066e71d797"
+ },
+ {
   "titulo": "Mouratoglou opina sobre resposta de Alcaraz a respeito de ser o número 1",
   "resumo": "O treinador Patrick Mouratoglou deu sua opinião sobre as declarações de Carlos Alcaraz após o título do ATP Finals. Na ocasião, Alcaraz foi perguntado se se sentia o número 1 do mundo depois de derrotar Alexander Zverev, que ocupa a liderança do ranking, na decisão.",
   "categoria": "ATP",
