@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gomide83.github.io/noticias-tenis/sitemap.xml
