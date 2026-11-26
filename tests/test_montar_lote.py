@@ -84,9 +84,15 @@ def ler(caminho):
 
 
 class TestMain(unittest.TestCase):
-    def rodar(self, decisoes, tratados=None, extras=()):
+    def rodar(self, decisoes, tratados=None, extras=(), rankings=None, na_pagina=None):
         pasta = tempfile.mkdtemp()
         self.addCleanup(shutil.rmtree, pasta, True)
+        for doc_id, conteudo in (na_pagina or {}).items():
+            escrever(os.path.join(pasta, "db", "meta", doc_id + ".json"), conteudo)
+        for nome, conteudo in (rankings or {}).items():
+            os.makedirs(os.path.join(pasta, "dados"), exist_ok=True)
+            with open(os.path.join(pasta, "dados", nome), "w", encoding="utf-8") as arquivo:
+                arquivo.write(conteudo if isinstance(conteudo, str) else json.dumps(conteudo))
         escrever(os.path.join(pasta, "noticias.json"),
                  {"atualizadoEm": "2026-11-25T21:30:00Z", "fontesComFalha": ["Terra"], "totalFontes": 22,
                   "noticias": list(POR_ID.values())})
@@ -95,7 +101,8 @@ class TestMain(unittest.TestCase):
         escrever(os.path.join(pasta, "decisoes.json"), decisoes)
         saida = os.path.join(pasta, "lote")
         montar_lote.main(["--noticias", os.path.join(pasta, "noticias.json"), "--db", os.path.join(pasta, "db"),
-                          "--decisoes", os.path.join(pasta, "decisoes.json"), "--saida", saida, *extras], agora=AGORA)
+                          "--decisoes", os.path.join(pasta, "decisoes.json"), "--saida", saida,
+                          "--rankings", os.path.join(pasta, "dados"), *extras], agora=AGORA)
         return saida, ler(os.path.join(saida, "writes.json"))
 
     def test_main_gera_gravacoes(self):
@@ -145,6 +152,62 @@ class TestMain(unittest.TestCase):
         self.assertEqual(dados["idsRobo"], [])
         self.assertEqual(dados["publicadoEm"], iso(AGORA))
         self.assertEqual(ler(writes[-1]["file_path"])["novasNaRodada"], 1)
+
+    def test_rankings_vao_para_a_pagina(self):
+        atp = {"atualizadoEm": "2026-11-19T08:00:00Z", "fonte": "ESPN", "buscadoEm": "2026-11-26T14:00:00Z",
+               "jogadores": [{"posicao": 1, "anterior": 1, "nome": "Alexander Zverev", "pais": "GER",
+                              "paisNome": "Germany", "pontos": 10350},
+                             {"posicao": 46, "anterior": None, "nome": "Joao Fonseca", "pais": "BRA",
+                              "paisNome": "Brazil", "pontos": 1200},
+                             {"posicao": 90, "anterior": 91, "nome": "Fulano", "pais": "XYZ",
+                              "paisNome": "Atlantis", "pontos": 600}]}
+        wta = dict(atp, jogadores=[{"posicao": 1, "anterior": 1, "nome": "Elena Rybakina", "pais": "KAZ",
+                                    "paisNome": "Kazakhstan", "pontos": 8099}])
+        _, writes = self.rodar({"fatos": [], "descartados": []},
+                               rankings={"ranking.json": atp, "ranking-wta.json": wta},
+                               extras=["--versao-ranking-atp", "4", "--versao-ranking-wta", "2"])
+        self.assertEqual([(w["collection"], w["doc_id"]) for w in writes],
+                         [("meta", "ranking-atp"), ("meta", "ranking-wta"), ("meta", "tratados"), ("meta", "estado")])
+        self.assertEqual(writes[0]["if_version"], 4)
+        self.assertEqual(writes[1]["if_version"], 2)
+        doc = ler(writes[0]["file_path"])
+        self.assertEqual(doc["atualizadoEm"], "2026-11-19T08:00:00Z")
+        self.assertEqual(doc["fonte"], "ESPN")
+        self.assertEqual(doc["jogadores"][0], {"posicao": 1, "anterior": 1, "nome": "Alexander Zverev",
+                                               "pais": "Alemanha", "pontos": 10350, "br": False})
+        self.assertEqual(doc["jogadores"][1]["br"], True)
+        self.assertEqual(doc["jogadores"][1]["pais"], "Brasil")
+        self.assertEqual(doc["jogadores"][2]["pais"], "Atlantis")
+        self.assertEqual(ler(writes[1]["file_path"])["jogadores"][0]["pais"], "Cazaquistão")
+
+    def test_ranking_quebrado_fica_de_fora(self):
+        wta = {"atualizadoEm": "2026-11-19T08:00:00Z", "fonte": "ESPN", "buscadoEm": "2026-11-26T14:00:00Z",
+               "jogadores": [{"posicao": 1, "anterior": 1, "nome": "Elena Rybakina", "pais": "KAZ",
+                              "paisNome": "Kazakhstan", "pontos": 8099}]}
+        _, writes = self.rodar({"fatos": [], "descartados": []},
+                               rankings={"ranking.json": "{quebrado", "ranking-wta.json": wta},
+                               extras=["--versao-ranking-atp", "4", "--versao-ranking-wta", "2"])
+        self.assertEqual([w["doc_id"] for w in writes], ["ranking-wta", "tratados", "estado"])
+
+    def test_sem_versao_nao_regrava_ranking(self):
+        # sem a versão lida no Passo 2, a página recusaria o batch inteiro
+        _, writes = self.rodar({"fatos": [], "descartados": []}, rankings={"ranking-wta.json": self.WTA})
+        self.assertEqual([w["doc_id"] for w in writes], ["tratados", "estado"])
+
+    def test_ranking_igual_ao_da_pagina_nao_regrava(self):
+        na_pagina = montar_lote.documento_ranking_de(self.WTA)
+        na_pagina["buscadoEm"] = "2026-11-20T10:00:00Z"
+        _, writes = self.rodar({"fatos": [], "descartados": []}, rankings={"ranking-wta.json": self.WTA},
+                               na_pagina={"ranking-wta": na_pagina}, extras=["--versao-ranking-wta", "2"])
+        self.assertEqual([w["doc_id"] for w in writes], ["tratados", "estado"])
+        mudou = dict(self.WTA, atualizadoEm="2026-11-30T08:00:00Z")
+        _, writes = self.rodar({"fatos": [], "descartados": []}, rankings={"ranking-wta.json": mudou},
+                               na_pagina={"ranking-wta": na_pagina}, extras=["--versao-ranking-wta", "2"])
+        self.assertEqual([w["doc_id"] for w in writes], ["ranking-wta", "tratados", "estado"])
+
+    WTA = {"atualizadoEm": "2026-11-19T08:00:00Z", "fonte": "ESPN", "buscadoEm": "2026-11-26T14:00:00Z",
+           "jogadores": [{"posicao": 1, "anterior": 1, "nome": "Elena Rybakina", "pais": "KAZ",
+                          "paisNome": "Kazakhstan", "pontos": 8099}]}
 
     def test_main_sem_fatos_so_atualiza_meta(self):
         _, writes = self.rodar({"fatos": [], "descartados": []})

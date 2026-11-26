@@ -38,7 +38,7 @@ coleta as notícias no próprio PC (isso leva alguns segundos). Imprime `H24 <da
 
 ## Passo 2 — Ler o banco da página
 
-Três chamadas `ArtifactData`, todas com `url` da página e
+Cinco chamadas `ArtifactData`, todas com `url` da página e
 `out_dir: C:/Users/Rafae/Claude/Tomas/Site/tarefa/trabalho/db`:
 
 1. `action: "get"`, `collection: "meta"`, `doc_id: "tratados"`. Anote a `version` mostrada
@@ -46,6 +46,8 @@ Três chamadas `ArtifactData`, todas com `url` da página e
 2. `action: "get"`, `collection: "meta"`, `doc_id: "estado"`. Anote a `version` (VE), se existir.
 3. `action: "query"`, `collection: "noticias"`,
    `query: {"where": [["criadoEm", ">=", "<H24>"]], "limit": 200}`.
+4. `action: "get"`, `collection: "meta"`, `doc_id: "ranking-atp"`. Anote a `version` (VRA), se existir.
+5. `action: "get"`, `collection: "meta"`, `doc_id: "ranking-wta"`. Anote a `version` (VRW), se existir.
 
 ## Passo 3 — Separar os candidatos
 
@@ -107,10 +109,10 @@ Grave `tarefa/trabalho/decisoes.json` (UTF-8) neste formato:
 ## Passo 5 — Montar as gravações
 
 ```bash
-python tarefa/montar_lote.py --noticias <NOTICIAS> --db tarefa/trabalho/db --decisoes tarefa/trabalho/decisoes.json --saida tarefa/trabalho/lote --versao-tratados <VT> --versao-estado <VE>
+python tarefa/montar_lote.py --noticias <NOTICIAS> --db tarefa/trabalho/db --decisoes tarefa/trabalho/decisoes.json --saida tarefa/trabalho/lote --versao-tratados <VT> --versao-estado <VE> --versao-ranking-atp <VRA> --versao-ranking-wta <VRW>
 ```
 
-Omita `--versao-tratados` se não havia VT, e `--versao-estado` se não havia VE.
+Omita cada `--versao-...` cuja versão não existia. Os rankings só entram no lote quando mudaram.
 
 ## Passo 6 — Gravar na página
 
