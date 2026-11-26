@@ -11,19 +11,19 @@ ninguém está acompanhando. Seja econômico: leia só os arquivos indicados aqu
 - Banco da página: ferramenta `ArtifactData`. Se ela não estiver carregada, carregue com
   `ToolSearch` (query `select:ArtifactData`).
 - Pasta de trabalho: `C:/Users/Rafae/Claude/Tomas/Site/tarefa/trabalho` (apagada a cada rodada)
-- Use a ferramenta Bash para os comandos abaixo.
+- Rode os comandos a partir da pasta do projeto. Todos são `python ...` e funcionam
+  igual no Bash e no PowerShell.
 
 ## Passo 1 — Pasta de trabalho, horários e notícias do robô
 
-```bash
-cd C:/Users/Rafae/Claude/Tomas/Site
-rm -rf tarefa/trabalho && mkdir -p tarefa/trabalho
-python -c "from datetime import datetime,timedelta,timezone as t; n=datetime.now(t.utc); f='%Y-%m-%dT%H:%M:%SZ'; print('H24', (n-timedelta(hours=24)).strftime(f)); print('D7', (n-timedelta(days=7)).strftime(f))"
-git pull --ff-only -q && echo "NOTICIAS=noticias.json" || (curl -sfL https://raw.githubusercontent.com/gomide83/noticias-tenis/main/noticias.json -o tarefa/trabalho/noticias.json && echo "NOTICIAS=tarefa/trabalho/noticias.json")
+```
+python tarefa/inicio.py
 ```
 
-Anote H24, D7 e o caminho NOTICIAS impresso. Se os dois jeitos de obter as notícias
-falharem, encerre respondendo "Sem acesso às notícias do robô."
+Ele limpa a pasta de trabalho, atualiza o repositório (`git pull`, ou baixa uma cópia do
+GitHub se o pull falhar) e imprime três linhas: `H24 <data>`, `D7 <data>` e
+`NOTICIAS <caminho>`. Anote os três. Se `NOTICIAS` for `NENHUM`, encerre respondendo
+"Sem acesso às notícias do robô."
 
 ## Passo 2 — Ler o banco da página
 
