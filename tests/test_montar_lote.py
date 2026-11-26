@@ -42,7 +42,7 @@ class TestMontarNoticia(unittest.TestCase):
         self.assertEqual(doc_id, "n-a")
         self.assertEqual(dados["fontes"], [{"nome": "ge", "link": "https://ge.com/a", "idioma": "pt"},
                                            {"nome": "BBC", "link": "https://bbc.com/b", "idioma": "en"}])
-        self.assertEqual(dados["publicadoEm"], iso(AGORA - timedelta(hours=3)))
+        self.assertEqual(dados["publicadoEm"], iso(AGORA - timedelta(hours=1)))  # a matéria mais recente
         self.assertEqual(dados["criadoEm"], iso(AGORA))
         self.assertEqual(dados["idsRobo"], ["a", "b", "c"])
         self.assertEqual(dados["titulo"], "Fonseca vence")

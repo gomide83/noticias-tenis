@@ -53,7 +53,7 @@ def montar_noticia(fato: dict, por_id: dict, agora: datetime):
         "resumo": resumo,
         "categoria": categoria if categoria in CATEGORIAS else "Outros",
         "fontes": fontes,
-        "publicadoEm": min(por_id[i]["publicadoEm"] for i in ids),
+        "publicadoEm": max(por_id[i]["publicadoEm"] for i in ids),
         "criadoEm": _iso(agora),
         "idsRobo": ids,
     }

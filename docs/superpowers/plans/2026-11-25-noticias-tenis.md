@@ -179,7 +179,7 @@ Workflow: `on: schedule: cron "*/30 * * * *"` e `workflow_dispatch`; `permission
 
 Formato de `decisoes.json` (escrito pelo Claude): `{"fatos": [{"titulo", "resumo", "categoria", "idsRobo": [...]}], "descartados": [ids]}`.
 
-Regras de `montar_noticia`: ignora ids desconhecidos; sem id válido → `None`; categoria fora da lista → `"Outros"`; `fontes` = `{nome: fonte, link}` de cada item do robô, sem repetir nome; `publicadoEm` = o menor dos itens; `criadoEm` = agora; `docId = "n-" + primeiro id válido`.
+Regras de `montar_noticia`: ignora ids desconhecidos; sem id válido → `None`; categoria fora da lista → `"Outros"`; `fontes` = `{nome: fonte, link}` de cada item do robô, sem repetir nome; `publicadoEm` = o mais recente dos itens; `criadoEm` = agora; `docId = "n-" + primeiro id válido`.
 `novos_tratados` = antigos ∪ ids dos fatos ∪ descartados, mantendo só os que ainda existem em `ids_atuais`.
 `meta/estado` = `{atualizadoEm: agora, coletaEm: robo.atualizadoEm, fontesComFalha, novasNaRodada: nº de fatos}`.
 
