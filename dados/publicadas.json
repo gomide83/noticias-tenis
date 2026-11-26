@@ -1,5 +1,29 @@
 [
  {
+  "titulo": "Britânicos se preparam para possível duelo com Alcaraz na semifinal da Copa Davis",
+  "resumo": "A Grã-Bretanha volta à semifinal da Copa Davis pela primeira vez desde 2019 e pode enfrentar a Espanha. Os duplistas Henry Patten e Neal Skupski disseram que jogar contra Carlos Alcaraz nas duplas seria fantástico. O capitão Leon Smith também deu conselhos a Arthur Fery para um possível confronto com o espanhol.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/henry-patten-and-neal-skupski-discuss-potentially-playing-carlos-alcaraz-in-davis-cup-doubles-it-will-be-fantastic/",
+    "idioma": "en"
+   },
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/leon-smith-advice-arthur-fery-170000222.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T17:30:00Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "f5c776f17d252563",
+   "2b5edb8ceece043c"
+  ],
+  "id": "n-f5c776f17d252563"
+ },
+ {
   "titulo": "Meligeni e Eduardo Ribeiro vão às quartas do Challenger de Florianópolis",
   "resumo": "Felipe Meligeni venceu o argentino Carlos Zarate por 6/2 e 6/1, em 58 minutos, e garantiu vaga nas quartas de final do Challenger 75 de Florianópolis, voltando ao top 300. Eduardo Ribeiro eliminou o principal favorito, o espanhol Max Alcalá, 131º do mundo, por 6/2 e 7/6. Igor Marcondes também venceu na segunda rodada, contra o suíço Johan Nikles, por 6/2 e 6/4.",
   "categoria": "Brasileiros",
@@ -30,6 +54,36 @@
    "cfbe8b1d29811eba"
   ],
   "id": "n-06bf897729d897db"
+ },
+ {
+  "titulo": "Alcaraz e Jódar reforçam amizade na busca da Espanha pelo título da Davis",
+  "resumo": "Carlos Alcaraz e Rafael Jódar devem ser as principais peças da Espanha na Copa Davis. Alcaraz falou sobre o que faz de Jódar um grande jogador, e o jovem retribuiu os elogios, dizendo que o compatriota é único.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV29lSmtjNGwyUzlUalEzMmVZZzdXSWFYaEZnSkhhX2p1bnBjUEVtamFrRGdHcDBRNHlRMFJEbTE4NjhQQlFBd2lMT3dsVkdBTDV2b2pVYXhTUWJhVGxZc180emV3R1dveHBXbEFrU3pUeEY5UUhzVXZQclRZVEl0aXpaNlhZMldWeG1rYXRUd1o1RWFvZnNGcXhhRU1pZWJzdmNLMTI1YmNha29uLWh3eEpqZS1EZGs4bm9tc0FxRGFMVDFVMGF2NW5rMFZ2NV9QbGUwTXln?oc=5",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONk5ZTVJobHdULTNpV0ZlSDNaQkloclhhQjlEdHdPXzdERFJGN0NtOVB1V3dvVkRZal8zV0xlblJKTG9MYTg2TlVZUmZfNzUtTzJhekx6YnRGWG14TTRBYV9paXh4REVrZVN2NmZyTjQwN25IRl8tQVMzclRHWmhjX3FqcVphNmFPaFlqUGxOUzVVMnlFMHdzd05CeVBMUQ?oc=5",
+    "idioma": "pt"
+   },
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/carlos-alcaraz-tells-rafael-jodar-100000655.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T17:00:33Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "c3e5fb08987f50be",
+   "f4232aeacbf68f88",
+   "0fec410016fb44da"
+  ],
+  "id": "n-c3e5fb08987f50be"
  },
  {
   "titulo": "Cobolli desabafa após derrota na Davis e diz que não merece seu ranking",
@@ -193,6 +247,24 @@
    "e44b70a0d4e85f81"
   ],
   "id": "n-e44b70a0d4e85f81"
+ },
+ {
+  "titulo": "Especialista vê perda de peso de Sinner como preocupação após lesão no joelho",
+  "resumo": "Em entrevista ao Tennis365, o especialista em prevenção de lesões Stephen Smith disse que a perda de peso de Jannik Sinner é uma preocupação real. Ele descreveu a lesão do italiano como \"muito irritável\".",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-features/jannik-sinner-weight-loss-concern-injury-leading-expert-interview",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T16:15:06Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "44cb613a82732dd8"
+  ],
+  "id": "n-44cb613a82732dd8"
  },
  {
   "titulo": "ATP Finals bate recorde de público em Turim mesmo sem Sinner",
@@ -365,6 +437,30 @@
   "id": "n-0f69b4a516cc2480"
  },
  {
+  "titulo": "Alcaraz adota técnica de Pete Sampras para melhorar o saque",
+  "resumo": "Carlos Alcaraz, número 3 do mundo, incorporou ao saque uma técnica usada por Pete Sampras, um dos maiores sacadores da história. Segundo apuração do jornal espanhol Marca, a mudança busca dar mais equilíbrio ao movimento do espanhol.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/carlos-alcaraz-has-copied-pete-sampras-by-making-a-technical-change-to-his-serve",
+    "idioma": "en"
+   },
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/alcaraz-tecnica-sampras-aprimorar-saque/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T12:21:00Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "c99ddc95006f8e1d",
+   "6b83cef9cb6a1892"
+  ],
+  "id": "n-c99ddc95006f8e1d"
+ },
+ {
   "titulo": "TenisBrasil lista 20 nomes da nova geração brasileira para acompanhar em 2027",
   "resumo": "Com o fim da temporada da elite da ATP e da WTA, o TenisBrasil apresentou vinte jovens tenistas brasileiros para acompanhar em 2027. A lista destaca nomes que vivem um momento de transição para o circuito profissional.",
   "categoria": "Brasileiros",
@@ -399,6 +495,216 @@
    "1d6e2e3523958167"
   ],
   "id": "n-1d6e2e3523958167"
+ },
+ {
+  "titulo": "Musetti comenta barulho da torcida após vitória da Itália na Copa Davis",
+  "resumo": "A Itália foi à semifinal da Copa Davis depois de passar por um susto contra a Coreia do Sul em Bolonha. Lorenzo Musetti, que venceu sua partida, fez comentários sobre o barulho da torcida durante o jogo.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/lorenzo-musetti-makes-crowd-noise-110000551.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T11:00:00Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "8e5f859b01b20958"
+  ],
+  "id": "n-8e5f859b01b20958"
+ },
+ {
+  "titulo": "Gauff rebate quem pediu que ela voltasse a treinar logo após o fim da temporada",
+  "resumo": "Coco Gauff respondeu com bom humor a pessoas que a aconselharam a voltar aos treinos poucos dias depois do fim da temporada. A americana começou 2026 em 3 de janeiro, na United Cup, e só encerrou o ano ao ajudar os Estados Unidos a vencer a Hungria na Billie Jean King Cup, em 21 e 22 de novembro.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/coco-gauff-drops-animated-response-103540069.html",
+    "idioma": "en"
+   },
+   {
+    "nome": "EssentiallySports",
+    "link": "https://www.essentiallysports.com/tennis-news-coco-gauff-hits-back-after-being-told-to-return-to-court-just-after-season-ends/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T10:35:40Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "28f145c79f3896ab",
+   "b6bd550adc2cf439"
+  ],
+  "id": "n-28f145c79f3896ab"
+ },
+ {
+  "titulo": "Trinity Rodman se manifesta após fim do namoro com Ben Shelton",
+  "resumo": "A jogadora de futebol Trinity Rodman, da seleção dos Estados Unidos, publicou uma mensagem enigmática nas redes sociais após surgirem notícias do fim do relacionamento com Ben Shelton, quarto do mundo. Os dois estavam juntos havia quase dois anos. Ela não deu explicações sobre o término.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/rodman-se-pronuncia-shelton-termino-relacionamento/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "EssentiallySports",
+    "link": "https://www.essentiallysports.com/tennis-news-trinity-rodman-sends-cryptic-message-amid-ben-shelton-split-reports/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T10:08:30Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "f1e653819dd4f4f3",
+   "593ca8e090e85b41"
+  ],
+  "id": "n-f1e653819dd4f4f3"
+ },
+ {
+  "titulo": "Connors prevê que Sinner ficará quase um ano fora das quadras",
+  "resumo": "O ex-número 1 Jimmy Connors foi categórico ao comentar a situação de Jannik Sinner após a cirurgia no joelho: para ele, o italiano vai ficar fora por quase um ano.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPd0FIM1hTWFdKQm9OWGlPYzNSeTVEazZxV1o2anZYRE81Mk4xS1BPeXlOQUxTYmltZnY4UG1HZVJCZDdSeVN1My1QcHhrSEZmSTVaRHVHWEl5UFFDNG81ZnpaUzhiQXNOSWtuNGZuNGRRTGI2R1RFT1pFbGxIamlZXzlMUGhRSTRHM0NUVlNuR01KTlJxbHhESmtnN1F4OTJ2U1BVNTQzbm9JbXlJUXNnU1BuREpuTFlwbDZjaWJDdDZJVXdhdDc5WG1OZVZtcDIycjRIZHpRSnplUWFUbmREWVpyLWdPN3g1UUh1c3dpcVNqdjUt?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T10:00:35Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "4645512ab61511ce"
+  ],
+  "id": "n-4645512ab61511ce"
+ },
+ {
+  "titulo": "Patten admite que errou na forma como desfez a dupla com Heliovaara",
+  "resumo": "Henry Patten reconheceu publicamente que a maneira como encerrou a parceria com Harri Heliovaara não foi justa. A decisão pegou o finlandês de surpresa, já que os dois tinham combinado seguir juntos em 2027. O britânico se manifestou depois que Heliovaara contou, emocionado, como se sentiu.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "EssentiallySports",
+    "link": "https://www.essentiallysports.com/tennis-news-unfair-of-me-world-no-one-publicly-acknowledges-mistake-after-abruptly-ditching-partner-over-call/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T09:48:53Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "a6f3e283d24944fc"
+  ],
+  "id": "n-a6f3e283d24944fc"
+ },
+ {
+  "titulo": "Ação da On no evento de Federer e João Fonseca no Pacaembu é questionada",
+  "resumo": "O site MKT Esportivo questiona se a ativação de marketing da On no evento entre Roger Federer e João Fonseca, no Mercado Livre Arena Pacaembu, teve o efeito contrário ao esperado. A reportagem analisa a estratégia da marca no encontro dos dois tenistas.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "MKT Esportivo",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdHBtZlpHZ1RQMFJMaFZJT05URktfOFBkOTNaSEpXRUltUFR6YWhhZEVCRV9SN09XdGctbXBVRW9jdENibUd0VFFrOVM5SzNnNmV2ZzZQN3ZLa3VEUmIxc2lBWEV2SllxdjJIa1ZuMTRleVJ0Sy1NZjhVTllVZVpYRFQ1c0p6VkVQM0M2V04ycTQxYjhjcXlZUnpqSm5OSWZjSDc1ZEFWTlVQU3RWaV81X3Y3MnA5NGhhLVBtcURQTmZpYTJONGc?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T09:43:19Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "b898d3727a2f2839"
+  ],
+  "id": "n-b898d3727a2f2839"
+ },
+ {
+  "titulo": "Há 28 anos, Sampras garantiu o sexto fim de ano seguido como número 1",
+  "resumo": "Em 26 de novembro de 1998, Pete Sampras assegurou pela sexta temporada consecutiva o posto de número 1 do mundo ao fim do ano, um recorde. Para isso, o americano encarou uma maratona de torneios depois do US Open.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Tennis Majors",
+    "link": "https://www.tennismajors.com/atp/november-26-1998-the-day-sampras-locked-up-his-record-sixth-year-end-no-1-ranking-309661.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T09:28:20Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "37ad8119142cdab0"
+  ],
+  "id": "n-37ad8119142cdab0"
+ },
+ {
+  "titulo": "Eala fala do orgulho de fazer parte de uma geração de ouro do esporte filipino",
+  "resumo": "Alexandra Eala contou como se sente ao fazer parte de uma geração de atletas filipinos que vem se destacando. Mesmo com a temporada encerrada, a tenista segue com a agenda cheia.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/alex-eala-shares-how-it-feels-to-be-a-part-of-a-golden-generation-of-sport-in-the-philippines-were-all-excelling/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T09:00:00Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "0039834fb042dc15"
+  ],
+  "id": "n-0039834fb042dc15"
+ },
+ {
+  "titulo": "Svitolina vê provocação em elogio de Andreeva após final do WTA Finals",
+  "resumo": "Elina Svitolina, vice-campeã do WTA Finals, disse que os comentários feitos pela russa Mirra Andreeva após a partida soaram como provocação. O episódio trouxe mais uma polêmica ao circuito feminino nesta semana.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/why-andreeva-praise-svitolina-taken-073818302.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T07:38:18Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "6a9d90d44d766357"
+  ],
+  "id": "n-6a9d90d44d766357"
+ },
+ {
+  "titulo": "Andreeva aceita apelido de \"diva\" dado por Pegula e encerra mal-estar",
+  "resumo": "Durante o WTA Finals, um microfone captou Jessica Pegula chamando Mirra Andreeva de \"diva\" em um treino. Houve especulação sobre um atrito entre as duas, mas elas conversaram e resolveram a situação. Andreeva acabou abraçando o apelido.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "EssentiallySports",
+    "link": "https://www.essentiallysports.com/tennis-news-mirra-andreeva-embraces-jessica-pegulas-diva-label-before-delivering-a-brutal-reality-check/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T05:42:02Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "9a8040505847e293"
+  ],
+  "id": "n-9a8040505847e293"
+ },
+ {
+  "titulo": "Vendaval adia jogo de Lucas Andrade no Challenger de El Salvador",
+  "resumo": "O forte vento que interrompeu três vezes a partida de Guto Miguel em San Salvador também provocou o adiamento do jogo de outro brasileiro. Lucas Andrade, 574º do ranking, enfrentaria o tenista da casa Diego Durán e agora joga na quinta-feira. O Challenger 50 de San Salvador é disputado em quadra dura e distribui US$ 63 mil em prêmios.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/vendaval-que-atrapalhou-guto-miguel-adia-jogo-brasileiro-el-salvador/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T03:04:18Z",
+  "criadoEm": "2026-11-26T17:37:31Z",
+  "idsRobo": [
+   "36c44cc1721438f4"
+  ],
+  "id": "n-36c44cc1721438f4"
  },
  {
   "categoria": "ATP",
