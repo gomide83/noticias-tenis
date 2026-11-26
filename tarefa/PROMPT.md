@@ -112,6 +112,19 @@ Leia `tarefa/trabalho/lote/writes.json` e chame `ArtifactData` com `action: "bat
 da página e `writes` igual a essa lista, sem mudar nada. Se o batch for recusado por versão
 desatualizada, refaça os Passos 2, 5 e 6 uma única vez.
 
+## Passo 6b — Publicar no site aberto
+
+Só depois que o batch do Passo 6 der certo:
+
+```
+python tarefa/publicar_site.py --lote tarefa/trabalho/lote
+```
+
+Ele junta as notícias novas ao site aberto Tênis Notícias
+(https://gomide83.github.io/noticias-tenis/), guarda só os últimos 7 dias e envia ao
+GitHub, que publica sozinho. Se imprimir uma falha ao enviar, siga em frente: a próxima
+rodada envia de novo.
+
 ## Passo 7 — Apagar notícias antigas
 
 `ArtifactData` `action: "query"`, `collection: "noticias"`,
@@ -122,3 +135,4 @@ apague todos com um `batch` de entradas `{"op": "delete", "collection": "noticia
 ## Passo 8 — Resposta final
 
 Uma linha: "<N> notícias publicadas, <M> descartadas, fontes com falha: <lista ou nenhuma>."
+Se o Passo 6b falhou, acrescente: "Site aberto não atualizado."
