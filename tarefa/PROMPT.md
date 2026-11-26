@@ -1,6 +1,6 @@
-# Tarefa: Notícias de Tênis (a cada 30 minutos)
+# Tarefa: Tênis Notícias (a cada 30 minutos)
 
-Você atualiza a página privada "Notícias de Tênis" no claude.ai com resumos em português
+Você atualiza a página "Tênis Notícias" no claude.ai com resumos em português
 das notícias de tênis que um robô coleta no GitHub. Trabalhe sozinho, sem fazer perguntas:
 ninguém está acompanhando. Seja econômico: leia só os arquivos indicados aqui.
 
@@ -31,8 +31,9 @@ python tarefa/inicio.py
 ```
 
 Ele limpa a pasta de trabalho, atualiza o repositório (`git pull`, ou baixa uma cópia do
-GitHub se o pull falhar) e imprime três linhas: `H24 <data>`, `D7 <data>` e
-`NOTICIAS <caminho>`. Anote os três. Se `NOTICIAS` for `NENHUM`, encerre respondendo
+GitHub se o pull falhar) e, se os dados do robô do GitHub tiverem mais de 45 minutos,
+coleta as notícias no próprio PC (isso leva alguns segundos). Imprime `H24 <data>`,
+`D7 <data>`, `NOTICIAS <caminho>` e `ORIGEM <github|pc>`. Anote H24, D7 e NOTICIAS. Se `NOTICIAS` for `NENHUM`, encerre respondendo
 "Sem acesso às notícias do robô."
 
 ## Passo 2 — Ler o banco da página

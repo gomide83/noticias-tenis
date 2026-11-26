@@ -1,10 +1,14 @@
 """Passo 1 da tarefa: limpa a pasta de trabalho, calcula os horários e
 atualiza as notícias do robô. Funciona igual no Bash e no PowerShell.
 
-Uso: python tarefa/inicio.py
-Imprime três linhas: H24 <iso>, D7 <iso> e NOTICIAS <caminho ou NENHUM>.
-"""
+Se os dados do robô do GitHub tiverem mais de 45 minutos (o agendamento gratuito
+do GitHub atrasa ou pula execuções), coleta as notícias aqui mesmo no PC, numa
+cópia dentro da pasta de trabalho, sem mexer no noticias.json do repositório.
 
+Uso: python tarefa/inicio.py
+Imprime: H24 <iso>, D7 <iso>, NOTICIAS <caminho ou NENHUM> e ORIGEM <github|pc>.
+"""
+import json
 import os
 import shutil
 import subprocess
@@ -15,6 +19,7 @@ from datetime import datetime, timedelta, timezone
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 URL_COPIA = "https://raw.githubusercontent.com/gomide83/noticias-tenis/main/noticias.json"
 FORMATO = "%Y-%m-%dT%H:%M:%SZ"
+LIMITE_DADOS = timedelta(minutes=45)
 
 
 def horarios(agora: datetime) -> dict:
@@ -45,6 +50,21 @@ def baixar_copia(destino: str) -> bool:
     return True
 
 
+def idade_dos_dados(caminho: str, agora: datetime):
+    try:
+        with open(caminho, encoding="utf-8") as arquivo:
+            atualizado = json.load(arquivo)["atualizadoEm"]
+        return agora - datetime.strptime(atualizado, FORMATO).replace(tzinfo=timezone.utc)
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+
+
+def coletar_no_pc(destino: str) -> None:
+    sys.path.insert(0, os.path.join(RAIZ, "coletor"))
+    import coletar
+    coletar.main(caminho_saida=destino)
+
+
 def main(raiz: str = RAIZ, agora=None) -> dict:
     agora = agora or datetime.now(timezone.utc)
     trabalho = os.path.join(raiz, "tarefa", "trabalho")
@@ -58,7 +78,21 @@ def main(raiz: str = RAIZ, agora=None) -> dict:
         copia = os.path.join(trabalho, "noticias.json")
         resultado["NOTICIAS"] = copia if baixar_copia(copia) else None
 
-    for chave in ("H24", "D7", "NOTICIAS"):
+    resultado["ORIGEM"] = "github"
+    noticias = resultado["NOTICIAS"]
+    idade = idade_dos_dados(noticias, agora) if noticias else None
+    if idade is not None and idade > LIMITE_DADOS:
+        copia = os.path.join(trabalho, "noticias.json")
+        if os.path.abspath(noticias) != os.path.abspath(copia):
+            shutil.copyfile(noticias, copia)
+        try:
+            coletar_no_pc(copia)
+            resultado["ORIGEM"] = "pc"
+        except Exception as erro:  # sem coleta local, segue com os dados do GitHub
+            print(f"coleta no PC falhou: {erro}", file=sys.stderr)
+        resultado["NOTICIAS"] = copia
+
+    for chave in ("H24", "D7", "NOTICIAS", "ORIGEM"):
         print(chave, resultado[chave] or "NENHUM")
     return resultado
 
