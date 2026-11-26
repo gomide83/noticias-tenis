@@ -6,7 +6,6 @@
  {"id": "estadao", "nome": "Estadão", "url": "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/esportes/tenis/", "idioma": "pt", "exigeTermo": true},
  {"id": "terra", "nome": "Terra", "url": "https://www.terra.com.br/esportes/tenis/rss.xml", "idioma": "pt"},
  {"id": "bbc", "nome": "BBC Sport", "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml", "idioma": "en"},
- {"id": "espn", "nome": "ESPN", "url": "https://www.espn.com/espn/rss/tennis/news", "idioma": "en"},
  {"id": "guardian", "nome": "The Guardian", "url": "https://www.theguardian.com/sport/tennis/rss", "idioma": "en"},
  {"id": "skysports", "nome": "Sky Sports", "url": "https://www.skysports.com/rss/12110", "idioma": "en"},
  {"id": "yahoo", "nome": "Yahoo Sports", "url": "https://sports.yahoo.com/tennis/rss/", "idioma": "en"},
