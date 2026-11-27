@@ -1,5 +1,47 @@
 [
  {
+  "titulo": "Presidente da XP compara João Fonseca a Ayrton Senna",
+  "resumo": "Guilherme Benchimol, fundador e presidente da XP Investimentos, explicou por que se aproximou de João Fonseca, atual 46º do ranking da ATP, e apontou semelhanças entre o jovem brasileiro e Ayrton Senna. Benchimol pratica tênis e disputa o circuito Masters da World Tennis.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/presidente-xp-semelhanca-fonseca-senna/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T19:35:29Z",
+  "criadoEm": "2026-11-27T19:37:24Z",
+  "idsRobo": [
+   "7dc4ec8540b9f006"
+  ],
+  "id": "n-7dc4ec8540b9f006"
+ },
+ {
+  "titulo": "Lehecka vence Cobolli e semifinal entre Itália e Tchéquia na Davis vai às duplas",
+  "resumo": "Jiri Lehecka derrotou Flavio Cobolli em três sets, em 1h41, e empatou em 1 a 1 a semifinal da Copa Davis entre República Tcheca e Itália, em Bolonha. Antes, Lorenzo Musetti havia vencido Jakub Mensik. A vaga na final será decidida nas duplas, e Lehecka ainda jogará contra Musetti. Foi a sexta derrota seguida de Cobolli.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/lehecka-empata-tchecos-semi-davis/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/lehecka-frustra-cobolli-e-ainda-jogara-duplas-contra-musetti.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T19:12:32Z",
+  "criadoEm": "2026-11-27T19:37:24Z",
+  "idsRobo": [
+   "abc7d2db9905ac12",
+   "21c48564de8903b1"
+  ],
+  "id": "n-abc7d2db9905ac12"
+ },
+ {
   "titulo": "Madison Keys e Tim Henman opinam se Mirra Andreeva chegará ao número 1 em 2027",
   "resumo": "Madison Keys e Tim Henman deram suas previsões sobre a chance de Mirra Andreeva se tornar número 1 do mundo em 2027. A russa venceu o WTA Finals no fim da temporada de 2026, resultado que a colocou em posição de brigar pelo topo do ranking.",
   "categoria": "WTA",
@@ -16,6 +58,24 @@
    "fa94b3022a1dfee0"
   ],
   "id": "n-fa94b3022a1dfee0"
+ },
+ {
+  "titulo": "Tenista americano deve substituir Sinner no Six Kings Slam",
+  "resumo": "Jannik Sinner foi obrigado a desistir da exibição Six Kings Slam por causa de lesão. Segundo o Tennis365, um tenista americano deve ocupar a vaga do italiano.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/who-will-replace-jannik-sinner-at-six-kings-slam-american-star-set-to-step-in",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T18:00:57Z",
+  "criadoEm": "2026-11-27T19:37:24Z",
+  "idsRobo": [
+   "fcae75618b841e47"
+  ],
+  "id": "n-fcae75618b841e47"
  },
  {
   "titulo": "Madison Keys explica o que é \"assustador\" em Carlos Alcaraz antes da temporada 2027",
@@ -316,6 +376,24 @@
    "17250867be025617"
   ],
   "id": "n-17250867be025617"
+ },
+ {
+  "titulo": "Como os Grand Slams vêm adotando medidas de sustentabilidade",
+  "resumo": "Reportagem do Yahoo Sports mostra como os quatro Grand Slams estão se tornando mais sustentáveis, com energia renovável, copos reutilizáveis e a meta de emissão líquida zero de Wimbledon. O texto aponta as viagens como o problema mais difícil de resolver.",
+  "categoria": "Grand Slam",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/tennis-grand-slams-embraced-sustainability-150003190.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:00:03Z",
+  "criadoEm": "2026-11-27T19:37:24Z",
+  "idsRobo": [
+   "07c3b3d62c372f20"
+  ],
+  "id": "n-07c3b3d62c372f20"
  },
  {
   "titulo": "Nadal reflete se a rivalidade com Federer ajudou sua carreira",
