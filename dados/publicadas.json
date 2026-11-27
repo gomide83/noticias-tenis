@@ -1,5 +1,41 @@
 [
  {
+  "titulo": "Igor Marcondes vence o terceiro favorito e vai à semifinal do Challenger de Florianópolis",
+  "resumo": "Igor Marcondes derrotou nesta sexta-feira o argentino Guido Justo, terceiro favorito e 179º do ranking, e se garantiu na semifinal do Challenger 75 de Florianópolis, disputado no saibro. O brasileiro virou a partida e, com o resultado, terá um salto no ranking. Marcondes é atleta da ADK Tennis, do Itamirim Clube de Campo, em Itajaí (SC).",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/marcondes-vira-favorito-semi-florianopolis-salto/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:02:24Z",
+  "criadoEm": "2026-11-27T16:07:31Z",
+  "idsRobo": [
+   "83d94903cb724eab"
+  ],
+  "id": "n-83d94903cb724eab"
+ },
+ {
+  "titulo": "Henman discorda do que tem sido dito sobre Djokovic em 2026",
+  "resumo": "O ex-tenista britânico Tim Henman disse discordar totalmente de algumas opiniões que circularam sobre Novak Djokovic nesta temporada. O sérvio segue dividindo opiniões sobre o que deve fazer a seguir, depois de um 2026 de resultados irregulares, que começou de forma impressionante.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/tim-henman-calls-out-what-some-people-have-been-saying-about-novak-djokovic-this-year-i-totally-disagree/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:00:00Z",
+  "criadoEm": "2026-11-27T16:07:31Z",
+  "idsRobo": [
+   "154e9eced217a10c"
+  ],
+  "id": "n-154e9eced217a10c"
+ },
+ {
   "titulo": "Ex-tenista da ATP diz que Zverev mereceu chegar ao número 1 do mundo",
   "resumo": "Um ex-jogador da ATP defendeu Alexander Zverev das críticas ao seu posto de número 1 do mundo. \"Ele ser número 1 do mundo é totalmente merecido\", afirmou, acrescentando que o alemão chegou lá por mérito.",
   "categoria": "ATP",
@@ -16,6 +52,24 @@
    "bb8439a45e84237f"
   ],
   "id": "n-bb8439a45e84237f"
+ },
+ {
+  "titulo": "Alcaraz agradece ao fisioterapeuta: \"Uma vez mais, superamos a adversidade\"",
+  "resumo": "Carlos Alcaraz publicou uma mensagem de agradecimento ao seu fisioterapeuta. No texto, o espanhol diz que, mais uma vez, os dois superaram a adversidade.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Bola Amarela",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFo5cW45SHBCX1pTeGk5WlFLTzZPOVNCSlgwSVV6QTY5YzFEUmV1WDhCUGpXaDZWSUVFS2ltdW12UHBkbnFTb082STcwOWh3ZWFyTTVjVUlTNGxQQncySklmMVNmM2R3eG9UM29UUHp5Qk5DaktFeFo3R2EzSkZaOUZVamNRUTdYSUhlY2RGRXJXbHNoRnp4MURUQkZabzZkQy1wbC1jRXhxbFl5MnR4ay13?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:29:18Z",
+  "criadoEm": "2026-11-27T16:07:31Z",
+  "idsRobo": [
+   "4c839c9c55191917"
+  ],
+  "id": "n-4c839c9c55191917"
  },
  {
   "titulo": "Alcaraz treina e fica à disposição da Espanha na Copa Davis",
@@ -270,6 +324,24 @@
    "8b1732c2f94f71a6"
   ],
   "id": "n-8be57389d53159b4"
+ },
+ {
+  "titulo": "Mensik dá mais um passo rumo à elite em 2026, com semifinal em Roland Garros",
+  "resumo": "O tcheco Jakub Mensik manteve sua ascensão no circuito em 2026 e se firmou como um dos jovens mais promissores da ATP. Ele começou o ano com um título em Auckland, chegou à sua primeira semifinal de Grand Slam em Roland Garros e alcançou o melhor ranking da carreira.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/jakub-mensik-2026-season-recap-124521409.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T12:45:21Z",
+  "criadoEm": "2026-11-27T16:07:31Z",
+  "idsRobo": [
+   "8501d2e604541223"
+  ],
+  "id": "n-8501d2e604541223"
  },
  {
   "titulo": "Bia Haddad planeja voltar ao circuito no primeiro semestre de 2027",
