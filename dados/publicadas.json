@@ -1,5 +1,29 @@
 [
  {
+  "titulo": "Meligeni vence Zanellato e enfrenta Marcondes por vaga na final em Florianópolis",
+  "resumo": "Felipe Meligeni derrotou Nicolas Zanellato em duelo brasileiro nesta sexta-feira e avançou à semifinal do Challenger 75 de Florianópolis (SC). Zanellato vinha de vitória sobre o cabeça 2 do torneio. Na semifinal, Meligeni enfrenta Igor Marcondes, que também venceu nesta sexta, o que garante um brasileiro na final, disputada no saibro do Lagoa Iate Clube.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/meligeni-vai-semi-florianopolis/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/marcondes-e-meligeni-duelam-por-final-em-florianopolis.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T17:54:04Z",
+  "criadoEm": "2026-11-27T18:07:28Z",
+  "idsRobo": [
+   "e56eb1b212bacda1",
+   "ae1cc387af93cd52"
+  ],
+  "id": "n-e56eb1b212bacda1"
+ },
+ {
   "titulo": "Musetti vence Mensik e deixa a Itália a uma vitória da final da Copa Davis",
   "resumo": "Lorenzo Musetti abriu a semifinal da Copa Davis contra a República Tcheca, nesta sexta-feira, em Bolonha, com vitória sobre Jakub Mensik por 6/3 e 6/4, em 1h26 de partida. O italiano não perdeu o saque durante todo o confronto. Com o resultado, a Itália fica a uma vitória de sua quarta final consecutiva, e Flavio Cobolli enfrenta Jiri Lehecka no segundo jogo. Quem passar encara o vencedor de Espanha x Grã-Bretanha.",
   "categoria": "ATP",
