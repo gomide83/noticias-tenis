@@ -1,5 +1,23 @@
 [
  {
+  "titulo": "Nadal reflete se a rivalidade com Federer ajudou sua carreira",
+  "resumo": "Rafael Nadal falou sobre a pergunta de se Roger Federer de fato ajudou sua carreira no tênis. Segundo o Tennishead, é impossível citar a trajetória lendária do espanhol sem mencionar o suíço, seu grande rival.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/rafael-nadal-reflects-on-whether-roger-federer-actually-helped-his-tennis-career/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:00:00Z",
+  "criadoEm": "2026-11-27T15:07:43Z",
+  "idsRobo": [
+   "2c3b48efc6e4d0c3"
+  ],
+  "id": "n-2c3b48efc6e4d0c3"
+ },
+ {
   "titulo": "Fery manda recado antes de enfrentar Alcaraz na semifinal da Copa Davis",
   "resumo": "O britânico Arthur Fery comentou suas expectativas para o duelo deste sábado contra Carlos Alcaraz, pelas semifinais da Copa Davis, em Bolonha, na Itália. A Espanha chega ao confronto com a Grã-Bretanha depois de vencer a Áustria sem Alcaraz em quadra.",
   "categoria": "ATP",
@@ -373,6 +391,24 @@
    "a75c62d0cffe58c3"
   ],
   "id": "n-a75c62d0cffe58c3"
+ },
+ {
+  "titulo": "Alcaraz busca feito inédito até para o Big Three: ATP Finals e Copa Davis no mesmo ano",
+  "resumo": "Depois de conquistar o ATP Finals em Turim, Carlos Alcaraz chegou a Bolonha com a chance de também vencer a Copa Davis na mesma temporada. Segundo o Yahoo Sports, é um feito que nem Federer, Nadal e Djokovic conseguiram. O espanhol defende a Espanha na fase final da competição.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/carlos-alcaraz-chasing-feat-even-114504790.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T11:45:04Z",
+  "criadoEm": "2026-11-27T15:07:43Z",
+  "idsRobo": [
+   "20d732729b28a7eb"
+  ],
+  "id": "n-20d732729b28a7eb"
  },
  {
   "titulo": "Dan Evans jogará exibição polêmica na Rússia",
