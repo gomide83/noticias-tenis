@@ -1,5 +1,41 @@
 [
  {
+  "titulo": "Ex-tenista da ATP diz que Zverev mereceu chegar ao número 1 do mundo",
+  "resumo": "Um ex-jogador da ATP defendeu Alexander Zverev das críticas ao seu posto de número 1 do mundo. \"Ele ser número 1 do mundo é totalmente merecido\", afirmou, acrescentando que o alemão chegou lá por mérito.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/alexander-zverevs-world-no-1-ranking-totally-deserved-as-former-atp-star-says-he-reached-it-on-merit",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:30:31Z",
+  "criadoEm": "2026-11-27T15:37:25Z",
+  "idsRobo": [
+   "bb8439a45e84237f"
+  ],
+  "id": "n-bb8439a45e84237f"
+ },
+ {
+  "titulo": "Alcaraz treina e fica à disposição da Espanha na Copa Davis",
+  "resumo": "Carlos Alcaraz treinou e está à disposição da equipe espanhola na Copa Davis, segundo o LANCE!.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "LANCE!",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZlY4Q2lBNHZhVTROakhUcS1JdnVUVHM1dWI4YlBJWllnYUFMSVZYWlhNa3FPZWJnWjZLLWRGcl9tb0VMN0xrWUlwTnhNSmYwak1NQkJSREtIWWVmaFh6SzRoejNrYkJrOWVVYWx0VFZvU3VseGM1WVM0WHFmandSaWZFbWNBeGk2NE5HZWd5QUM?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:23:07Z",
+  "criadoEm": "2026-11-27T15:37:25Z",
+  "idsRobo": [
+   "17250867be025617"
+  ],
+  "id": "n-17250867be025617"
+ },
+ {
   "titulo": "Nadal reflete se a rivalidade com Federer ajudou sua carreira",
   "resumo": "Rafael Nadal falou sobre a pergunta de se Roger Federer de fato ajudou sua carreira no tênis. Segundo o Tennishead, é impossível citar a trajetória lendária do espanhol sem mencionar o suíço, seu grande rival.",
   "categoria": "Outros",
@@ -16,6 +52,24 @@
    "2c3b48efc6e4d0c3"
   ],
   "id": "n-2c3b48efc6e4d0c3"
+ },
+ {
+  "titulo": "Só um número 1 de fim de ano teve aproveitamento pior que Zverev contra o top 10",
+  "resumo": "Boa parte das críticas a Alexander Zverev desde que virou número 1 do mundo vem de seu fraco desempenho contra tenistas do top 10 nesta temporada. Segundo o Yahoo Sports, apenas um número 1 de fim de ano na história teve aproveitamento menor contra o top 10 que o alemão.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/only-end-number-one-history-150000916.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T15:00:00Z",
+  "criadoEm": "2026-11-27T15:37:25Z",
+  "idsRobo": [
+   "432a90e33643948c"
+  ],
+  "id": "n-432a90e33643948c"
  },
  {
   "titulo": "Fery manda recado antes de enfrentar Alcaraz na semifinal da Copa Davis",
