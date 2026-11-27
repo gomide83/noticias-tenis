@@ -1,5 +1,29 @@
 [
  {
+  "titulo": "Alcaraz se surpreende com a aposentadoria de Marc Márquez: \"Não, caramba\"",
+  "resumo": "Carlos Alcaraz reagiu com surpresa ao saber da aposentadoria de Marc Márquez. Segundo as manchetes de O Tempo e do LANCE!, a reação do espanhol foi: \"Não, caramba\".",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "O Tempo",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMDZ2TDlwYlU0WDFRblhBY2pZNG1wYWlvMnJiTm90RzBlaUxsU2ExMkpSbVBmeEdMUU5HMjMyTG9Ca1k5aHBZNVNlRUt1TkVQaWVraDd3d2tiNFExUGZjYU1DRG5pdUlhYmVHaXdmOWJDNlJhQnZtcUp0WXQ4aEt6QzFtUEtVTG9Gc283Skt6UWdfbEJPOE1oRGhVZ2t3V3dUM1RZVUVpU3VMVFlyRklVVndR?oc=5",
+    "idioma": "pt"
+   },
+   {
+    "nome": "LANCE!",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTVdDRVd1SW9KTmp6VVZENXlTU08tYUxzall3US1SOFZjMFE3YlduMmgzVnVkMGx3ZGVmSnFoUnpqZzlnZ2k3TFAwODM1bW45TDZCdUFmY3BuZ2ZwZzBaNkZZQW9TMkFZMGs0UW5uYWRuUF9nenRQUkR4ZEhCNDhzTEgySHZ5aW5ScHN5ag?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T13:15:05Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "8f3b3db1073f84c1",
+   "069e7dfc423840cf"
+  ],
+  "id": "n-8f3b3db1073f84c1"
+ },
+ {
   "titulo": "Ferrer confirma Alcaraz na semifinal da Copa Davis contra a Grã-Bretanha",
   "resumo": "O capitão da Espanha, David Ferrer, disse que conta com Carlos Alcaraz para a semifinal da Copa Davis contra a Grã-Bretanha, neste sábado, em Bolonha. O número 3 do mundo foi poupado das simples na vitória por 2 a 0 sobre a Áustria. Ferrer também comentou os pontos fortes da equipe britânica.",
   "categoria": "ATP",
@@ -30,6 +54,24 @@
    "1af00c5a23a74cd4"
   ],
   "id": "n-a31cbedffda63fcd"
+ },
+ {
+  "titulo": "Torneio Masters reúne ex-tenistas brasileiros em Curitiba a partir desta sexta",
+  "resumo": "Começa nesta sexta-feira, 27 de novembro, no Graciosa Country Club, em Curitiba, a segunda etapa do circuito Masters em 2026. Franco Ferreiro, Julio Silva, Julio Goes, Marcio Carlsson, Carla Tiene e Andreia Vieira estão entre os destaques do torneio.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/masters-comeca-sexta-curitiba-grandes-nomes/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T12:59:26Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "a1b6c7dd4cb0400c"
+  ],
+  "id": "n-a1b6c7dd4cb0400c"
  },
  {
   "titulo": "Landaluce, destaque do Next Gen Finals, valoriza o apoio de Nadal",
@@ -195,6 +237,42 @@
   "id": "n-0efa79317e9fbf3a"
  },
  {
+  "titulo": "Ryan Harrison diz que Patten e Skupski não contam a verdade sobre nova dupla",
+  "resumo": "Henry Patten e Neal Skupski vão jogar juntos em 2027, deixando para trás seus antigos parceiros, Harri Heliovaara e Christian Harrison. Ryan Harrison, irmão de Christian, afirmou que os britânicos não estão dizendo a verdade sobre como a nova parceria foi formada. A separação surpreendeu o circuito de duplas.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/ryan-harrison-claims-henry-patten-120000699.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T12:00:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "7e266bda40959126"
+  ],
+  "id": "n-7e266bda40959126"
+ },
+ {
+  "titulo": "Henman aposta em quem vencerá mais Grand Slams em 2027: Sabalenka ou Rybakina",
+  "resumo": "O ex-tenista britânico Tim Henman fez sua previsão sobre qual das duas vai conquistar mais títulos de Grand Slam no próximo ano. Elena Rybakina começará a temporada de 2027 como número 1 do mundo, posição que tomou de Aryna Sabalenka neste ano, depois de uma campanha marcante.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/tim-henman-predicts-win-more-120000494.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T12:00:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "a75c62d0cffe58c3"
+  ],
+  "id": "n-a75c62d0cffe58c3"
+ },
+ {
   "titulo": "Dan Evans jogará exibição polêmica na Rússia",
   "resumo": "O britânico Dan Evans, ex-número 1 do seu país, vai disputar o Trophies of Northern Palmyra, exibição em São Petersburgo de 27 a 29 de novembro. O evento é patrocinado por uma estatal de energia sancionada pela participação na guerra na Ucrânia. Evans enfrentará Diana Shnaider em um jogo do tipo \"batalha dos sexos\"; Alexander Bublik também está na lista.",
   "categoria": "ATP",
@@ -251,6 +329,66 @@
   "id": "n-1439c54b282cbb0a"
  },
  {
+  "titulo": "Naomi Osaka publica mensagem enigmática sobre não tolerar desrespeito",
+  "resumo": "Naomi Osaka compartilhou uma mensagem dizendo ter pouca tolerância ao desrespeito. A tetracampeã de Grand Slam não citou nenhum episódio específico, mas destacou a importância de saber quando se afastar de certas situações.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/naomi-osaka-shares-cryptic-message-110158388.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T11:01:58Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "ddbe34a21eb243bb"
+  ],
+  "id": "n-ddbe34a21eb243bb"
+ },
+ {
+  "titulo": "Madison Keys acredita que Alex Eala chegará a uma final de Grand Slam em 2027",
+  "resumo": "Madison Keys disse ter grandes expectativas para Alex Eala nos Grand Slams de 2027. A filipina fez em 2026 a melhor temporada da carreira, e a norte-americana acredita que ela vai alcançar uma final de Grand Slam no ano que vem.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/madison-keys-believes-alex-eala-110000478.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T11:00:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "ee574675b327fa19"
+  ],
+  "id": "n-ee574675b327fa19"
+ },
+ {
+  "titulo": "Ex-técnico de Draper é cotado para substituir Leon Smith como capitão britânico",
+  "resumo": "Segundo o Tennishead, um ex-treinador de Jack Draper é apontado como possível sucessor de Leon Smith no comando da Grã-Bretanha na Copa Davis. Smith deixa o cargo em 2026, 16 anos após sua estreia como capitão, e tenta encerrar a trajetória em alta: a equipe eliminou a Alemanha de Zverev e está nas semifinais.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/jack-drapers-ex-coach-tipped-to-replace-leon-smith-as-britains-davis-cup-captain/",
+    "idioma": "en"
+   },
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/looking-back-leon-smith-first-213000146.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T10:00:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "a7b4dac0c439d1d8",
+   "bf9dc9130cf990c8"
+  ],
+  "id": "n-a7b4dac0c439d1d8"
+ },
+ {
   "titulo": "Advogado da ex-namorada de Zverev rebate alegação de inocência do alemão",
   "resumo": "O advogado de Brenda Patea, ex-companheira de Alexander Zverev, respondeu de forma dura ao tenista, que se declara inocente no caso de violência doméstica. Patea apresentou queixa formal contra Zverev em 2023, o que levou a um processo público na Justiça.",
   "categoria": "ATP",
@@ -305,6 +443,24 @@
   "id": "n-1fe6cfb4aa2798a3"
  },
  {
+  "titulo": "Ex-número 1 vê Swiatek como possível favorita a Roland Garros em 2027",
+  "resumo": "Uma ex-número 1 do mundo afirmou ao Tennis365 que Iga Swiatek é, possivelmente, a favorita ao título de Roland Garros em 2027. A matéria discute se a polonesa pode voltar melhor na próxima temporada.",
+  "categoria": "Grand Slam",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/iga-swiatek-arguably-favourite-2027-french-open-former-world-no-1",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T09:15:57Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "84962e0ff684380a"
+  ],
+  "id": "n-84962e0ff684380a"
+ },
+ {
   "titulo": "Zverev chama de injusto comentário do presidente da ATP sobre uso de analgésicos",
   "resumo": "Alexander Zverev disputou 88 partidas em 2026 e precisou de medicamentos para jogar várias delas. O alemão rejeitou publicamente as afirmações do presidente da ATP sobre o uso de analgésicos e as classificou como injustas. John Isner saiu em defesa de Zverev e chamou a situação de ridícula.",
   "categoria": "ATP",
@@ -327,6 +483,78 @@
    "fea67a7d74749c12"
   ],
   "id": "n-aa117ddb52c77876"
+ },
+ {
+  "titulo": "Toni Nadal: \"Se Sinner não estiver, Alcaraz é o melhor\"",
+  "resumo": "Toni Nadal apontou Carlos Alcaraz como o melhor jogador do tênis masculino, desde que Jannik Sinner fique fora da comparação. O ex-técnico descartou Alexander Zverev do debate depois de ver Alcaraz vencer o alemão na final do ATP Finals.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/jannik-sinner-not-carlos-alcaraz-081838703.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T08:18:38Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "3c2ca2602b47bcc6"
+  ],
+  "id": "n-3c2ca2602b47bcc6"
+ },
+ {
+  "titulo": "Alcaraz diz sentir falta de Sinner após cirurgia do italiano no joelho",
+  "resumo": "Carlos Alcaraz enviou uma mensagem a Jannik Sinner, que passou por cirurgia no joelho. Segundo a manchete do Lente Desportiva, o espanhol afirmou: \"Sinto a falta dele\".",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Lente Desportiva",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSGlEbWF2S3ZMQWo4ZkhxZEV3R0FRS1ZFYXJoTTBhbVNjaFRpMnNRaHNqTy1vYU5hNzduVlk2QjBLczVlS19HQ3pVSWt3Wno0ckZGNDlqeGZFNzFqR1dMYVZRWVNRSzBOQWlyZ0VTRnRYVlIwN0FUcFoyS3hCUDRqSFQ3RWp5TUtDdTI0VGZkSmdVam1JaWF1eElrMTRzaldZdTVfcWo5b3I3eTdPRERZdDgtTUduT0k1R0tYdnR2X2ZQd3F5VHpB?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T04:30:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "409cea0786543844"
+  ],
+  "id": "n-409cea0786543844"
+ },
+ {
+  "titulo": "Sabalenka pede revanche contra Kyrgios na \"Batalha dos Sexos\"",
+  "resumo": "Quase um ano depois de perder a \"Batalha dos Sexos\" para Nick Kyrgios, Aryna Sabalenka disse que quer enfrentar o australiano de novo. \"Eu com certeza faria de novo. Eu adoro revanches\", afirmou a bielorrussa.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "EssentiallySports",
+    "link": "https://www.essentiallysports.com/tennis-news-i-need-a-rematch-aryna-sabalenka-calls-for-another-battle-of-the-sexes-after-last-years-loss/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T03:52:50Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "664e06f4df740699"
+  ],
+  "id": "n-664e06f4df740699"
+ },
+ {
+  "titulo": "Primeira temporada completa de Jodar quebra recorde de 28 anos na ATP",
+  "resumo": "Rafael Jodar teve uma das ascensões mais impressionantes da história do tênis masculino em sua primeira temporada completa no circuito ATP. Segundo o Yahoo Sports, o espanhol quebrou um recorde de 28 anos, e seu ano foi comparado à primeira temporada completa de Carlos Alcaraz.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/comparing-rafael-jodar-first-full-020000956.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T02:00:00Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "16691dd4743bef82"
+  ],
+  "id": "n-16691dd4743bef82"
  },
  {
   "titulo": "Henrique Schafer vence o cabeça 1 e vai à semifinal do J100 de Lima",
@@ -365,6 +593,30 @@
   "id": "n-6ab04225da188e16"
  },
  {
+  "titulo": "Jodar minimiza desgaste após vitória na Davis e recebe elogios de Ferrer",
+  "resumo": "Rafael Jodar, número 10 do mundo, descartou cansaço físico após vencer Jurij Rodionov em três sets pelas quartas de final da Copa Davis. Segundo ele, a partida estava muito equilibrada até a primeira quebra de serviço, e a equipe sabia que o austríaco era perigoso. O capitão espanhol David Ferrer elogiou o jovem após a classificação da Espanha.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/jodar-descarta-desgaste-fisico-copa-davis/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "L'Équipe",
+    "link": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-david-ferrer-encense-rafael-jodar-apres-la-qualification/20246424#at_medium=RSS_feeds",
+    "idioma": "fr"
+   }
+  ],
+  "publicadoEm": "2026-11-26T23:24:30Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "e51165b1e2dfdad7",
+   "be4ef0e038f27a0f"
+  ],
+  "id": "n-e51165b1e2dfdad7"
+ },
+ {
   "titulo": "Cinco brasileiros disputam as semifinais de duplas do Challenger de Florianópolis",
   "resumo": "Cinco brasileiros estão nas semifinais de duplas do Challenger 75 de Florianópolis, no saibro do Lagoa Iate Clube, com duas parcerias formadas só por brasileiros. Uma delas é a do paulista Pedro Sakamoto com o brasiliense Paulo Saraiva.",
   "categoria": "Brasileiros",
@@ -381,6 +633,42 @@
    "606e5e7df1f7c931"
   ],
   "id": "n-606e5e7df1f7c931"
+ },
+ {
+  "titulo": "Victor Pagotto aplica duplo 6/0 e avança no M15 de Santa Cruz, na Bolívia",
+  "resumo": "O paulista Victor Pagotto, de 21 anos, é o segundo brasileiro a avançar no M15 de Santa Cruz, disputado no saibro da Bolívia. Cabeça 5 do torneio e 791º do ranking, ele venceu o juvenil convidado Victor Verduguez por 6/0 e 6/0 em apenas 44 minutos. Na segunda rodada, Pagotto se junta a Bini.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/pagotto-vence-em-santa-cruz-e-se-junta-a-bini-na-segunda-rodada.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T22:04:46Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "f371f9291228db94"
+  ],
+  "id": "n-f371f9291228db94"
+ },
+ {
+  "titulo": "Vídeo destaca treinos de Guto Miguel com Alcaraz, Tiafoe e Fils no ATP Finals",
+  "resumo": "Guto Miguel, líder do ranking juvenil e primeiro brasileiro a ganhar a chave juvenil de simples de Roland Garros neste ano, foi parceiro de treinos de astros em Turim. Ele bateu bola com Carlos Alcaraz, Frances Tiafoe e Arthur Fils durante a preparação deles para o ATP Finals. O brasileiro descreveu a vivência como uma experiência inacreditável.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/lider-do-ranking-juvenil-treinos-de-guto-com-astros-do-finals-e-destaque-de-video.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-26T20:16:04Z",
+  "criadoEm": "2026-11-27T13:38:34Z",
+  "idsRobo": [
+   "e7eee156645edfa9"
+  ],
+  "id": "n-e7eee156645edfa9"
  },
  {
   "titulo": "Zanellato vence cabeça 2 e brasileiros têm rodada perfeita em Florianópolis",
