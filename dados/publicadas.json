@@ -1,5 +1,41 @@
 [
  {
+  "titulo": "Alcaraz diz que conquistar a Copa Davis pela primeira vez seria um sonho",
+  "resumo": "Carlos Alcaraz comentou a chance de erguer pela primeira vez na carreira o troféu da Copa Davis, a principal competição por países do tênis. Neste sábado, ele entra em quadra pela Espanha contra a Grã-Bretanha.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/alcaraz-sonho-conquistar-copa-davis/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:19:21Z",
+  "criadoEm": "2026-11-27T16:37:32Z",
+  "idsRobo": [
+   "4d2e4883e1c4900a"
+  ],
+  "id": "n-4d2e4883e1c4900a"
+ },
+ {
+  "titulo": "Rybakina é recebida com festa no Cazaquistão como líder do ranking",
+  "resumo": "Elena Rybakina foi recebida com muita festa no retorno ao Cazaquistão, após encerrar 2026 no topo do ranking da WTA. Ela desembarcou na noite de quinta-feira no Aeroporto Internacional de Almaty, onde encontrou jovens tenistas e torcedores que foram celebrar suas conquistas.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/rybakina-e-festejada-como-lider-na-volta-ao-cazaquistao.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:12:37Z",
+  "criadoEm": "2026-11-27T16:37:32Z",
+  "idsRobo": [
+   "1d4a38c3e51edb35"
+  ],
+  "id": "n-1d4a38c3e51edb35"
+ },
+ {
   "titulo": "Igor Marcondes vence o terceiro favorito e vai à semifinal do Challenger de Florianópolis",
   "resumo": "Igor Marcondes derrotou nesta sexta-feira o argentino Guido Justo, terceiro favorito e 179º do ranking, e se garantiu na semifinal do Challenger 75 de Florianópolis, disputado no saibro. O brasileiro virou a partida e, com o resultado, terá um salto no ranking. Marcondes é atleta da ADK Tennis, do Itamirim Clube de Campo, em Itajaí (SC).",
   "categoria": "Brasileiros",
