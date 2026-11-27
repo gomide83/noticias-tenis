@@ -1,5 +1,47 @@
 [
  {
+  "titulo": "Musetti vence Mensik e deixa a Itália a uma vitória da final da Copa Davis",
+  "resumo": "Lorenzo Musetti abriu a semifinal da Copa Davis contra a República Tcheca, nesta sexta-feira, em Bolonha, com vitória sobre Jakub Mensik por 6/3 e 6/4, em 1h26 de partida. O italiano não perdeu o saque durante todo o confronto. Com o resultado, a Itália fica a uma vitória de sua quarta final consecutiva, e Flavio Cobolli enfrenta Jiri Lehecka no segundo jogo. Quem passar encara o vencedor de Espanha x Grã-Bretanha.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/musetti-italia-perto-final-davis/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/musetti-domina-mensik-e-cobolli-enfrenta-lehecka.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T17:35:23Z",
+  "criadoEm": "2026-11-27T17:37:35Z",
+  "idsRobo": [
+   "b76043bc80df95df",
+   "066bac71f2712e4e"
+  ],
+  "id": "n-b76043bc80df95df"
+ },
+ {
+  "titulo": "Nadal revela qual foi a pior lesão da carreira e diz que ela causou as outras",
+  "resumo": "Rafael Nadal, ex-número 1 do mundo, falou sobre as lesões que enfrentou na carreira em entrevista ao Brut. Conhecido pelo vigor físico, o espanhol conviveu com problemas principalmente na segunda metade da trajetória. Segundo ele, a pior lesão foi a origem de todas as outras.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/nadal-revela-pior-lesao/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T17:17:45Z",
+  "criadoEm": "2026-11-27T17:37:35Z",
+  "idsRobo": [
+   "0c8465f6abff2a84"
+  ],
+  "id": "n-0c8465f6abff2a84"
+ },
+ {
   "titulo": "Blumenau Open fecha a temporada de Challengers no Brasil a partir de 14 de dezembro",
   "resumo": "O Blumenau Open, torneio da categoria Challenger 50, será disputado de 14 a 20 de dezembro no Tabajara Tênis Clube, em Blumenau (SC). O evento encerra a temporada de Challengers no Brasil e reúne jogadores de diferentes países. Igor Marcondes, campeão da edição de 2022, está entre os inscritos.",
   "categoria": "Brasileiros",
@@ -106,6 +148,24 @@
    "83d94903cb724eab"
   ],
   "id": "n-83d94903cb724eab"
+ },
+ {
+  "titulo": "Claudio Zimaglia explica as etapas da recuperação de Sinner",
+  "resumo": "Claudio Zimaglia explicou, em reportagem do Tennis World Italia, as etapas que Jannik Sinner terá de cumprir para se recuperar da lesão.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis World Italia",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNT19JZU9sbzVsZE1NR2VUNnQxVnpWNVUzQ0FCa3pmUFc2dFZtX2FKZ0pPeGFZQVBtbHVvWDdkQm1CQ0pjUXNrMF91RnhkNzBTV1MzOEwxZEJRemkwY05VTG1YbGRnNU9uVWRReGR2VEU2S1YxZ0RaaUVtcXJkLTJMZzhLVzVNZW1QRUQ1aDFGdk9kRWRaSDBiaTcyUkF6OTRsejVNSHp2NjVHNVhkaTFfTmdmNUdUVTJ6UkczYkVrTmRjWjE5eVpRaW0tZ1M4VWRwWW5wUWViWUxramdlWkVxaTdCWFBHWS1YSXpFUHZn?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:00:36Z",
+  "criadoEm": "2026-11-27T17:37:35Z",
+  "idsRobo": [
+   "20cb02887b81ad3b"
+  ],
+  "id": "n-20cb02887b81ad3b"
  },
  {
   "titulo": "Henman discorda do que tem sido dito sobre Djokovic em 2026",
