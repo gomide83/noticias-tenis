@@ -1,5 +1,65 @@
 [
  {
+  "titulo": "Trinity Rodman comenta fim do namoro com Ben Shelton e diz que vai focar na carreira",
+  "resumo": "Trinity Rodman, estrela da seleção feminina de futebol dos Estados Unidos e filha do ex-astro da NBA Dennis Rodman, comentou publicamente pela primeira vez o fim do namoro com Ben Shelton, número 4 do ranking. Em mensagem nas redes sociais, ela disse que vai ficar sozinha e se concentrar na carreira.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/apos-separacao-trinity-revela-que-vai-ficar-so-e-focar-na-carreira.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T21:02:31Z",
+  "criadoEm": "2026-11-27T21:07:29Z",
+  "idsRobo": [
+   "218dff1d06b80821"
+  ],
+  "id": "n-218dff1d06b80821"
+ },
+ {
+  "titulo": "Jovem suíço Dylan Dietrich conta como foi treinar com Roger Federer",
+  "resumo": "O suíço Dylan Dietrich, uma das apostas do tênis do país, revelou como foi treinar com Roger Federer. Ele teve essa oportunidade quando tinha apenas 16 anos.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/swiss-atp-player-reveals-roger-210000521.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T21:00:00Z",
+  "criadoEm": "2026-11-27T21:07:29Z",
+  "idsRobo": [
+   "d366dca5da43ad36"
+  ],
+  "id": "n-d366dca5da43ad36"
+ },
+ {
+  "titulo": "Lucas Andrade elimina o 2º favorito e vai à semifinal do Challenger de San Salvador",
+  "resumo": "Lucas Andrade, paulista de 21 anos e 574º do ranking, vai disputar pela primeira vez uma semifinal de challenger. Nesta sexta-feira, ele venceu o argentino Luciano Ambrogi, cabeça 2 do torneio e 360º do mundo, no Challenger 50 de San Salvador, em El Salvador, disputado em quadra dura. É o maior resultado da carreira do brasileiro, que terá seu melhor ranking.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/lucas-andrade-elimina-2-favorito-semi-elsalvador-maior-resultado/",
+    "idioma": "pt"
+   },
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/lucas-andrade-alcanca-inedita-semi-de-challenger-e-tera-melhor-ranking.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T20:43:17Z",
+  "criadoEm": "2026-11-27T21:07:29Z",
+  "idsRobo": [
+   "2fe8b72e05e97fa5",
+   "f8237d5dbbcc301d"
+  ],
+  "id": "n-2fe8b72e05e97fa5"
+ },
+ {
   "titulo": "Cobolli comenta as condições da Copa Davis após nova derrota",
   "resumo": "Flavio Cobolli perdeu para Jiri Lehecka por 2/6, 6/1 e 3/6 na semifinal da Copa Davis entre Itália e Tchéquia. Depois do jogo, o número 2 italiano fez um comentário sobre as condições de jogo na competição. O italiano tinha a chance de colocar sua equipe na frente do confronto.",
   "categoria": "ATP",
@@ -304,6 +364,24 @@
    "8b9052edecab8e53"
   ],
   "id": "n-8b9052edecab8e53"
+ },
+ {
+  "titulo": "Connors faz alerta a Sabalenka: lembrar o que a levou até o topo",
+  "resumo": "Jimmy Connors demonstrou preocupação com Aryna Sabalenka. Segundo o ex-tenista, é importante que ela recorde o que fez para chegar até onde está.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Bola Amarela",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN0k5OFFEbFZ4cURCWGdxYm1mOEU1VlFTMldRODh6VWkweHhOSW5HUW1mNXpsMjhxOUNWR3BjVGRsN2hQY0dfTS1KOWt5UkxwR3BycXhSVWFEczVpRUN5dFZKVlBreUdyOVdhdlMzc1lHR1lYR2VfeHhJUVVoLUU1QTlsY2ZjU1d0Vk5OTjdjd1VYLWphS0Jod1ZaU2Z6V2R1V3dRbGNUQmNuWUhmV1ZZLVBVSQ?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:29:18Z",
+  "criadoEm": "2026-11-27T21:07:29Z",
+  "idsRobo": [
+   "0f2ef43cc2a0aacb"
+  ],
+  "id": "n-0f2ef43cc2a0aacb"
  },
  {
   "titulo": "Alcaraz diz que conquistar a Copa Davis pela primeira vez seria um sonho",
