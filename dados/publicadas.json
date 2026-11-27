@@ -1,5 +1,47 @@
 [
  {
+  "titulo": "Fery manda recado antes de enfrentar Alcaraz na semifinal da Copa Davis",
+  "resumo": "O britânico Arthur Fery comentou suas expectativas para o duelo deste sábado contra Carlos Alcaraz, pelas semifinais da Copa Davis, em Bolonha, na Itália. A Espanha chega ao confronto com a Grã-Bretanha depois de vencer a Áustria sem Alcaraz em quadra.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/fery-manda-aviso-duelo-alcaraz/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T14:15:47Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "6b768b28b8c9210b"
+  ],
+  "id": "n-6b768b28b8c9210b"
+ },
+ {
+  "titulo": "Svitolina pediu à WTA que Andreeva não falasse dela na premiação do WTA Finals",
+  "resumo": "Antes da final do WTA Finals, Elina Svitolina pediu à WTA que Mirra Andreeva não fizesse referências diretas a ela na cerimônia de premiação. Segundo os relatos, a russa ignorou o roteiro e elogiou a adversária depois de conquistar o título, o que incomodou a ucraniana.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/svitolina-pediu-a-wta-para-evitar-fala-de-andreeva-no-finals.html",
+    "idioma": "pt"
+   },
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/elina-svitolina-asked-adjusted-wta-finals-ceremony-before-mirra-andreeva-provocation",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T14:15:12Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "16afbacead6a7238",
+   "a350529cb6c0e97f"
+  ],
+  "id": "n-16afbacead6a7238"
+ },
+ {
   "titulo": "Henman aponta quem pode superar Draper como número 1 britânico até o fim de 2027",
   "resumo": "O ex-tenista Tim Henman fez sua aposta sobre quem será o número 1 da Grã-Bretanha ao fim de 2027, à frente de Jack Draper. Draper sofreu bastante com lesões ao longo de 2026, e a expectativa é que 2027 seja o ano da sua recuperação.",
   "categoria": "ATP",
@@ -114,6 +156,24 @@
    "a1b6c7dd4cb0400c"
   ],
   "id": "n-a1b6c7dd4cb0400c"
+ },
+ {
+  "titulo": "Alcaraz convida jovem de 17 anos apelidado de \"mini Carlos\" para a pré-temporada",
+  "resumo": "Carlos Alcaraz convidou um tenista de 17 anos, conhecido como \"mini Carlos\", para treinar com ele na pré-temporada. \"Carlos é meu ídolo. Não só pelo jeito de jogar, mas também pela forma como me trata\", disse o jovem, segundo o Tennis365.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/carlos-alcaraz-invites-17-year-old-nicknamed-mini-carlos-pre-season-training",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T12:45:43Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "242bab98aca6f280"
+  ],
+  "id": "n-242bab98aca6f280"
  },
  {
   "titulo": "Landaluce, destaque do Next Gen Finals, valoriza o apoio de Nadal",
@@ -485,6 +545,24 @@
   "id": "n-1fe6cfb4aa2798a3"
  },
  {
+  "titulo": "Coluna exalta a alegria e a genialidade de Alcaraz",
+  "resumo": "O Diário do Litoral publicou uma coluna intitulada \"Alcaraz e a alegria de ser genial\", sobre o espanhol Carlos Alcaraz.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Diário do Litoral",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTjlySFVzRFI0eG1TOGhMSHVZM2pwdHZoYWRBX25vQU4tR1lSSFo3YzZLX1h1WU5XLTJpRjlMekRmTWYxd3BPRGNTOVlTUVFydnBDY1pDTi1XLU53bklQT2k1NDUyQmpDQ3dRb0hYUzdXenVuazMzYlU2amh1SnBKQ0lVZGNPdzRvV0FMTDkwd0NWRTBs?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T09:20:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "9fbc813dc1740ac8"
+  ],
+  "id": "n-9fbc813dc1740ac8"
+ },
+ {
   "titulo": "Ex-número 1 vê Swiatek como possível favorita a Roland Garros em 2027",
   "resumo": "Uma ex-número 1 do mundo afirmou ao Tennis365 que Iga Swiatek é, possivelmente, a favorita ao título de Roland Garros em 2027. A matéria discute se a polonesa pode voltar melhor na próxima temporada.",
   "categoria": "Grand Slam",
@@ -561,6 +639,24 @@
    "f81a89e48e166746"
   ],
   "id": "n-f81a89e48e166746"
+ },
+ {
+  "titulo": "Jornalista do L'Équipe relembra entrevista em que Hingis discutiu com o futuro marido",
+  "resumo": "Em série de memórias de reportagem do L'Équipe, o jornalista Bruno Garay conta uma entrevista com Martina Hingis sobre sua vida após o tênis. O almoço, acompanhado pelo futuro marido da suíça, acabou virando uma discussão de casal.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "L'Équipe",
+    "link": "https://www.lequipe.fr/Tennis/Actualites/Quand-martina-hingis-se-dispute-avec-son-futur-mari-sous-les-yeux-de-bruno-garay/1745568#at_medium=RSS_feeds",
+    "idioma": "fr"
+   }
+  ],
+  "publicadoEm": "2026-11-27T07:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "e4421b31ac74e7be"
+  ],
+  "id": "n-e4421b31ac74e7be"
  },
  {
   "titulo": "Brad Gilbert faz sua previsão para os campeões do Australian Open de 2027",
@@ -899,6 +995,78 @@
   "id": "n-f371f9291228db94"
  },
  {
+  "titulo": "Recordando as estreias de Djokovic, Federer e Nadal na Copa Davis",
+  "resumo": "Com as Finais da Copa Davis de 2026 em andamento, o Yahoo Sports relembra como foram as estreias de Novak Djokovic, Roger Federer e Rafael Nadal na competição. Itália e Tchéquia já avançaram às semifinais após vencerem Coreia do Sul e Canadá, respectivamente.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/novak-djokovic-roger-federer-rafael-220000208.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T22:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "5a41717a93558747"
+  ],
+  "id": "n-5a41717a93558747"
+ },
+ {
+  "titulo": "Análise defende que Zverev é um número 1 legítimo e que as críticas são injustas",
+  "resumo": "Um texto do Yahoo Sports argumenta que Alexander Zverev é o merecido número 1 do mundo e que as críticas ao seu tênis são injustas. A análise lembra que o alemão fez barulho na temporada de 2026 da ATP, dentro e fora das quadras.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/why-alexander-zverev-rightful-world-220000809.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T22:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "d337556befeb8e43"
+  ],
+  "id": "n-d337556befeb8e43"
+ },
+ {
+  "titulo": "Nadal revela o que disse ao tio Toni na pausa por chuva da final de Wimbledon 2008",
+  "resumo": "Rafael Nadal contou o que falou ao tio e então técnico Toni Nadal durante a interrupção por chuva na final de Wimbledon de 2008 contra Roger Federer. Aquela decisão é considerada uma das maiores partidas da história do tênis.",
+  "categoria": "Grand Slam",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/rafael-nadal-reveals-told-uncle-210000001.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T21:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "04aa68047949189e"
+  ],
+  "id": "n-04aa68047949189e"
+ },
+ {
+  "titulo": "Análise: separação de Ferrero ganha ainda mais mérito após título de Alcaraz no ATP Finals",
+  "resumo": "O Tennishead avalia que Carlos Alcaraz merece ainda mais crédito por ter encerrado a parceria com o técnico Juan Carlos Ferrero, anunciada há cerca de um ano. A análise relaciona a decisão ao título do espanhol no ATP Finals.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/why-carlos-alcaraz-now-deserves-even-more-credit-for-splitting-with-juan-carlos-ferrero-after-winning-the-atp-finals/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T21:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "291b2db5eb9aa487"
+  ],
+  "id": "n-291b2db5eb9aa487"
+ },
+ {
   "titulo": "Cinco tenistas que podem se beneficiar da ausência de Sinner no Australian Open",
   "resumo": "O site Playmaker Brasil listou cinco jogadores que podem tirar proveito da ausência de Jannik Sinner no Australian Open de 2027.",
   "categoria": "Grand Slam",
@@ -917,6 +1085,24 @@
   "id": "n-ab4b182aac9f9409"
  },
  {
+  "titulo": "Jamie Murray dá opinião sincera sobre o formato atual da Copa Davis",
+  "resumo": "O britânico Jamie Murray comentou o formato atual da Copa Davis, que passou por várias mudanças ao longo dos anos. Para muitos, os confrontos em casa e fora são a essência da competição.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/jamie-murray-gives-honest-opinion-203000704.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T20:30:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "6d965b22b43596e5"
+  ],
+  "id": "n-6d965b22b43596e5"
+ },
+ {
   "titulo": "Vídeo destaca treinos de Guto Miguel com Alcaraz, Tiafoe e Fils no ATP Finals",
   "resumo": "Guto Miguel, líder do ranking juvenil e primeiro brasileiro a ganhar a chave juvenil de simples de Roland Garros neste ano, foi parceiro de treinos de astros em Turim. Ele bateu bola com Carlos Alcaraz, Frances Tiafoe e Arthur Fils durante a preparação deles para o ATP Finals. O brasileiro descreveu a vivência como uma experiência inacreditável.",
   "categoria": "Brasileiros",
@@ -933,6 +1119,24 @@
    "e7eee156645edfa9"
   ],
   "id": "n-e7eee156645edfa9"
+ },
+ {
+  "titulo": "Calendário de Alcaraz volta a ser questionado após decisão na Copa Davis dar certo",
+  "resumo": "A Espanha venceu na Copa Davis mesmo com Carlos Alcaraz fora das simples, uma decisão que deu certo para a equipe. O episódio reacendeu o debate sobre o calendário do espanhol, segundo o Tennis365.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/carlos-alcaraz-scheduling-questioned-davis-cup-gamble",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T20:15:40Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "0061a9bb3ba897dd"
+  ],
+  "id": "n-0061a9bb3ba897dd"
  },
  {
   "titulo": "Zanellato vence cabeça 2 e brasileiros têm rodada perfeita em Florianópolis",
@@ -957,6 +1161,24 @@
    "9aca744871a7ef68"
   ],
   "id": "n-5e058cfd1e13024f"
+ },
+ {
+  "titulo": "Os dois torneios que Sinner deveria considerar para voltar após a lesão",
+  "resumo": "Jannik Sinner segue em recuperação depois da cirurgia no joelho que o incomodava havia tempo. O Yahoo Sports aponta dois torneios que o italiano deveria considerar para seu retorno ao circuito.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/two-tournaments-jannik-sinner-consider-200000914.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-26T20:00:00Z",
+  "criadoEm": "2026-11-27T14:37:51Z",
+  "idsRobo": [
+   "d4a77026ded28657"
+  ],
+  "id": "n-d4a77026ded28657"
  },
  {
   "titulo": "Jodar vira contra Rodionov e coloca a Espanha na semifinal da Copa Davis",
