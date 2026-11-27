@@ -1,5 +1,59 @@
 [
  {
+  "titulo": "Blumenau Open fecha a temporada de Challengers no Brasil a partir de 14 de dezembro",
+  "resumo": "O Blumenau Open, torneio da categoria Challenger 50, será disputado de 14 a 20 de dezembro no Tabajara Tênis Clube, em Blumenau (SC). O evento encerra a temporada de Challengers no Brasil e reúne jogadores de diferentes países. Igor Marcondes, campeão da edição de 2022, está entre os inscritos.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/blumenau-open-fecha-a-temporada-de-challengers-no-brasil-a-partir-do-dia-14.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T17:01:47Z",
+  "criadoEm": "2026-11-27T17:07:32Z",
+  "idsRobo": [
+   "c1fcac869c4ebc40"
+  ],
+  "id": "n-c1fcac869c4ebc40"
+ },
+ {
+  "titulo": "Matéria relembra por que John McEnroe deixou a capitania dos EUA na Copa Davis em 2000",
+  "resumo": "O site Tennishead relembra o motivo da saída de John McEnroe do cargo de capitão dos Estados Unidos na Copa Davis, em 2000. Os americanos não vencem a competição desde 2007, há 19 anos, quando o capitão Patrick McEnroe levou o time ao título contra a Rússia.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/the-reason-why-john-mcenroe-resigned-as-team-usa-davis-cup-captain-back-in-2000-as-drought-continues/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T17:00:00Z",
+  "criadoEm": "2026-11-27T17:07:32Z",
+  "idsRobo": [
+   "ddcdaa27f6d279b5"
+  ],
+  "id": "n-ddcdaa27f6d279b5"
+ },
+ {
+  "titulo": "Mannarino e Moutet jogam exibição por equipes em São Petersburgo, na Rússia",
+  "resumo": "Os franceses Adrian Mannarino e Corentin Moutet estão entre os participantes do Northern Palmyra Trophies, exibição por equipes disputada de sexta a domingo em São Petersburgo, na Rússia. O evento é organizado desde 2022.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "L'Équipe",
+    "link": "https://www.lequipe.fr/Tennis/Actualites/Adrian-mannarino-et-corentin-moutet-annonces-ce-week-end-parmi-les-participants-a-une-exhibition-par-equipes-en-russie/1746684#at_medium=RSS_feeds",
+    "idioma": "fr"
+   }
+  ],
+  "publicadoEm": "2026-11-27T16:32:17Z",
+  "criadoEm": "2026-11-27T17:07:32Z",
+  "idsRobo": [
+   "8b9052edecab8e53"
+  ],
+  "id": "n-8b9052edecab8e53"
+ },
+ {
   "titulo": "Alcaraz diz que conquistar a Copa Davis pela primeira vez seria um sonho",
   "resumo": "Carlos Alcaraz comentou a chance de erguer pela primeira vez na carreira o troféu da Copa Davis, a principal competição por países do tênis. Neste sábado, ele entra em quadra pela Espanha contra a Grã-Bretanha.",
   "categoria": "ATP",
