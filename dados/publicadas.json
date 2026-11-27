@@ -1,5 +1,29 @@
 [
  {
+  "titulo": "Laura Pigossi perde para peruana e cai nas quartas do W75 de Florianópolis",
+  "resumo": "Depois de duas vitórias na semana, Laura Pigossi foi eliminada nas quartas de final do W75 de Florianópolis, no saibro do Lagoa Iate Clube. A número 1 do Brasil e 265ª do mundo perdeu para a peruana Lucciana Perez, cabeça 6 e 333ª colocada, em três sets. Pigossi reagiu depois de perder o primeiro set, mas sofreu duas quebras de serviço na parcial decisiva.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/pigossi-para-nas-quartas-em-florianopolis-com-derrota-em-tres-sets.html",
+    "idioma": "pt"
+   },
+   {
+    "nome": "Olimpíada Todo Dia",
+    "link": "https://www.olimpiadatododia.com.br/tenis/775432-laura-pigossi-perde-para-peruana-e-cai-nas-quartas-em-florianopolis/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T21:13:37Z",
+  "criadoEm": "2026-11-27T21:37:18Z",
+  "idsRobo": [
+   "df73cd81d6ba59ca",
+   "114e74c1dfbc8434"
+  ],
+  "id": "n-df73cd81d6ba59ca"
+ },
+ {
   "titulo": "Trinity Rodman comenta fim do namoro com Ben Shelton e diz que vai focar na carreira",
   "resumo": "Trinity Rodman, estrela da seleção feminina de futebol dos Estados Unidos e filha do ex-astro da NBA Dennis Rodman, comentou publicamente pela primeira vez o fim do namoro com Ben Shelton, número 4 do ranking. Em mensagem nas redes sociais, ela disse que vai ficar sozinha e se concentrar na carreira.",
   "categoria": "Outros",
@@ -34,6 +58,24 @@
    "d366dca5da43ad36"
   ],
   "id": "n-d366dca5da43ad36"
+ },
+ {
+  "titulo": "Ex-técnico de Serena Williams vê duas grandes mudanças em Zverev, novo número 1",
+  "resumo": "Um ex-técnico de Serena Williams afirmou ter notado duas grandes mudanças em Alexander Zverev, que chegou ao topo do ranking da ATP. Depois de anos batendo na trave no circuito masculino, o alemão finalmente alcançou a liderança.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/serena-williams-former-coach-noticed-210000235.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T21:00:00Z",
+  "criadoEm": "2026-11-27T21:37:18Z",
+  "idsRobo": [
+   "03a508d27ba250e9"
+  ],
+  "id": "n-03a508d27ba250e9"
  },
  {
   "titulo": "Lucas Andrade elimina o 2º favorito e vai à semifinal do Challenger de San Salvador",
