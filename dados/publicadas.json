@@ -1,5 +1,41 @@
 [
  {
+  "titulo": "Os três números 1 do mundo com aproveitamento pior que o de Zverev em 2026",
+  "resumo": "Alexander Zverev é um dos números 1 do mundo mais criticados e debatidos da história do tênis. Uma análise do Tennishead lista os três líderes do ranking que tiveram aproveitamento de vitórias pior que o do alemão na temporada 2026.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tennishead",
+    "link": "https://tennishead.net/the-three-world-number-ones-with-a-worse-win-ratio-than-alexander-zverevs-in-2026/",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T20:00:00Z",
+  "criadoEm": "2026-11-27T20:07:25Z",
+  "idsRobo": [
+   "171f89f793a2e1f5"
+  ],
+  "id": "n-171f89f793a2e1f5"
+ },
+ {
+  "titulo": "Henrique Mello encerra 2026 como nº 4 do mundo em simples na categoria 40+",
+  "resumo": "O campineiro Henrique Mello, o Mindu, de 43 anos, termina a temporada 2026 entre os principais nomes do circuito mundial de tênis masters. Ele fecha o ano na quarta colocação do ranking mundial de simples e na quinta posição em duplas na categoria 40+.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/henrique-mello-encerra-temporada-como-no-4-do-mundo-em-simples-nos-40.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T19:57:06Z",
+  "criadoEm": "2026-11-27T20:07:25Z",
+  "idsRobo": [
+   "9bd42bad5c6bc375"
+  ],
+  "id": "n-9bd42bad5c6bc375"
+ },
+ {
   "titulo": "Presidente da XP compara João Fonseca a Ayrton Senna",
   "resumo": "Guilherme Benchimol, fundador e presidente da XP Investimentos, explicou por que se aproximou de João Fonseca, atual 46º do ranking da ATP, e apontou semelhanças entre o jovem brasileiro e Ayrton Senna. Benchimol pratica tênis e disputa o circuito Masters da World Tennis.",
   "categoria": "Brasileiros",
@@ -514,6 +550,24 @@
    "f961fd2926d9bac8"
   ],
   "id": "n-b57537ffdadb833b"
+ },
+ {
+  "titulo": "Djokovic critica condições de jogo: \"Sabem mais de tênis do que a gente\"",
+  "resumo": "Novak Djokovic fez críticas às condições de jogo no circuito, em tom irônico, dizendo que os responsáveis \"sabem mais de tênis do que a gente\". A notícia foi publicada pela Gazeta Esportiva.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Gazeta Esportiva",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaHJta3hsbUE2NU5TaVE3Nm02ckQ4UnVUUnJMam8xcDJwdV80dktoOU9ibWU1VlBvcWowUXYxcHJGQ3ZUUHYzcXhRcmE2SGpHQlBZQXpYYlZ6bVl5cXBVQW9NR0JQc1lMOU5KaXFHalpFa25GY3JPZGZUWHcxM3lBU0w2emd4ZE5xbGxYdkY5R29WNHJPWXVaaUFiTms0a285c0pUX2dNOURaeWswYzc0ZjBsd9IBswFBVV95cUxOaHJta3hsbUE2NU5TaVE3Nm02ckQ4UnVUUnJMam8xcDJwdV80dktoOU9ibWU1VlBvcWowUXYxcHJGQ3ZUUHYzcXhRcmE2SGpHQlBZQXpYYlZ6bVl5cXBVQW9NR0JQc1lMOU5KaXFHalpFa25GY3JPZGZUWHcxM3lBU0w2emd4ZE5xbGxYdkY5R29WNHJPWXVaaUFiTms0a285c0pUX2dNOURaeWswYzc0ZjBsdw?oc=5",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T13:51:42Z",
+  "criadoEm": "2026-11-27T20:07:25Z",
+  "idsRobo": [
+   "487b85a716eb0913"
+  ],
+  "id": "n-487b85a716eb0913"
  },
  {
   "titulo": "Alcaraz se surpreende com a aposentadoria de Marc Márquez: \"Não, caramba\"",
