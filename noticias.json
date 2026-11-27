@@ -1,13 +1,662 @@
 {
- "atualizadoEm": "2026-11-26T19:16:09Z",
+ "atualizadoEm": "2026-11-27T02:24:03Z",
  "totalFontes": 22,
- "fontesComFalha": [
-  "Google Notícias: Sinner, Alcaraz e Djokovic"
- ],
+ "fontesComFalha": [],
  "vistos": {
-  "37ad8119142cdab0": "2026-11-26T09:28:20Z"
+  "37ad8119142cdab0": "2026-11-26T09:28:20Z",
+  "b9d2c25500f40d65": "2026-11-27T02:24:03Z"
  },
  "noticias": [
+  {
+   "titulo": "November 27, 2011: The day Roger Federer won a then-record sixth ATP Finals title",
+   "link": "https://www.tennismajors.com/atp/november-27-2011-the-day-roger-federer-won-a-record-sixth-atp-finals-title-310011.html",
+   "fonte": "Tennis Majors",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T02:24:03Z",
+   "trecho": "Every day, Tennis Majors takes you back to one of the biggest moments in tennis history. On November 27, 2011, Roger Federer and Jo-Wilfried Tsonga clashed for the eighth time in the season",
+   "id": "b9d2c25500f40d65",
+   "coletadoEm": "2026-11-27T02:24:03Z",
+   "dataEstimada": true
+  },
+  {
+   "titulo": "Laura Pigossi mantém Brasil na disputa de simples no W75 de Florianópolis",
+   "link": "https://www.olimpiadatododia.com.br/tenis/775307-laura-pigossi-quartas-itf-w75-florianopolis/",
+   "fonte": "Olimpíada Todo Dia",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T02:15:35Z",
+   "trecho": "A brasileira Laura Pigossi venceu a holandesa Demi Tran e é a única representante do país nas quartas do ITF W75 de Florianópolis. Brasil também avançou nas duplas e no Challenger de San Salvador no masculino O post Laura Pigossi mantém Brasil na disputa de simples no W75 de Florianópolis apareceu primeiro em Olimpíada Todo Dia .",
+   "id": "d8a7d5c371958e86",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Bia Haddad: ‘O circuito é um pouco tóxico. É insalubre’",
+   "link": "https://www.tenisnews.com.br/bia-haddad-o-circuito-toxico-insalubre/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T02:10:07Z",
+   "trecho": "Em entrevista ao Quinto Set, do New Balls Please, Bia Haddad Maia afirmou como enxerga a pressão do circuito do tênis e apontou que o mesmo é insalubre. -> Clique Aqui e ENTRE em nosso canal do Whatsapp! “Acabei aprendendo com as coisas que passei, mas acho que o circuito de uma forma é um […]",
+   "id": "c33a7de412d1e767",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "What happened the last time Carlos Alcaraz and Jannik Sinner did not compete at a Grand Slam event",
+   "link": "https://sports.yahoo.com/tennis/articles/happened-last-time-carlos-alcaraz-020000950.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T02:00:00Z",
+   "trecho": "Jannik Sinner is set to miss the 2026 Australian Open due to injury. The Italian superstar suffered a debilitating knee injury in the lead-up to...",
+   "id": "5996882801dd34d8",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Comparing Rafael Jodar’s first full ATP season to Carlos Alcaraz’s as he breaks 28-year record",
+   "link": "https://sports.yahoo.com/tennis/articles/comparing-rafael-jodar-first-full-020000956.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T02:00:00Z",
+   "trecho": "Rafael Jodar has just enjoyed one of the most sensational rises in the history of men’s tennis. Rising star Jodar just ended his first full...",
+   "id": "16691dd4743bef82",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Schafer vence o cabeça 1 em Lima, juvenis avançam Luque e San Jose",
+   "link": "https://tenisbrasil.uol.com.br/schafer-vence-o-cabeca-1-em-lima-juvenis-avancam-luque-e-san-jose.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T01:49:04Z",
+   "trecho": "Lima (Peru) – O juvenil goiano Henrique Schafer está na semifinal do J100 de Lima, em quadras de saibro no Peru. Ele venceu nesta quinta-feira o cabeça 1 local Diego Pajares, 215º do ranking, por 7/6 (7-3), 3/6 e 6/2. Schafer, de 17 anos e 428º do ranking, é o oitavo cabeça de chave do […] O post Schafer vence o cabeça 1 em Lima, juvenis avançam Luque e San Jose apareceu primeiro em TenisBrasil .",
+   "id": "827ae64557f90fe3",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Lucas Andrade vira batalha de 3h23 e segue Guto Miguel nas quartas em El Salvador",
+   "link": "https://www.tenisnews.com.br/lucas-andrade-vira-batalha-segue-guto-quartas-el-salvador/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T01:37:30Z",
+   "trecho": "O Brasil terá outro representante em quadra nesta sexta-feira pelas quartas de final do Challenger 50 de San Salvador, em El Salvador, evento no piso duro com premiação de US$ 63 mil. Lucas Andrade, 574º colocado, derrotou o tenista da casa, Diego Duran, 1912º colocado, por 6/7 (7/2) 7/6 (7/2) 7/6 (7/5) após batalha de […]",
+   "id": "1439c54b282cbb0a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Andrey Rublev shares his honest opinion about Mirra Andreeva as both a tennis player and person",
+   "link": "https://sports.yahoo.com/tennis/articles/andrey-rublev-shares-honest-opinion-013000755.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T01:30:00Z",
+   "trecho": "Andrey Rublev experienced playing alongside Mirra Andreeva at the US Open this year. Andreeva has won Roland Garros and the WTA Finals this year, in...",
+   "id": "8c4a82be7b7cdf2b",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Toni Nadal shares theory on why so many players are getting injured after speaking to Roger Federer",
+   "link": "https://sports.yahoo.com/tennis/articles/toni-nadal-shares-theory-why-010000903.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T01:00:00Z",
+   "trecho": "There is cause to believe that this year has been the worst in recent memory, especially where the ATP Tour is concerned. After all, it...",
+   "id": "f81837ef726647f6",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Bia Haddad confirma retorno ao circuito e traça planos sobre volta às quadras",
+   "link": "https://www.tenisnews.com.br/bia-haddad-diz-que-vai-voltar-traca-planos-sobre-retorno/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T00:54:30Z",
+   "trecho": "Em entrevista ao programa Quinto Set, do New Balls Please, com Fernando Nardini e Fernando Meligeni, Bia Haddad Maia confirmou seu retorno às quadras, falou de onde partiu a vontade de voltar, como foram os primeiros meses de paralisação e traçou uma meta de data para estar competindo no circuito. -> Clique Aqui e ENTRE […]",
+   "id": "c7f412d3e4192f82",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Carol para nas oitavas em Florianópolis, semis de duplas terão 3 brasileiras",
+   "link": "https://tenisbrasil.uol.com.br/carol-para-nas-oitavas-em-florianopolis-semis-de-duplas-terao-3-brasileiras.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T00:52:59Z",
+   "trecho": "Florianópolis (SC) – No jogo que encerrou a programação desta quinta-feira no W75 de Florianópolis, Carol Meligeni foi eliminada nas oitavas. Cabeça 3 do torneio e 297ª do ranking, a paulista de 30 anos perdeu da espanhola Ruth Roura, 483ª colocada, por 6/1 e 6/4. Roura será a adversária da romena Miriam Bulgaru, cabeça 5 […] O post Carol para nas oitavas em Florianópolis, semis de duplas terão 3 brasileiras apareceu primeiro em TenisBrasil .",
+   "id": "6ab04225da188e16",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Espanha elimina Áustria sem Alcaraz e avança para as semifinais da Copa Davis",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUDBPU0NJOS1rbHhrT09YTFcwblNLa1pDR3RxU2taQnBPM0FRdFE3ZkxQR0NMN3g3UmhISWdfemJyMlNnRUxRa25WN0dDVWY0aFRfNHhGeldwY0N2UGJVN0NxSXAwY2Jxa2FVcDV0WVVYODJ6bm9GSkNObTZaUzdzMlR4SlExd0xZZGRUci0zbndPQktsc1AyTy10WWRIb1RXYjFWd0lHR1J3LWR3QVJB0gGzAUFVX3lxTE5pYzZzbm1nY1RVcmM5dS1GTS1Qa0pmZHJraVhKb1p2dS1vd0k2NGF4LTc3cjVsd0RYR1BpMXVZTjlBZFZrVWh0dzl4WEJUOXdybmZzdlZWZEg1Ml9iOVYtek00YTE3SmcybjV6UFRHVm12bld4aWxTbll3WXlfd0VnMkdDNW1pTnd2Q0RRaGR5ZzE1VjVCZS1ReVBnenUxSDdUX2I0S2NXaVlxZG1fTG5VSGsw?oc=5",
+   "fonte": "Folha PE",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T00:44:00Z",
+   "trecho": "",
+   "id": "3cd2065d9dbf541f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Lucas Andrade vence em três tiebreaks e se junta a Guto nas quartas",
+   "link": "https://tenisbrasil.uol.com.br/lucas-andrade-vence-em-tres-tiebreaks-e-se-junta-a-guto-nas-quartas.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T00:34:22Z",
+   "trecho": "San Salvador (El Salvador) – O paulista Lucas Andrade da Silva é mais um brasileiro a se classificar para as quartas de final do challenger 50 de San Salvador, em quadras duras. Andrade, de 21 anos e 574º do ranking, precisou de três tiebreaks e 3h23 para vencer o convidado local Diego Duran, também de 21 […] O post Lucas Andrade vence em três tiebreaks e se junta a Guto nas quartas apareceu primeiro em TenisBrasil .",
+   "id": "2e1408c0e0265913",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Guto Miguel busca semi em El Salvador nesta Sexta. Horário e Onde Assistir!",
+   "link": "https://www.tenisnews.com.br/guto-miguel-quartas-el-salvador-sexta/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-27T00:10:00Z",
+   "trecho": "O jovem brasileiro Luis Guto Miguel volta à quadra nesta sexta-feira para duelo de quartas de final no Challenger 50 de San Salvador, em El Salvador. -> Clique Aqui e ENTRE em nosso canal do Whatsapp! Depois de duas vitórias em três sets nas rodadas anteriores, o jovem de 17 anos e número 1 mundial […]",
+   "id": "4b0d2e97b6d2c11a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Every player Jannik Sinner defeated in a Masters 1000 final in 2026 as the season ends",
+   "link": "https://sports.yahoo.com/tennis/articles/every-player-jannik-sinner-defeated-000000662.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T00:00:00Z",
+   "trecho": "Jannik Sinner’s 2026 campaign came to an abrupt end. After winning a second consecutive Wimbledon title, Sinner decided to forego competing in the Canadian Open....",
+   "id": "043326acabed6ccb",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "The earliest date that Carlos Alcaraz can officially become world number one again",
+   "link": "https://sports.yahoo.com/tennis/articles/earliest-date-carlos-alcaraz-officially-000000629.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-27T00:00:00Z",
+   "trecho": "Despite emerging victorious over Alexander Zverev in the championship match at the ATP Finals, Carlos Alcaraz remains the world number three heading into the 2027...",
+   "id": "516c53a71458b64d",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "“Precisamos do Alcaraz na semifinal de sábado”, diz o capitão Ferrer",
+   "link": "https://tenisbrasil.uol.com.br/precisamos-do-alcaraz-na-semifinal-de-sabado-diz-o-capitao-ferrer.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T23:57:10Z",
+   "trecho": "Bolonha (Itália) – Após a classificação da Espanha para a semifinal da Copa Davis, o capitão David Ferrer conta com Carlos Alcaraz para o duelo contra a Grã-Bretanha no sábado. O número 3 do mundo foi poupado das partidas de simples desta quinta-feira contra a Áustria e estava à disposição apenas para um eventual desempate […] O post “Precisamos do Alcaraz na semifinal de sábado”, diz o capitão Ferrer apareceu primeiro em TenisBrasil .",
+   "id": "a31cbedffda63fcd",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jodar descarta desgaste físico após vitória na Copa Davis",
+   "link": "https://www.tenisnews.com.br/jodar-descarta-desgaste-fisico-copa-davis/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T23:24:30Z",
+   "trecho": "Rafael Jodar, número 10 do mundo, minimizou seu desgaste físico após a vitória em três sets contra Jurij Rodionov nesta quinta-feira pelas quartas de final da Copa Davis. “A partida estava muito equilibrada até ele conseguir a primeira quebra de serviço. Sabíamos que esse jogador era muito perigoso nesta superfície; eles se sentem à vontade […]",
+   "id": "e51165b1e2dfdad7",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "David Ferrer encense Rafael Jodar après la qualification",
+   "link": "https://www.lequipe.fr/Tennis/Video/Coupe-davis-espagne-david-ferrer-encense-rafael-jodar-apres-la-qualification/20246424#at_medium=RSS_feeds",
+   "fonte": "L'Équipe",
+   "via": "",
+   "idioma": "fr",
+   "publicadoEm": "2026-11-26T23:15:00Z",
+   "trecho": "",
+   "id": "be4ef0e038f27a0f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Mirra Andreeva’s Grand Slam total for 2027 has already been predicted, ‘I would be surprised’",
+   "link": "https://sports.yahoo.com/tennis/articles/mirra-andreeva-grand-slam-total-230000182.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T23:00:00Z",
+   "trecho": "Mirra Andreeva has set high expectations heading into the 2027 season. Andreeva has won Roland Garros and the WTA Finals titles this year, as well...",
+   "id": "a71aae41701d4b19",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Cinco brasileiros disputam as semifinais de duplas em Florianópolis",
+   "link": "https://tenisbrasil.uol.com.br/cinco-brasileiros-disputam-as-semifinais-de-duplas-em-florianopolis.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T22:21:24Z",
+   "trecho": "Florianópolis (SC) – Cinco brasileiros disputam as semifinais de duplas do challenger 75 de Florianópolis, nas quadras de saibro do Lagoa Iate Clube (LIC), com direito a duas parcerias nacionais. O paulista Pedro Sakamoto e o brasiliense Paulo Saraiva venceram o peruano Alexander Merino e o argentino Franco Ribero, cabeças de chave 4, por 2/6, […] O post Cinco brasileiros disputam as semifinais de duplas em Florianópolis apareceu primeiro em TenisBrasil .",
+   "id": "606e5e7df1f7c931",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Ferrer toma decisão sobre participação de Alcaraz na semi da Copa Davis",
+   "link": "https://www.tenisnews.com.br/ferrer-decisao-participacao-alcaraz-semi-davis/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T22:09:37Z",
+   "trecho": "Após poupar Carlos Alcaraz do duelo de quartas de final da Copa Davis contra a Áustria, o capitão espanhol David Ferrer já está decidido sobre o confronto de semifinal, diante da Grã Bretanha, que ocorre no sábado. A esquipe espanhola se classificou com vitórias de Rafael Jodar e Daniel Merida. Alcaraz jogaria nas duplas, caso […]",
+   "id": "f52ec6b8a7ec9f2a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Pagotto vence em Santa Cruz e se junta a Bini na segunda rodada",
+   "link": "https://tenisbrasil.uol.com.br/pagotto-vence-em-santa-cruz-e-se-junta-a-bini-na-segunda-rodada.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T22:04:46Z",
+   "trecho": "Santa Cruz (Bolívia) – O paulista Victor Pagotto é o segundo brasileiro a avançar no M15 de Santa Cruz, em quadras de saibro na Bolívia. O cabeça 5 do torneio e 791º do ranking marcou um duplo 6/0 contra o juvenil convidado Victor Verduguez em apenas 44 minutos. Pagotto, de 21 anos, conquistou na atual […] O post Pagotto vence em Santa Cruz e se junta a Bini na segunda rodada apareceu primeiro em TenisBrasil .",
+   "id": "f371f9291228db94",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "How Novak Djokovic, Roger Federer and Rafael Nadal performed on their Davis Cup debuts as the 2026 Finals begin",
+   "link": "https://sports.yahoo.com/tennis/articles/novak-djokovic-roger-federer-rafael-220000208.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T22:00:00Z",
+   "trecho": "The 2026 Davis Cup Finals are well underway. Italy and Czechia have already advanced to the semi-finals after defeating South Korea and Canada, respectively. Great...",
+   "id": "5a41717a93558747",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Why Alexander Zverev is the rightful world number one and the criticism of his tennis is unfair",
+   "link": "https://sports.yahoo.com/tennis/articles/why-alexander-zverev-rightful-world-220000809.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T22:00:00Z",
+   "trecho": "Alexander Zverev has created plenty of noise in the 2026 ATP season, both on and off the court. The experienced German finally ended years of...",
+   "id": "d337556befeb8e43",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "De lucky loser a algoz do segundo favorito: Zanellato avança em Floripa",
+   "link": "https://www.olimpiadatododia.com.br/tenis/775261-challenger-florianopolis-brasileiros-quartas-final/",
+   "fonte": "Olimpíada Todo Dia",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:55:11Z",
+   "trecho": "Eduardo Ribeiro, Felipe Meligeni Alves, Igor Marcondes e Nicolas Zanellato avançam no Challenger 75 de tênis; país também garante presença na final de duplas O post De lucky loser a algoz do segundo favorito: Zanellato avança em Floripa apareceu primeiro em Olimpíada Todo Dia .",
+   "id": "0cd9e212d70964ec",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Tsitsipas relata cena cômica durante férias no Marrocos",
+   "link": "https://www.tenisnews.com.br/tsitsipas-historia-ferias-marrocos/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:49:57Z",
+   "trecho": "O grego Stefanos Tsitsipas passa férias no Marrocos e relatou uma história curiosa vivida nos últimos dias. O tenista está curtindo férias com a namorada, Kristen Thoms, por países da África, e anteriormente esteve em Ruanda. Stefanos parece estar focado no contato com a natureza e a cultura local, e compartilhou imagens junto à animais […]",
+   "id": "dd8726ffb58b1a68",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Espanha nas meias da Davis sem Alcaraz jogar",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSTRXT1NsR2wwcWxZU0VucnROTGJYT1MzNTJqQ1ZneUJtb1ZWOU9KMTloT3dqNUFueU5IZDVIa1pWVUNlYWdveGZwR213aGhNOFdtVkROYkhMR3FRZW5fRXUwRG1maU1qcXV4WnZVMURsX0RyRXpKcFdDOTd2bDNkakR5X3NUZ0NDeGRRSE9R?oc=5",
+   "fonte": "diadejogo.pt",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:49:26Z",
+   "trecho": "",
+   "id": "075c642a58fb5a69",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Looking back at Leon Smith’s first outing as Great Britain’s Davis Cup captain 16 years ago ahead of his 2026 departure",
+   "link": "https://sports.yahoo.com/tennis/articles/looking-back-leon-smith-first-213000146.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T21:30:00Z",
+   "trecho": "Leon Smith is attempting to end his Davis Cup career on a high note. The British Davis Cup captain has led his team to the...",
+   "id": "bf9dc9130cf990c8",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Ex-Nº 1 aposta em nova estrela no tênis feminino: ‘Se Sabalenka não conseguir, será Ela’",
+   "link": "https://www.tenisnews.com.br/ex-no1-aposta-em-nova-estrela/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:29:02Z",
+   "trecho": "Jimmy Connors, ex-número 1 do mundo, fez sua análise do circuito feminino e apostou em uma atleta da nova geração para ganhar mais protagonismo na WTA. “O tênis é um trabalho de 365 dias por ano. Se você quer ser o melhor, ou um dos melhores, e tem interesses fora do tênis que o distraem, […]",
+   "id": "839d3462a879c6eb",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Carlos Alcaraz nas meias-finais da Taça Davis…sem jogar",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkdjM0lSQmc2RThZYnVDV3laZlJrVlByMGk0TjdSNnI0akk1SXNaTFlpV3pidGphaXZnSFhWLTlJdjVhQ3BBRUxBcmR0MmlvMnlkU0FCam9zbnRnOUFXS2lQRTZaWTlWTWhBQjZqVkRacGNnVzY2NTNrNkt1a2VOaDQ2UjI5cHVyV0ozdnFYTGhXMS1xNm400gGXAUFVX3lxTE5OR2MzSVJCZzZFOFlidUNXeVpmUmtWUHIwaTRON1I2cjRqSTVJc1pMWWlXemJ0amFpdmdIWFYtOUl2NWFDcEFFTEFyZHQyaW8yeWRTQUJqb3NudGc5QVdLaVBFNlpZOVZNaEFCNmpWRFpwY2dXNjY1M2s2S3VrZU5oNDZSMjlwdXJXSjN2cVhMaFcxLXE2bjQ?oc=5",
+   "fonte": "Record",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:20:32Z",
+   "trecho": "",
+   "id": "5fd6832360b56fab",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Tênis: Copa Davis define semifinalistas",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUW9pSnVrQUlZa3VtWDVwVTkwNmhyaS00OG5CV3ozbXZvNHlXUDZ3cGh6STVvdnZCU1ptYWNEZVFmMzJJcHRBVmZxMF9oWVBzRWc2aWpKMzBmY3MydTBCNzFETTVEbU1lcTBHcTRnRnp1R1I4M0JWejU5a1M3V1prckRZUmZJN05Ea0ZkNC14WE5heUpS?oc=5",
+   "fonte": "Correio do Povo",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:17:30Z",
+   "trecho": "",
+   "id": "a66ab3d18cc3ef9f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Capitão britânico avalia chances para duelo contra a Espanha de Alcaraz e Jodar",
+   "link": "https://www.tenisnews.com.br/capitao-britanico-avalia-espanha/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T21:09:38Z",
+   "trecho": "Durante entrevista coletiva após vencer a Alemanha pelas quartas de final da Copa Davis, o time britânico fez uma avaliação sobre a Espanha, adversária de semifinal no evento disputado em Bolonha, na Itália. O confronto ocorre no sábado, e terá dois jogos de simples mais uma partida de duplas, se necessário, para desempate. O capitão […]",
+   "id": "97444650c95ad234",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Spain captain reveals when Carlos Alcaraz will play at the Davis Cup after he misses opening tie",
+   "link": "https://www.tennis365.com/davis-cup/carlos-alcaraz-davis-cup-decision-david-ferrer",
+   "fonte": "Tennis365",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T21:06:42Z",
+   "trecho": "Alcaraz watches Spain beat Austria at the Davis Cup a- but when will he play. The post Spain captain reveals when Carlos Alcaraz will play at the Davis Cup after he misses opening tie appeared first on Tennis365 .",
+   "id": "3453a37fd2cd3223",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "5 Live Sport",
+   "link": "https://www.bbc.co.uk/sounds/play/m0034m8h?at_medium=RSS&at_campaign=rss",
+   "fonte": "BBC Sport",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T21:00:00Z",
+   "trecho": "Katie Smith is joined by Kyle Edmund, Ryan Harrison and Russell Fuller.",
+   "id": "6b2732a14181cba1",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Rafael Nadal reveals what he told his uncle during the rain delay in the 2008 Wimbledon final with Roger Federer",
+   "link": "https://sports.yahoo.com/tennis/articles/rafael-nadal-reveals-told-uncle-210000001.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T21:00:00Z",
+   "trecho": "In 2008, Rafael Nadal and Roger Federer delivered one of the greatest tennis matches of all time. Nadal and Federer met in the Wimbledon final...",
+   "id": "04aa68047949189e",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Why Carlos Alcaraz now deserves even more credit for splitting with Juan Carlos Ferrero after winning the ATP Finals",
+   "link": "https://tennishead.net/why-carlos-alcaraz-now-deserves-even-more-credit-for-splitting-with-juan-carlos-ferrero-after-winning-the-atp-finals/",
+   "fonte": "Tennishead",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T21:00:00Z",
+   "trecho": "Around this time last year, it was announced that Carlos Alcaraz and Juan Carlos Ferrero would be ending their partnership together. It marked the conclusion ...",
+   "id": "291b2db5eb9aa487",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Sem Carlos Alcaraz, Espanha avança à semifinal da Copa Davis",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNelQ0UmJfcXpFWDN1MUE0Z3JBNDBmNmZJY25YdFN4T19zYmE3QWV1eC1sTXBFWV80em9UTXhaOVdWRnRKOUdNVG1oNVIteFV2Xzk2dS1WY2lBeEVZWGRJd1huSjhVc2k0Mjd3RnpUaXhTTVFpeUVEYmNLTjFmMEFXXzYtX0JBNGpQZGRwWi1TNmJ2VUJmbER2YTRzUQ?oc=5",
+   "fonte": "LANCE!",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:50:19Z",
+   "trecho": "",
+   "id": "a1bd2479fe5c9948",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Australian Open: 5 tenistas que podem se beneficiar da ausência de Jannik Sinner",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZSWNsVHd6SGc0eksxbDVWeHA0b3IzQ2F4cVgwTWFFS0JOSFVjZDFHYWdKSVZjNjlDWGdESHFONmZOU051dm1NR3p6UVRWdUZTX2psRnZ4Y0xYTDVZZFdKSk54RVA5ZXllbktRdU5PdVZGUW1Wei1faFlEb0NpNlk?oc=5",
+   "fonte": "Playmaker Brasil",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:46:00Z",
+   "trecho": "",
+   "id": "ab4b182aac9f9409",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jódar e Mérida garantem a última vaga na semi da Davis para a Espanha",
+   "link": "https://tenisbrasil.uol.com.br/jodar-e-merida-garantem-a-ultima-vaga-na-semi-da-davis-para-a-espanha.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:36:59Z",
+   "trecho": "Bolonha (Itália) – Seis vezes campeã da Copa Davis, a Espanha garantiu a última vaga nas semifinais em Bolonha. A vaga foi confirmada após uma vitória por 2 a 0 contra a Áustria nesta quinta-feira, com Daniel Mérida e Rafael Jódar vencendo suas partidas de simples. Mérida, de 22 anos e 42º do ranking, derrotou […] O post Jódar e Mérida garantem a última vaga na semi da Davis para a Espanha apareceu primeiro em TenisBrasil .",
+   "id": "6f2d27f2b32d516e",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jodar and Merida send Spain into Davis Cup semi-finals against Great Britain",
+   "link": "https://www.tennismajors.com/others-news/davis-cup-news/jodar-and-merida-send-spain-into-davis-cup-semi-finals-against-great-britain-867900.html",
+   "fonte": "Tennis Majors",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T20:35:35Z",
+   "trecho": "Rafael Jodar came back from a set down against Jurij Rodionov to clinch Spain's 2-0 win over Austria, after Daniel Merida had beaten Joel Schwaerzler. Carlos Alcaraz did not need to play.",
+   "id": "d8d725305ad14b7e",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Como Assistir Tênis ao Vivo em Diferentes Dispositivos: Guia de Streaming, IPTV e Qualidade de Transmissão",
+   "link": "https://www.tenisnews.com.br/como-assistir-tenis-ao-vivo-diferentes-dispositivos/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:31:00Z",
+   "trecho": "Acompanhar tênis ao vivo exige um pouco mais de planejamento do que simplesmente ligar a televisão. Durante um grande torneio, várias partidas acontecem ao mesmo tempo, muitas vezes em quadras diferentes. Quem acompanha João Fonseca, Bia Haddad Maia ou os principais nomes do circuito internacional sabe como é frustrante descobrir que a partida desejada não […]",
+   "id": "8132070329de22b4",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jamie Murray gives his honest opinion on the current Davis Cup format",
+   "link": "https://sports.yahoo.com/tennis/articles/jamie-murray-gives-honest-opinion-203000704.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T20:30:00Z",
+   "trecho": "The Davis Cup format has undergone several changes over the years. Home and away ties are, for many, what makes the Davis Cup. Gerrard Pique’s...",
+   "id": "6d965b22b43596e5",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "ATP Finals bate recorde de público, mas audiência da TV despenca sem Sinner",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVUNfblg1ckhDa0UwZmZuRFgyYVdob2Jhc0lDV255czduMmpFeTVHR0E2NmFzcndWR0hJMVVqcW55NDVoSnVOaTRKMWs0clV6NXJ4RDhMalp2SmJkUFllRlNmTW5fa3l6RTdTS2ZWU2pxbXIwTXo3Z2tzVFA2dkFySEZkWFlQSTNxNGVCM3pBeEp3OTNjZHB3UmpjVW4xSnNEVGRCSU5TMG5PS2pvR2FGQWdBWQ?oc=5",
+   "fonte": "BrasilTenis",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:19:56Z",
+   "trecho": "",
+   "id": "22f97061946a7851",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Líder do ranking juvenil, treinos de Guto com astros do Finals é destaque de vídeo",
+   "link": "https://tenisbrasil.uol.com.br/lider-do-ranking-juvenil-treinos-de-guto-com-astros-do-finals-e-destaque-de-video.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:16:04Z",
+   "trecho": "Turim (Itália) – Primeiro brasileiro a ganhar a chave juvenil de simples de Roland Garros neste ano, Guto Miguel foi parceiro de treinos de astros como Carlos Alcaraz, Frances Tiafoe e Arthur Fils durante seuss preparativos para o ATP Finals em Turim. “Tem sido uma inacreditável experiência para mim”, comentou o jovem goiano. Perguntado sobre […] O post Líder do ranking juvenil, treinos de Guto com astros do Finals é destaque de vídeo apareceu primeiro em TenisBrasil .",
+   "id": "e7eee156645edfa9",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Carlos Alcaraz’s scheduling questioned once again as Davis Cup decision pays off",
+   "link": "https://www.tennis365.com/tennis-news/carlos-alcaraz-scheduling-questioned-davis-cup-gamble",
+   "fonte": "Tennis365",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T20:15:40Z",
+   "trecho": "Spain win in Davis Cup as Carlos Alcaraz makes big decision. The post Carlos Alcaraz’s scheduling questioned once again as Davis Cup decision pays off appeared first on Tennis365 .",
+   "id": "0061a9bb3ba897dd",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Zanellato derruba cabeça 2, obtém maior vitória da carreira e vai às quartas em Florianópolis",
+   "link": "https://www.tenisnews.com.br/zanellato-vai-quartas-florianopolis/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:05:25Z",
+   "trecho": "Nicolas Zanellato, 691º do mundo, garantiu classificação às quartas de final do Challenger 75 de Florianópolis (SC), nesta quinta-feira. Zanellato, de 24 anos, conseguiu a mais expressiva vitória de sua carreira até o momento triunfando diante do cabeça de chave 2 do torneio catarinense, o dinamarquês Elmer Moller, 149º colocado, anotando as parciais de 0/6 […]",
+   "id": "5e058cfd1e13024f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Marcondes e Zanellato completam rodada perfeita dos brasileiros em Floripa",
+   "link": "https://tenisbrasil.uol.com.br/marcondes-e-zanellato-completam-rodada-perfeita-dos-brasileiros-em-floripa.html",
+   "fonte": "TenisBrasil",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:01:03Z",
+   "trecho": "Florianópolis (SC) – Os brasileiros tiveram 100% de aproveitamento na rodada das oitavas de final do challenger 75 de Florianópolis. Após as vitórias de Felipe Meligeni e Eduardo Ribeiro no início da programação desta quinta-feira, foi a vez de Igor Marcondes e Nicolas Zanellato também vencerem seus jogos. Canhoto de 29 anos e 327º do […] O post Marcondes e Zanellato completam rodada perfeita dos brasileiros em Floripa apareceu primeiro em TenisBrasil .",
+   "id": "9aca744871a7ef68",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Taça Davis — Espanha vence a Áustria sem precisar de Alcaraz e vai defrontar a Grã-Bretanha",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdmFucG42NWp2elRDeXE1djFBRjhvbzNmdC1iYmNybl9ScmVSV3V6Ql9rQ1FCWVJlZ0E5eFo4YkFvZVowTllSc2VJT1c3ZGNXTVNUWVozanFIWmxlOGJIM3RXUWZQbmtRcmZuckttdHFXUjNYU0YzRzhQUEdFZVNpdUlPTjJXNEFNZENIYXVPV2VFMmhRRERSNzJoN3VwT1o3WjR3aVQzdUVYSUFhVktkOVNSOHYwanZfQWpGUUZlN3A1MGRCaXRYXzdlTEtwMkJ1R1ZQTTlwTWdsT2pTMVF1d3lqMlFQOVRCTHlXSS0yV2FhSHpxaXc?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T20:00:38Z",
+   "trecho": "",
+   "id": "0789ebda84aeab26",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "The two tournaments Jannik Sinner should consider playing first when he returns from injury",
+   "link": "https://sports.yahoo.com/tennis/articles/two-tournaments-jannik-sinner-consider-200000914.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T20:00:00Z",
+   "trecho": "Jannik Sinner is finally on his way back to full fitness after undergoing surgery on his longstanding knee injury. Carlos Alcaraz hopes to see Sinner...",
+   "id": "d4a77026ded28657",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Carlos Alcaraz and Jannik Sinner’s full head-to-head record after ‘I miss him’ comments",
+   "link": "https://tennishead.net/carlos-alcaraz-and-jannik-sinners-full-head-to-head-record-after-i-miss-him-comments/",
+   "fonte": "Tennishead",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T20:00:00Z",
+   "trecho": "Carlos Alcaraz said he missed Jannik Sinner after the Italian underwent surgery and withdrew from the 2027 Australian Open. “Obviously, I’m going to say tennis ...",
+   "id": "026e54d6b1a1c471",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Sans Carlos Alcaraz, préservé, l'Espagne élimine l'Autriche et assure sa place en demi-finales de la Coupe Davis",
+   "link": "https://www.lequipe.fr/Tennis/Actualites/Sans-carlos-alcaraz-preserve-l-espagne-elimine-l-autriche-et-assure-sa-place-en-demi-finales-de-la-coupe-davis/1746462#at_medium=RSS_feeds",
+   "fonte": "L'Équipe",
+   "via": "",
+   "idioma": "fr",
+   "publicadoEm": "2026-11-26T19:58:49Z",
+   "trecho": "Même privée de Carlos Alcaraz, laissé au repos, l'équipe d'Espagne n'a pas trop souffert pour éliminer l'Autriche, jeudi, en quarts de finale de la Coupe Davis, à Bologne (2-0).",
+   "id": "3be71b3219b2b3d6",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Ainda a WTA Finals: elogios de Mirra Andreeva a Elina Svitolina não estavam no \"guião\"",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcGg0Z0ppNkk2Q0RHaDVyMTl4VFJ0UmRMYzgtTk1ISER4RHN0MGlEdHptRzdyeUJlSE1oVlozWmtUem5HTXMzemVPQ1dWaW5oVFplSHJOMGVaMDE2OExDeWdjbWJ1Znozd2llZFJNRkVfTUFjZjZWeG5QX1liSUp1OGRiYmZnaEwwWkxyTlYzaFRMUnQtRmtnN0JET2hqY1FhanFWSHFKbVVrTWp3dmdWSmY1dUxINHlWNGpBTzN2REhQSk52Xzl4MEpZY0w?oc=5",
+   "fonte": "O Jogo",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:54:00Z",
+   "trecho": "",
+   "id": "9707b3997a08e0a3",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Alcaraz é poupado, Espanha vence a Áustria e avança à semifinal da Copa Davis",
+   "link": "https://ge.globo.com/tenis/noticia/2026/11/26/alcaraz-e-poupado-espanha-vence-a-austria-e-avanca-a-semifinal-da-copa-davis.ghtml",
+   "fonte": "ge",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:53:50Z",
+   "trecho": "Alcaraz vira contra Shelton no ATP Finals Mesmo sem contar com Carlos Alcaraz, a Espanha venceu a Áustria por 2 a 0 e garantiu vaga na semifinal da Copa Davis, nesta quinta-feira (26), em Bolonha, na Itália. O número 3 do mundo foi poupado das disputas de simples e não precisou entrar em quadra, já que Daniel Mérida e Rafael Jódar venceram Joel Schwaerzler e Jurij Rodionov, respectivamente, e resolveram o confronto para a equipe. + Alcaraz lamenta Sinner longe das quadras: \"O tênis e eu sentimos",
+   "id": "e9bd85070182a5c3",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jodar vira com direito a pneu, classifica Espanha na Davis e dá folga para Alcaraz",
+   "link": "https://www.tenisnews.com.br/jodar-vira-classifica-espanha-davis/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:46:04Z",
+   "trecho": "O espanhol Rafael Jodar venceu a segunda partida para a Espanha e classificou a equipe às semifinais da Copa Davis, nesta quinta-feira. Em confronto disputado em quadras duras cobertas em Bolonha, na Itália, o jovem número 10 mundial derrotou com grande virada o austríaco Jurij Rodionov, 119º colocado do ranking. Depois de um primeiro set […]",
+   "id": "14d90a4623bd2b0f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "\"Não estou muito preocupado\": Alexander Zverev quebra o silêncio sobre processo da ex-companheira",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMG0zbHo3bl9mZ0FEN2J1a2dmbEZ3d0o2c3d5ZTlvR0MxYm9fMWJZOTlGdUxLUWNPbTliR0RlY0tYTnNhSUhaZUtzRmhlUzd2Qlhab09NN0tOTk1OVlNCYjBhVk1LRUJNUGxQU1VjN2dYYUMtSUdDSEN2TWMzYnpSRVVUMHJ4MXBPZm1CNllFZGdrVS1XLWhLM0lUT0ktVE1jTGk3MFo2M1FCakdEQzlZd1ZnQWF5cmpxUnZtdDVaT3cxR0VR?oc=5",
+   "fonte": "Lente Desportiva",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:45:00Z",
+   "trecho": "",
+   "id": "083957eec3e9973c",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Alexander Zverev não será respeitado como n.º 1 enquanto não vencer Carlos Alcaraz ou Jannik Sinner",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nb3hQRXZILVYtUXNqVlE5UXZiTTNBMmg1V3pWZHBZZUhQN3E4Tl8tcGF5MWhKMVN4TTZPQW1OWUhIckVIRG10aUZWb0hraGFKb0pkQ21kUFl1S2d0QzVqRFJ2QmwwaWhRVHN3UDB5LWNMRjhYb0h6ODdZS082OWs?oc=5",
+   "fonte": "Playmaker Brasil",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:36:13Z",
+   "trecho": "",
+   "id": "61de658a0f53866d",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Alexander Zverev’s five best results of 2026 as his season comes to an end at the Davis Cup",
+   "link": "https://sports.yahoo.com/tennis/articles/alexander-zverev-five-best-results-193000946.html",
+   "fonte": "Yahoo Sports",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T19:30:00Z",
+   "trecho": "Great Britain’s Davis Cup team have brought the curtain down on Alexander Zverev’s 2026 season. Cameron Norrie established an early lead for the Brits in...",
+   "id": "d59ed4066e71d797",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Laura Pigossi vai às quartas em Florianópolis e garante importante avanço no ranking",
+   "link": "https://www.tenisnews.com.br/pigossi-vai-quartas-florianopolis/",
+   "fonte": "Tenis News",
+   "via": "",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T19:28:40Z",
+   "trecho": "A brasileira Laura Pigossi se classificou nesta quinta-feira às quartas de final do W75 de Florianópolis (SC). Cabeça de chave 2, Laura confirmou o favoritismo e derrotou a holandesa Demi Tran, por 7/5 6/1. Nas quartas, ela duela com a peruana Lucciana Perez Alarcon, cabeça 6 do torneio realizado no Lagoa Iate Clube. Com o […]",
+   "id": "fb882533c2fcc1aa",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
   {
    "titulo": "Mouratoglou dá sincera opinião sobre resposta de Alcaraz envolvendo Zverev",
    "link": "https://www.tenisnews.com.br/mouratoglou-opiniao-resposta-alcaraz-zverev/",
@@ -29,6 +678,17 @@
    "trecho": "Florianópolis (SC) – A paulista Laura Pigossi é a primeira brasileira a se classificar para as quartas de final do W75 de Florianópolis, nas quadras de saibro do Lagoa Iate Clube. Número 1 do país e 265ª do mundo, Pigossi confirmou a condição de segunda cabeça de chave ao vencer a holandesa Demi Tran, 628ª […] O post Pigossi vence mais uma e faz quartas em Florianópolis, Cé cai nas oitavas apareceu primeiro em TenisBrasil .",
    "id": "a1aa0deabf8bf56e",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Cost of Jannik Sinner’s extended injury lay-off revealed as he misses out on a huge cash windfall",
+   "link": "https://www.tennis365.com/tennis-news/jannik-sinner-injury-setback-cost-revealed",
+   "fonte": "Tennis365",
+   "via": "",
+   "idioma": "en",
+   "publicadoEm": "2026-11-26T19:00:12Z",
+   "trecho": "Sinner facing eye-watering financial cost after injury setback. The post Cost of Jannik Sinner’s extended injury lay-off revealed as he misses out on a huge cash windfall appeared first on Tennis365 .",
+   "id": "337166f21a2aaac2",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Italy now have a clear decision to make with Flavio Cobolli if they want to defend their Davis Cup title again",
@@ -75,6 +735,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Sinner está fora do Australian Open 2027 após cirurgia; entenda",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0QThYcXFUZ3NoM1cwR19JTzhsYzVnUkdnQ3plUnZHS3pKdFRCT2dnMFA3ZlEtZDlXeDBUX0ZjT2otRi10V3pWQkpqNDIyQ3dkb2dsSFBnQUdpZTJhS0pZTDIzckRVRXhuWjNhTzBKTjRKZw?oc=5",
+   "fonte": "tmc.com.br",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T18:44:36Z",
+   "trecho": "",
+   "id": "30ce19029d9ecaef",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Tiago Pereira nas meias-finais de pares do 'challenger' de Monastir 2 em ténis",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT1JOa0Z0ZmhNbVJCa2xRMTBLZ2FGMWRHVXU5QklvX181S2hqOTJxVVZsNHIxMTYycmRZTHRCV3hLaUVNZXJidzRDeTVvS2E4dm9wa2pTU0dRRnY4X1RKWTJ2MW5MTTFZSU53Sl9xV19RMlFDcWJjSzFyVk9UU0pqekg1M1VNa1VjZEJkT1pyV3dUY2ZkZHpiczJzd29kcGlZOE55MDFwQ3lmUG1kNDZtUkpyc0FUWmpHQnV0X9IBvAFBVV95cUxNT1JOa0Z0ZmhNbVJCa2xRMTBLZ2FGMWRHVXU5QklvX181S2hqOTJxVVZsNHIxMTYycmRZTHRCV3hLaUVNZXJidzRDeTVvS2E4dm9wa2pTU0dRRnY4X1RKWTJ2MW5MTTFZSU53Sl9xV19RMlFDcWJjSzFyVk9UU0pqekg1M1VNa1VjZEJkT1pyV3dUY2ZkZHpiczJzd29kcGlZOE55MDFwQ3lmUG1kNDZtUkpyc0FUWmpHQnV0Xw?oc=5",
    "fonte": "Record",
@@ -117,6 +788,17 @@
    "trecho": "In today’s digital landscape, efficient file transfer is crucial for businesses. WinSCP v6.7.1 is an open-source client that simplifies secure file transfers using protocols like SFTP, SCP, FTP, WebDAV, and S3. With features such as PuTTY SSH key authentication, live folder synchronization, and batch scripting, it offers a robust solution for managing files securely and […]",
    "id": "1cec119f40c52480",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "O capitão britânico: «Espanha? Na Taça Davis pode acontecer de tudo. Alcaraz e Jódar...»",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWlVBUGtFZm13Ml9pNWU2VTc4a3FSTk1obTdxcWM1ZEp6NE9XZ2t1R3ZLcTd4anp5VE8xTnM3Ulh2X3lna2ZwWm44VjMxZUF4OWVsU09VMVNCU3NwUGo1VTlVRzFfZ3lFSGs0Q1NwS240M3EySndIbW5zWUdSam1QLVFuT1QweDlwSGYzRC1xc2RHdmF5dHVlLWdNWjRWNEFXUU15dHFWczRSbTd4c3NRcFNIVjV4R2E0Y1ZtZVFIeFNRM2lvSGE4djdBSGdCdWJGNi1feGlTb0xwRlpZUXJLM0wwN2lmRG40OERJ?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T18:00:40Z",
+   "trecho": "",
+   "id": "25c314db33790b30",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "‘Very disappointed’ Germany Davis Cup captain reacts after losing to Great Britain in last-eight tie",
@@ -218,6 +900,28 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jódar rende-se a Alcaraz: «O que ele faz só lhe podia ocorrer a ele»",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTVR1elVueXViWWlEUkdxc0ltempQUnZwanF3NS01YkltTHc1OUhkVVQ1bkdjX0gwNWJZSm9XeWlpNUJMN3dIN1lLQ1gtTTlJd2MxM1pHM3dyZldNcHhqNHVDU21BQVhOUmF2RVJUVFJ5bnJ2LXpRT2VqczJKNkVPajhZSE5QQ0ZFNHcydkNKZ1FRUQ?oc=5",
+   "fonte": "Bola Amarela",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T17:14:16Z",
+   "trecho": "",
+   "id": "d9ec4d0bd546da6f",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Oficial: Alcaraz fica de fora dos singulares frente à Áustria",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdlB6NlZBNi1fQjVEbmx4SVNLN0FleVRyd19LU1dVZ2lEZkVTdXp4ZkZGR3hYUU5EOXRjakp1dmRBVW0wWEhPeHUzSXg2UTZJUU5zZkZjUjk4aDhkZ3J2QWhqQU5SWFJ3b1pJU1ZrZWdhN0lBc0lTRThLbUF1SGxDcGZNVElEMW9yZ0N3?oc=5",
+   "fonte": "Bola Amarela",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T17:14:16Z",
+   "trecho": "",
+   "id": "924f2df458418d65",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Jódar exalta Alcaraz: «É único. Só a ele ocorreria uma coisa dessas»",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV29lSmtjNGwyUzlUalEzMmVZZzdXSWFYaEZnSkhhX2p1bnBjUEVtamFrRGdHcDBRNHlRMFJEbTE4NjhQQlFBd2lMT3dsVkdBTDV2b2pVYXhTUWJhVGxZc180emV3R1dveHBXbEFrU3pUeEY5UUhzVXZQclRZVEl0aXpaNlhZMldWeG1rYXRUd1o1RWFvZnNGcXhhRU1pZWJzdmNLMTI1YmNha29uLWh3eEpqZS1EZGs4bm9tc0FxRGFMVDFVMGF2NW5rMFZ2NV9QbGUwTXln?oc=5",
    "fonte": "Tennis World Italia",
@@ -317,6 +1021,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Desistência de Sinner do Open da Austrália já é oficial: anúncio feito em Melbourne",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPek5JakdLUDZPaUMyNmlJU0l2Y2F3ZGY5WDVQcWE4Q3FtMWkwWF8tMVlNaXBJbk5DU0k3UEkwQUxXb3h1SUl2N1FMVXhpdmp2TEEyalRjRWxhTHVVMUpubVJJZDFrRWR6aWJkdnpGaDk2cjI3dm5TQ0lIbGJEUS15RVl0Q0FpOUQ4cEJaWmIyZjdRYWRzanZva3pUZGZKZEVnaWxMekdkQWNmYzhNSjFtMm1YdTZsd1AyRmkwek8tVjdRYkp3QlJXRzZlZHpFQUJVenRTcVdmajBCY1p2OXpOT0R3bGllOXli?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T16:30:35Z",
+   "trecho": "",
+   "id": "b9a702898ec0191d",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "How Great Britain performed the last time they reached the Davis Cup semi-finals",
    "link": "https://sports.yahoo.com/tennis/articles/great-britain-performed-last-time-163000791.html",
    "fonte": "Yahoo Sports",
@@ -403,6 +1118,17 @@
    "trecho": "Principal estrela da Espanha na Copa Davis, Carlos Alcaraz não irá atuar em simples nesta quinta-feira, e estará em ação somente se for necessário o terceiro duelo do confronto, nas duplas. A equipe liderada por David Ferrer adota cautela com seu principal atleta, que vem de uma sequência de partidas e na semana anterior foi […]",
    "id": "27afcd95c1ca8a14",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Taça Davis: Espanha-Áustria, Ferrer confirma Alcaraz fora dos singulares",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMXB4Sm9mdEtWb0VRc3JleVJiTGM4aDdaWWlsd0VDRDc4WmYwSkxUck5qTHNPMXZ5dWp5NFQ0REtvb2tIQzZDNjBvWmJxTTJtRWN5OHd3WVpURGlWcjNuQlIyWkhXN3J3T3RfY0kzbDJIczhWTkNxdGhrRWhnMUQ1YmtyUFMxTXRWMXA3VnkzMF9PUW03ejRTeXp1ZE1GRmNIaGZCSVF4Y3NQT3lMWjdiLTNZNlhhWjliWXNMY3VEV21pWE43V2xVV0haUjBDRzRYMlVDcTI5dklIeUdl?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T16:00:35Z",
+   "trecho": "",
+   "id": "3986254233428880",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "He is the player who has the most Davis Cup wins in history who never won the title",
@@ -515,6 +1241,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Ex-Flamengo, Carlos Alcaraz negocia com clube argentino",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RQlA0MF9DRG1EYTZOWGNaRHdxNGJlcE0yMl9lcWVCaU9YV1dlMzBXRDFJMGNnc0JLYlZfaWxpQkJkV01ZdnY2aktodGVLcGhMYW1wTW9mc25Lb3pmY0dKVi15aEpmMmp6TE1UcThkZEF5dGNYNGZfY0taQVJqQQ?oc=5",
+   "fonte": "RTI Esporte",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T15:10:06Z",
+   "trecho": "",
+   "id": "7d65f775e6175770",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Pas de retrouvailles entre Zverev et Alcaraz : l'Allemagne éliminée en quarts de finale de la Coupe Davis par la Grande-Bretagne",
    "link": "https://www.lequipe.fr/Tennis/Actualites/Pas-de-retrouvailles-entre-zverev-et-alcaraz-l-allemagne-eliminee-en-quarts-de-finale-de-la-coupe-davis-par-la-grande-bretagne/1746352#at_medium=RSS_feeds",
    "fonte": "L'Équipe",
@@ -592,6 +1329,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jannik Sinner não vai jogar o Aberto da Austrália após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNVV3WmNCSjB3V1VFb2FqN0U2VlZjcU1DLXBUUUlmazladHlOUVlWMnY3dkJSZnk4SVotalMyTHRGbm1mSzRKVXBLNGx2TXh3RU1Iak9wXzhKTjV3MENxRW9ET0ZKSDNQSDA2OEJvUmFjdlZJVTFyT1BUNkNreTYzRktzX0hMZ096c0theXA4d2tmbkpfR3lKN0Zaa2lJZ1M1YjNrX1hkNGF3clc4M3lnU0NTbWhGeGs?oc=5",
+   "fonte": "bra1.com.br",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T14:22:00Z",
+   "trecho": "",
+   "id": "ff5ad8dd7cafcc2c",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Jabeur treina com Badosa de olho no retorno em 2027",
    "link": "https://tenisbrasil.uol.com.br/jabeur-treina-com-badosa-de-olho-no-retorno-em-2027.html",
    "fonte": "TenisBrasil",
@@ -625,6 +1373,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jannik Sinner: Macci não tem dúvidas — «O verdadeiro fator X será a sua capacidade de movimentação»",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRDRjSzhTUVk3em85em9YUzZHQ2hQcm0wZjhUbHhGVmlGY0xsc0d4V19NZDZkZVRHNS10anZCMjh5dVR2NjR4dk9JQ2lzcjB0c2N1cm5VMzFSdDlkYTJPc2JSdGREOGFoNjl0b1dTc1Z2NnJUZ1dOWGpxWURnd2pKQ2RrTEFPRzFRZnNWWG9hMS1vVC1zTnFSeUk2VnVFVlFwQ2ZpT2xERFVycmFFa0ZJbE4yLXg3Qi10WlN6OHVJclAxZlBsYWxFU3MwMWYxWHVaWnRUd0JhTlhPOVR0d3RwanFpZGxxTDFIQUVMdXl6b3RkNkpDVWdmUkkwVUpjdw?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T14:00:34Z",
+   "trecho": "",
+   "id": "afb36d681a82dc03",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Italy’s Davis Cup captain admits he’s already been surprised twice at this year’s Finals",
    "link": "https://sports.yahoo.com/tennis/articles/italy-davis-cup-captain-admits-140000992.html",
    "fonte": "Yahoo Sports",
@@ -656,6 +1415,17 @@
    "trecho": "Manacor (Espanha) – O trabalho de Toni Nadal na formação de Rafael Nadal é bastante conhecido, mas o espanhol acredita que o papel de seus pais, Sebastián e Ana María, merece maior destaque. Em entrevista ao veículo francês Brut, o ex-líder do ranking mundial falou sobre a importância da família em sua carreira. “Meu tio […] O post Nadal: “Meus pais não merecem ficar à sombra do meu tio” apareceu primeiro em TenisBrasil .",
    "id": "43cb379c80be499f",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Jannik Sinner está fora do Australian Open 2027 após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGoydkgzQnVCNzJPZW1BOVoyMm5MSE1zSlphZ0RlaTlRQ0dUMmJqY3Jra2Q1dUs3NVpPNHFaQ2hFRUFnZWhtcl9xWm8zNFVpaXphOHZ6dC0xS21uWnQ5U1hhQjlKTjlkUmYxZWU2VlN5S3g2cENVY0hhSVBwdXVBT1ItaHoyMjNJdldxb0xrSTVrWmNzb2lhVWRTU1JfcDNjZkZRZlE3OWJBLUFibHQ2dVFMMThVX0VGYmtKcWQ1ZHoxOXJnNWRPTWdyVEpQVk1zSkNocnkxalc?oc=5",
+   "fonte": "Portal GIRO",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T13:39:42Z",
+   "trecho": "",
+   "id": "bbb6318b5f8788c5",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Great Britain end seven-year wait to reach Davis Cup semi-finals",
@@ -702,6 +1472,28 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jannik Sinner desfalca Aberto da Austrália de 2027 devido a cirurgia no joelho na Finlândia",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaDIxTkJVdk5ONXJNeWhGVlV1bU9sQVZ4MkZ2RnpJc096bDJlNWg4enhDb0xOOGhDa1JTUEx4UkZzQU5LUHpEUWR6SVQ0cXdZbm1FLVRDdDNCcEV3UnNwU2RiM2FuangtM29nOElLbEFnWGVEa2puQ0NjU3ZTMmk4MXdB?oc=5",
+   "fonte": "Fato Paulista",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T13:18:35Z",
+   "trecho": "",
+   "id": "06d6deeda5f3f6ef",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jannik Sinner está fora do Aberto da Austrália após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZUhtUHVCc0hVai1VaDJNVjFUWEdVaVFNYy1YeG50ZGhOalJUblpCUDdHWDNTUXdiTGZPQ3o5b2Vpb19QYm0tNDluUGwtTWVXTHFRQWp5LUNGajFjSmdpRjVXOHJsdjJ5MkZ0LTdGd1ZBU054ZVUyaDFHb19fSkt5cFVDZV9rdG9XTk5yeWtWVFJKWnVsUllSRg?oc=5",
+   "fonte": "redeutv.com.br",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T13:10:00Z",
+   "trecho": "",
+   "id": "4d93cdf6db9a236c",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Organização do Australian Open confirma ausência de Sinner",
    "link": "https://tenisbrasil.uol.com.br/organizacao-do-australian-open-confirma-ausencia-de-sinner.html",
    "fonte": "TenisBrasil",
@@ -746,6 +1538,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Carlos Alcaraz e Rafael Jódar trocam elogios e deixam os fãs espanhóis em êxtase",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONFR4ZklFRzB3TzN3dlZERnVyUDB1ZGZGNk1DNjhVT2k5YjdqUUU2WHlFNXVZS0lfc0FSYWhMWU9BUDBhLVoxTjd5Qjl6REpSRkdJVDRjVE9TOVFQS1ZoWl9WalBRWkdSOFlPRjhORmRrUEhZUnQteHNYQklOX3cwN1BUR2FCaTJYV3NhcURMcG9ja2lITERSTEl4bkdnaUhQMGdVTlR6S2pQczFLU3hpWXh5amw3dVhKWmtheUIxSDFzMlcweFp2Y0tyNzI2UC1KYzdDbDF1cDM0cXpqX0dWejFmMlJyckU?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T13:00:36Z",
+   "trecho": "",
+   "id": "d0bdcbfa05b92838",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Things I’m Grateful For In Tennis This Year",
    "link": "https://sports.yahoo.com/tennis/articles/things-m-grateful-tennis-130004018.html",
    "fonte": "Yahoo Sports",
@@ -766,6 +1569,17 @@
    "trecho": "Carlos Alcaraz is one of the most famous athletes on the planet right now, and his stock stands to only get higher and higher as...",
    "id": "f4464f5c19c23926",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Djokovic treina o que muitos profissionais insistem em ignorar",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQXZVSmF5U2haTGNTTWp0SVpGbVRtT0xkTHc1dGZQVXJETW5kOW50WjZnVUdXVVVZX3Q0UUdsdkhKX1R3TXNUSkZmV3FfQzkwRWFCcWNSbnluZTk1THY4UXM0QWRoNkt4cXJncWxkVlQ1MGJnaGI1Q3lrY0ZSX1hNQ09QZGtqTWc2M3Y3NmJhTm55TmxDVkV2d180Z09OODhHSV9zcms4QXczU2FTX3hNY1hYQ2RWVlRYZXNURUxwRmdHUQ?oc=5",
+   "fonte": "Estadão",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:48:46Z",
+   "trecho": "",
+   "id": "2e8b15a2e79ddfb2",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Zverev empata para Alemanha e duplas definem semifinalista",
@@ -790,6 +1604,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jannik Sinner falha Open da Austrália após operação ao joelho direito",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd2NSTDkyOFh4VXprRGFKbmxlempTZVp6eVY1LUhqMTdTeFk4bDV5Wk9zSDM5VXFOMnVTS0cwQWtMb3RERGhFZ0NiX1IxMGZNb3FlMGFNam0zaDc3R2FWNWVWYjRNR1NZSDZndVQtWlpGZFJwLVVyRVBDYzRLT3ZROG1xa2pWTTJxYTJwQmhUOUhYemlFTVNYc1lvODdrSlZtdVo1dFU2eF9TV0lEYS1Qd1VwWHZWay1kcS14MXo0RE5Ub1RuNTZITk9uZVNSUHNE0gHLAUFVX3lxTE5UbXlMbnVsTXk1RmxxeGxwdDdKVk94bnB3WjhWT2kxX3h3allmdGVibFh4UkJ3V1lGcWp5Z3hhcFZISEltT2ZJdU91blcxbUlkOWJ6V2pZT0dNalI3eThFdHBQS2lVa0xUM0piR1JjYXcwWHNDNUcyb3kzZl9CQmxVSl9IVlVKTVBnaGNLdkJuM2U0MGJNQ3R0YnJ0cWFiRDFOQjQ2Y3lIVHpXU1N5UlFMai1haVlFYkpwS0ZOYmFhVkF3REY1cDd6VU9Z?oc=5",
+   "fonte": "Record",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:37:59Z",
+   "trecho": "",
+   "id": "fb9c12d0f57115fb",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "A lesão de Sinner abre caminho para Alcaraz",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZS04V3F0MWIzVTQ4Z1JIZkJLSGN1dEp5czIydkwtRVVPdnYyRG50MTlqdFhFWnVsNW04QmVNMzdyd0NEcU1fRFA1bFd3LWx1TkFVUkZQSDRkRXd2cGNtaGV3U3FHNmhBbWRrZDlDZEpqOGEwSTJid1pRV1dOcUdnUEIyM2k4R0RuVENJdkZMX3ZJZGlVcThOYWNROWp5WnVBcEVNbHVEMXN1VWpDN284VzFfX3FQOElOUlgtU19vVklJX2RuUlZTVEpBUQ?oc=5",
    "fonte": "www.claytenis.com",
@@ -801,6 +1626,28 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Jannik Sinner está fora do Australian Open 2027",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSC1vdnl6bnBQb2g1Z1hWYktxM0NkNUh5RTkzSDFyellscFVHUW5qUmw4VzY5dDY5S0lNUVg0cTItaDg3aDZ1ZFhabGViWlhjSllmdU4zU1NzVnFVNW80MnlkSFhkZHY5X0EyUlVSYlpQMWhNb0VseTBNRHpienBQMTJCR3ZmdTdoVVJpeW0wYVZtUW52?oc=5",
+   "fonte": "SportBuzz",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:34:16Z",
+   "trecho": "",
+   "id": "dddf01a3ffd9a7b8",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jannik Sinner está fora do Aberto da Austrália de 2027 após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVmtDRXhINVdhRGRtRzJsRWxOZlFwTkhxQlhsM3BxdmFwUXhxQW5uenlvX1lROGhaZ0I3NHYxRENCLUxCdkVjNEJVUlpZQ0tHYkFDM1RJODNFRWlWZGtIODNGRl8xZmFseFpqTWlkcU1wc3ZyRWN5a2xzVFh6My1idjQ5dw?oc=5",
+   "fonte": "IstoÉ",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:34:00Z",
+   "trecho": "",
+   "id": "dd0aea58640f413a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Mirra Andreeva’s 2026 Season Recap: Teen Prodigy No More",
    "link": "https://sports.yahoo.com/womens-college-basketball/articles/mirra-andreeva-2026-season-recap-123310698.html",
    "fonte": "Yahoo Sports",
@@ -810,6 +1657,17 @@
    "trecho": "At 19, Mirra Andreeva stopped being a story about promise and became a story about prizes. The 2026 season was the year the Russian turned tennis' most exciting \"what if\" into one of its \"what now for everyone else\" problems: a maiden Grand Slam title, a WTA Finals crown won without dropping a set, and …",
    "id": "53f6f37d2544d980",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Operação ao joelho afasta Sinner do Open da Austrália",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeFBBYlU0YXJFVWpwWWphYUNnMkN5aTFiMG56MkY5TXZHbURXYWZPcWJTN0lnRXhzZzZJSy1rNThLZUFFamVKVTJUV2ZlcjZyUjE1ZEVPc2hoUFc1VW54VWVtcVZEbkhza0pNYnZibHd3Rmtjc295Z1A0Sk9RWS1qZC1ydlRUT05LQWYwazluNDY0b0hOSE5HZ29B?oc=5",
+   "fonte": "diadejogo.pt",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:30:20Z",
+   "trecho": "",
+   "id": "83eef424dcd3f9c2",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Zverev atropela Fery e leva duelo contra Grã-Bretanha para as duplas",
@@ -834,6 +1692,39 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Alcaraz e Jódar reforçam amizade na busca por título da Davis",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONk5ZTVJobHdULTNpV0ZlSDNaQkloclhhQjlEdHdPXzdERFJGN0NtOVB1V3dvVkRZal8zV0xlblJKTG9MYTg2TlVZUmZfNzUtTzJhekx6YnRGWG14TTRBYV9paXh4REVrZVN2NmZyTjQwN25IRl8tQVMzclRHWmhjX3FqcVphNmFPaFlqUGxOUzVVMnlFMHdzd05CeVBMUQ?oc=5",
+   "fonte": "TenisBrasil",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:15:00Z",
+   "trecho": "",
+   "id": "f4232aeacbf68f88",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Organização do Australian Open confirma ausência de Jannik Sinner",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdEZwOHVtUTNaRWpGeHdhNkROMkV5dGhINjBHeGNRUVJmRVJvNzh1NjdXdDEtaTRGS0sxUmVjenZBNDR0RHJfb3dYN3d0aEVNd3NjRVRrSkRlRTU4Rmh6UG1PM04zaUp2ajVkLVJMWk1YbEctb2RYLU9VQjBXeTJMWWt1VHFrVExkblRYNC1XcFZkaGVGSzZnZDYwUFF1MjVIcUlJV3lzU3dqZWo0SUE?oc=5",
+   "fonte": "Rádio Itatiaia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:06:00Z",
+   "trecho": "",
+   "id": "13363f721e7b03c5",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Jannik Sinner falha Open da Austrália",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTU9va0c0VzNTWFVleGRyUnJYbFFpUWlHRUpLWV9TMnZVbGZvcmxzc3hQR2FPOGFOTFd2M0RoRkdIRnNjbFllbjdGdzQ5bm80VTZyOVFPZFBBMEx3NU53anhkOHJzb20zVERKaXFDOE9sbW51X3FNV3NnakxhemN4OFQxeDNwN2c?oc=5",
+   "fonte": "RTP",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:02:43Z",
+   "trecho": "",
+   "id": "132114d89ab9ed1a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Victória Barros se despede nas oitavas do J500 de Mérida",
    "link": "https://www.tenisnews.com.br/barros-despede-oitavas-j500-merida/",
    "fonte": "Tenis News",
@@ -843,6 +1734,17 @@
    "trecho": "A brasileira Victória Barros, número 4 do mundo no juvenil, caiu nas oitavas de final do torneio J500 de Mérida, no México, nesta quarta-feira. Após sair avançada na chave e conquistar vitória na segunda rodada, a jovem tenista foi superada em sua segunda partida, caindo para Darina Matvejeva, que em partida de oscilações por parte […]",
    "id": "1d6e2e3523958167",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Rodionov quer enfrentar Carlos Alcaraz na Copa Davis: «Posso vencê-lo»",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORndjMlpBWkVfLWZ0aUZfVk1tMnp1bVB3QzRSTmptc1QwekJZS3VoYWhwOWRTaWh4Tkg1bjBNMmF2eHpOdzBzZUduSy1tMFYtX2pzWWppVFdDSDN0QUxPMjlDSVVOVjVYWGQ1OFBwQVZDSEdYMXl0NDA4cGthTTVwN0JGZV9xd1MtNTJOSHlCWTZwd1FHZU5kZ2YzcGxKU053WEt2NmhxRWZFUzZsczNWZ3Y2RC12ZWpsMF85cHZvWS1Ob0JSeWxpWk13S1hVRkprRnplV3U2dVU?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T12:00:37Z",
+   "trecho": "",
+   "id": "4f2c5827e3486834",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Five players set to benefit most from Jannik Sinner's Australian Open withdrawal",
@@ -876,6 +1778,17 @@
    "trecho": "British number two Cameron Norrie gives Great Britain the perfect start to their Davis Cup quarter-final against Germany, as he beats Jan-Lennard Struff in three sets in the opening match of their tie in Bolgona.",
    "id": "76d3e3315b0de311",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Jannik Sinner está fora do Australian Open após cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejdGZ1pWQU0ta3JvRWZtQ2czZmJ3MjR5MVUta0JCX2VuUVdnanNfaGNMYkVUYzBMQk55OEhETkl3b055OEtDNGJ5Qkd1dVROQkJsMFlZYUN3a2s2bkIyZVU4cHl2QTl0azNqSW1BWVBVSTN0a3NBWW1sOVI3RlF4bmNUbjdXZklnd3lrdUsyVFFJQldmNmNZenVaRnQ4dTVEVzk0Mg?oc=5",
+   "fonte": "Metrópoles",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T11:54:00Z",
+   "trecho": "",
+   "id": "e85ac1990d732445",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Sinner tem desistência confirmada para o Australian Open",
@@ -944,6 +1857,28 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Confirmada a ausência de Jannik Sinner do Open da Austrália",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEZIWG5MWjVGdDV3V1FRbFNWcVF1T3p5Z2tBbHFZclNUUVZhYjBleUJNNXR4d3hUZ1ZJXzQ3cV9UckMzY2FETDVUNmk2cUwtMlNldXBnc0JEVDhsWEpGX1k5MkktWlhFUlV6RldUd1VFNTdLZlMxZHhrcWk0ZU1jbzN1TjZyTi1hLUZCSTVfVE1nQkItal82LWIycGxQdU13ei1qWW9aWTAtelo0?oc=5",
+   "fonte": "O Jogo",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T11:19:00Z",
+   "trecho": "",
+   "id": "62679f91b4838dd5",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Operação ao joelho afasta mesmo Sinner do Open da Austrália",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3FWYTk0RkdmcjFjRnExbWhoWE9lU0hOOEhpaDM2ZUYtRXg0M3poYl9CMjVKMzg2Zk9FdUpuNVRxbDJ6NTFoMDBMREdvTk9aOGVkbHJNSWtNWl9XTFRJTFJXTmNPSDRHUVdpaXh6Rm04X3FFa0tQT090Y2lhNkllbEJNRDd6SU5uc0Q1dHR5U1ItRl9GVlJkQldxU3N3TUt1RnlnSG1rZkJzNkFkdEE?oc=5",
+   "fonte": "A Bola",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T11:14:00Z",
+   "trecho": "",
+   "id": "61d611a293cad8a4",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Alexander Zverev calls out ATP chairman Andrea Gaudenzi over ‘unfair’ remarks",
    "link": "https://www.tennis365.com/tennis-news/alexander-zverev-calls-out-atp-chairman-andrea-gaudenzi-unfair-comment",
    "fonte": "Tennis365",
@@ -977,6 +1912,17 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Carlos Alcaraz acredita que seu rival Jannik Sinner fará um retorno triunfal após a cirurgia no joelho.",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHpTeUU0OVhRd3RROU9PRzJuRkp6LWRtcHVJZEdBOTFXRGJLNEhYV01lZnRxUVdHUVBtSHplMkZZaXozblhucUgySmdleVc4Zm84WWk4eFR4TGN5RTNtTzN1RV9ldXNqOEFWZ0NqS2hlX05LSGtHVlp5NktLTDZ3T3lCbGwwTmZwMjkxdURKdkhPVUk5bEhZNVJZeTlmQTM5UVFiVkN2dmFWQ01iVVdBaw?oc=5",
+   "fonte": "Vietnam.vn",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T10:48:12Z",
+   "trecho": "",
+   "id": "13d4a4f2db0837eb",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "“Unfair comment” – Alexander Zverev Bluntly Calls Out ATP Chairman After ‘Painkiller’ Comment On Hectic Schedule Sparks Controversy",
    "link": "https://sports.yahoo.com/tennis/articles/unfair-alexander-zverev-bluntly-calls-104734312.html",
    "fonte": "Yahoo Sports",
@@ -999,6 +1945,28 @@
    "coletadoEm": "2026-11-26T19:16:09Z"
   },
   {
+   "titulo": "Sinner está fora do Aberto da Austrália após cirurgia no joelho direito",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMWJlUExQZ2hMUDlsLUJCclVZUk5udFVNNE1Ia21fUVlFTjJwcTRtSHZZMVNPZ2h1ZGFEdjJqU2diUVdCMEVnY05tZUlDLUhLeUVuZVV6Vl8za0gzUWdxTW9MVm9jSDV5NjVSek1DbGZ4Zi1qMkEtaFdpVURmMWQtc294T2NXbjctckdKZ3R5MzFSczE2anQ0VWozaVk2eGp2MVVDS1JXZzBHU3A4d3ZiTEllZXNhTGMyVjM1Y0prR2tpZHh2Y1RlZEZiQ3lJeTQ?oc=5",
+   "fonte": "UOL",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T10:35:21Z",
+   "trecho": "",
+   "id": "d0eea9099a7813a4",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
+   "titulo": "Aberto da Austrália confirma ausência de Sinner em 2027",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWkN2Tno0QXl4UUxDTTNLTWJ3MFlHUElXZ3ZydXRNNkhUc3hoelUxWDA4eFBaSUxzMWdxMG1nSnBBOVB4TUdydFZPQzFPX3A3Z0xUbW1XZXZoTXZLblp5TWxHaHJSd2NncHJUcWJhbWlTdHJtallxMzFlcUlHSlJQRXRjZVRBMzlCbFRaTk10cnI0YXNRanpfM1FnZGxOcmVodlduc3VGTTdQX2hEb3E5UHdPejRkQmNzQVZfTDlQMGlxaDRxREtKWkpSYU9oQmk4?oc=5",
+   "fonte": "Terra",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T10:33:00Z",
+   "trecho": "",
+   "id": "fef3d652e38f4943",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Trinity Rodman Sends Cryptic Message Amid Ben Shelton Split Reports",
    "link": "https://www.essentiallysports.com/tennis-news-trinity-rodman-sends-cryptic-message-amid-ben-shelton-split-reports/",
    "fonte": "EssentiallySports",
@@ -1008,6 +1976,17 @@
    "trecho": "Trinity Rodman posted a cryptic message on Instagram Stories as reports of her split from Ben Shelton emerged. The Washington Spirit forward offered no explanation, but the timing quickly caught fans’ attention. After nearly two years together, the two young American sporting stars are reportedly going their separate ways. Rodman’s Story featured a photograph of […] The post Trinity Rodman Sends Cryptic Message Amid Ben Shelton Split Reports appeared first on EssentiallySports .",
    "id": "593ca8e090e85b41",
    "coletadoEm": "2026-11-26T19:16:09Z"
+  },
+  {
+   "titulo": "Jimmy Connors é categórico sobre Jannik Sinner: «Vai ficar de fora quase um ano, os outros...»",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPd0FIM1hTWFdKQm9OWGlPYzNSeTVEazZxV1o2anZYRE81Mk4xS1BPeXlOQUxTYmltZnY4UG1HZVJCZDdSeVN1My1QcHhrSEZmSTVaRHVHWEl5UFFDNG81ZnpaUzhiQXNOSWtuNGZuNGRRTGI2R1RFT1pFbGxIamlZXzlMUGhRSTRHM0NUVlNuR01KTlJxbHhESmtnN1F4OTJ2U1BVNTQzbm9JbXlJUXNnU1BuREpuTFlwbDZjaWJDdDZJVXdhdDc5WG1OZVZtcDIycjRIZHpRSnplUWFUbmREWVpyLWdPN3g1UUh1c3dpcVNqdjUt?oc=5",
+   "fonte": "Tennis World Italia",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T10:00:35Z",
+   "trecho": "",
+   "id": "4645512ab61511ce",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Carlos Alcaraz tells Rafael Jodar exactly what he thinks makes him such a ‘great player’",
@@ -1066,6 +2045,17 @@
    "dataEstimada": true
   },
   {
+   "titulo": "Jannik Sinner está fora do Aberto da Austrália",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd2Nfb1diVzdDRkEyTmZ3T3Z5TVdsaFVZcHM1cm00Rnp5YWlzUHFhdm91X1pHZnpYOXJwWFBObDhxTU1XcHgyUXpCd1hoYzRzSVRVOUNiTy1kT0UtSFU4ZW5HbDVNNFNFWTdELUhvQ1dZOHdic0hlOHo4MzhqMFFmc1c3T0thOVI2Yk9KS0RabUQydFBFc2htWThLMzQyN0p5VU5V0gGjAUFVX3lxTE53Y19vV2JXN0NGQTJOZndPdnlNV2xoVVlwczVybTRGenlhaXNQcWF2b3VfWkdmelg5cnBYUE5sOHFNTVdweDJRekJ3WGhjNHNJVFU5Q2JPLWRPRS1IVThlbkdsNU00U0VZN0QtSG9DV1k4d2JzSGU4ejgzOGowUWZzVzdPS2E5UjZiT0pLRFptRDJ0UEVzaG1ZOEszNDI3SnlVTlU?oc=5",
+   "fonte": "BOL",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T09:05:21Z",
+   "trecho": "",
+   "id": "3008fc47ff46e315",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "Sinner, notícia de hoje: Janik vai perder o Aberto da Austrália. o que sabemos",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHNtUHIxekZkNW0zOEQwZGh0ZGloelU1c0x0VlBsVlpITEQ2bXZac0lPNTBzLW41T25mYmhoMnJ3NFFFN1RVcFlxUkNaY3VTR0hWdUJMMzFBX3ZxYldoeUFLUXBKOUZjZGE5dU1hZGpGNUxvWGZYUjJvcGpHOVFDaDdMSnM1dV9ERmJhbUtkN1JwNmtyRnMzOVRySkhlQUhvdl9PaTVrUGRUTXBkMG5qT3dNajBJQm9SRXFrejdCQVk?oc=5",
    "fonte": "Segunda Base",
@@ -1121,6 +2111,17 @@
    "coletadoEm": "2026-11-26T09:28:20Z"
   },
   {
+   "titulo": "Alcaraz - De uma ausência de 4 meses e meio devido a uma lesão ao título das Finais da ATP.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTWFpU0czR1ZfaEhrZHhKNGkzSjhGN0lDbkY1X3JIaHQ1NWNyYXJMSlY1T3JEamJTUzlUeDNmX0RiQVVsY3FMeXdfVm5hSWo1UGVLYnBWYngtNFpYYzZhTS04UmNlUGJNekhQV2tuQUh5aGNKTll0QVBJZTE5ZElvNjRzTzY5aF9RS0ZrcEFWaUF5TDNHamc?oc=5",
+   "fonte": "Vietnam.vn",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T08:47:50Z",
+   "trecho": "",
+   "id": "7119b3280f313f08",
+   "coletadoEm": "2026-11-27T02:24:03Z"
+  },
+  {
    "titulo": "“That’s Why You’re Ranked 700th”- Guto Miguel & Opponent Gets Into Heated Net Exchange at ATP Challenger Event",
    "link": "https://www.essentiallysports.com/tennis-news-thats-why-youre-ranked-seven-hundredth-guto-miguel-opponent-gets-into-heated-net-exchange-at-atp-challenger-event/",
    "fonte": "EssentiallySports",
@@ -1174,6 +2175,17 @@
    "trecho": "At the 2026 ATP Finals, Carlos Alcaraz broke Alexander Zverev four times in ten service games using a tactic Federer perfected. Roger Federer spent 20 years turning the world’s heaviest serves into harmless, floating dilemmas with a flick of his wrist. Andy Roddick, former world No. 1, now believes Carlos Alcaraz has discovered that very […] The post Could Carlos Alcaraz Be Mastering One of Roger Federer’s Greatest Strengths? – Andy Roddick Explains appeared first on EssentiallySports .",
    "id": "d57282e9907d6373",
    "coletadoEm": "2026-11-26T09:28:20Z"
+  },
+  {
+   "titulo": "Sinner não participará do Aberto da Austrália após passar por cirurgia no joelho",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdFRlOUMxbHVJdFRwaEVrQy1sajZCUzVGZVRPT3pUdmc2Qk9EZzJIcVVPTTB6QXZqSVpIdWx2dEw1bjh0WFdhSkpnN1VNaXJ2dE9kQ2dCYUYtbURkQUx1ZVJmR05Ca0JibWlmV3VNeUp2Zm9vaGhjVGdKVUdQRGlUMkQzTk92eWVmYzVjQVh0eW5nWW5rLTdhZmNzTWgzenpZNzhWUGV3VHNqRTFRaEdGc2kwSXRVdndzUi1oYjlmYVRzakhw?oc=5",
+   "fonte": "Portal do Holanda",
+   "via": "Google Notícias",
+   "idioma": "pt",
+   "publicadoEm": "2026-11-26T07:43:00Z",
+   "trecho": "",
+   "id": "dee4fefd3e762c3a",
+   "coletadoEm": "2026-11-27T02:24:03Z"
   },
   {
    "titulo": "Why Andreeva’s praise of Svitolina was taken as provocation in WTA Finals",
@@ -4143,127 +5155,6 @@
    "publicadoEm": "2026-11-24T04:11:54Z",
    "trecho": "Taylah Lessue had been suffering from glandular fever before loss Police investigating death threats sent to 18-year-old Tennis Australia has thrown its support behind up-and-coming player Taylah Lessue after a slew of “abhorrent” online abuse and death threats were directed at the 18-year-old at a tournament in Adelaide. Lessue appeared at the City of Playford Tennis International on Sunday, winning the first set of a qualifying match against Ashleigh Simes 6-4 before dropping the next two to l",
    "id": "88831ec870f9ee50",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Meligeni vê Alcaraz ‘muito superior’ a Zverev e aponta méritos do espanhol no ATP Finals",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GV3lXWGdKSmIyanFKX2l2NUpGS2ZoSjVOc0lBX0F4WE1OTnBoYmRENkRDb3d2ZlZUdEh5MUNTWUdydkc2VGFZY291S3dsdmRfeFQtX2g5SnphZ3pwY2hOcGNaUjRNeUw3cG1nMzNaT1I2emJM?oc=5",
-   "fonte": "Tenis News",
-   "via": "Google Notícias",
-   "idioma": "pt",
-   "publicadoEm": "2026-11-24T01:07:00Z",
-   "trecho": "",
-   "id": "b6d53100e59a9d2a",
-   "coletadoEm": "2026-11-26T00:32:50Z"
-  },
-  {
-   "titulo": "Alcaraz celebrou título do ATP Finals com relógio de R$ 300 mil",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcUxiUDJHd2dhRFVMTWZWbmN1MldaZVlvNFdvZ21mWWNwRDh3ZzU1NjNPWTd4YmNoazRjQzVkeEhvMzB1TnJrR3MydnZfQmZCaFJsVm96ZUpCcGJ2cG5kdXhaVUUwbUNlMi1wMWZucHVYeXo4NEtMdC1vanN1VllOUS1mTGVoeDA?oc=5",
-   "fonte": "Tenis News",
-   "via": "Google Notícias",
-   "idioma": "pt",
-   "publicadoEm": "2026-11-24T01:00:42Z",
-   "trecho": "",
-   "id": "f7b070a55d948b45",
-   "coletadoEm": "2026-11-26T00:32:50Z"
-  },
-  {
-   "titulo": "'My mouth was open in horror': Patten drops Heliovaara to team up with Skupski",
-   "link": "https://www.espn.com/tennis/story/_/id/50577214/henry-patten-neal-skupski-harri-heliovaara",
-   "fonte": "ESPN",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T23:46:08Z",
-   "trecho": "Henry Patten has ended his world No. 1 doubles partnership with Harri Heliovaara in shock fashion and agreed to team up with British compatriot Neal Skupski.",
-   "id": "1a533c7d14717443",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Leonardo Storck, Igor Marcondes e Eduardo Ribeiro estreiam nesta terça em Florianópolis",
-   "link": "https://www.terra.com.br/esportes/tenis/leonardo-storck-igor-marcondes-e-eduardo-ribeiro-estreiam-nesta-terca-em-florianopolis,26bc7c236f32b18ca0df40bebca4ae7f2wbyw8gr.html",
-   "fonte": "Terra",
-   "via": "",
-   "idioma": "pt",
-   "publicadoEm": "2026-11-23T23:32:49Z",
-   "trecho": "Terça-feira agitada no Challenger 75 de Florianópolis (SC) disputado no piso de saibro com ...",
-   "id": "df42149ca3c43618",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "The best tennis players of 2026: Zverev, Rybakina and many more",
-   "link": "https://www.espn.com/tennis/story/_/id/50574609/zverev-rybakina-alcaraz-andreeva-top-tennis-players-2026",
-   "fonte": "ESPN",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T22:53:18Z",
-   "trecho": "As the 2026 tennis season comes to a close, we name the top players and moments of the year.",
-   "id": "6b263479f3fcfe45",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "'Thrown under a bus' - Wimbledon champion ends partnership to form all-British pair",
-   "link": "https://www.skysports.com/tennis/news/12110/13615831/henry-patten-ends-partnership-with-harri-heliovaara-to-team-up-with-fellow-briton-neal-skupski",
-   "fonte": "Sky Sports",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T22:00:00Z",
-   "trecho": "Henry Patten has ended his world No 1 doubles partnership with Harri Heliovaara in shock fashion in favour of teaming up with British compatriot Neal Skupski for 2027.",
-   "id": "42351b153cad4af9",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Mato Grosso do Sul termina a Copa das Federações com destaque e resultados expressivos",
-   "link": "https://www.terra.com.br/esportes/tenis/mato-grosso-do-sul-termina-a-copa-das-federacoes-com-destaque-e-resultados-expressivos,feea944eca965ac68b5c0bf66b8f132372d4lij2.html",
-   "fonte": "Terra",
-   "via": "",
-   "idioma": "pt",
-   "publicadoEm": "2026-11-23T21:32:50Z",
-   "trecho": "A delegação de Mato Grosso do Sul encerrou sua participação na Copa das Federações de Beach ...",
-   "id": "4b8feab5a38033c4",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "REPORT: Jannik Sinner To Have Knee Surgery And Will Miss Australian Open",
-   "link": "https://www.ubitennis.net/2026/11/report-jannik-sinner-to-have-knee-surgery-and-will-miss-australian-open/",
-   "fonte": "Ubitennis",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T20:54:26Z",
-   "trecho": "Jannik Sinner could miss the first four months of the 2027 season.",
-   "id": "cda2cafd2506c9aa",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Berrettini called up, Davidovich Fokina and Shapovalov out: the Davis Cup Final 8 squads",
-   "link": "https://www.tennismajors.com/others-news/davis-cup-news/berrettini-called-up-davidovich-fokina-and-shapovalov-out-the-davis-cup-final-8-squads-867814.html",
-   "fonte": "Tennis Majors",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T20:52:37Z",
-   "trecho": "The Final 8 starts in Bologna on Tuesday with Czechia against Canada. Italy, chasing a fourth straight title without Jannik Sinner, have added Matteo Berrettini, while Spain and Canada have both had to replace injured players.",
-   "id": "851d2ac9004cdbef",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Domestic abuse allegations against Alexander Zverev: Key dates – updated in November 2026",
-   "link": "https://www.tennismajors.com/atp/alexander-zverev-ex-girl-friend-olga-sharypova-domestic-abuse-violence-accusations-dates-503798.html",
-   "fonte": "Tennis Majors",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T20:40:00Z",
-   "trecho": "Alexander Zverev has always denied the domestic abuse allegations made against him. The ATP investigation closed without action in 2023 and the Berlin criminal proceedings were discontinued in June 2024 without a verdict. Here are the key dates, updated with Brenda Patea's 2026 civil suit.",
-   "id": "084e77ca61f1af00",
-   "coletadoEm": "2026-11-26T00:31:47Z"
-  },
-  {
-   "titulo": "Zverev faces civil lawsuit from former partner Brenda Patea over his L’Équipe interview",
-   "link": "https://www.tennismajors.com/atp/zverev-faces-civil-lawsuit-from-former-partner-brenda-patea-over-his-lequipe-interview-867813.html",
-   "fonte": "Tennis Majors",
-   "via": "",
-   "idioma": "en",
-   "publicadoEm": "2026-11-23T20:20:37Z",
-   "trecho": "The world No. 1 was served in Turin on November 18 with a lawsuit filed in Germany by the mother of his daughter, who accuses him of breaching their 2024 settlement by saying his innocence had been proven. His lawyers say he will defend himself.",
-   "id": "6ffdd5b4e3beec35",
    "coletadoEm": "2026-11-26T00:31:47Z"
   }
  ]
