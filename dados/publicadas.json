@@ -1,5 +1,23 @@
 [
  {
+  "titulo": "Ana Candiotto vai à final de duplas do W75 de Florianópolis e busca 6º título no ano",
+  "resumo": "A paulista Ana Candiotto será a representante brasileira na final de duplas do W75 de Florianópolis, disputado no saibro do Lagoa Iate Clube. Ao lado da holandesa Demi Tran, ela venceu nesta sexta-feira a semifinal contra as mexicanas Maria Fernanda Navarro e parceira. Candiotto busca o sexto título da temporada.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/candiotto-e-finalista-de-duplas-em-floripa-e-busca-o-sexto-titulo-do-ano.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-28T00:17:05Z",
+  "criadoEm": "2026-11-28T00:36:32Z",
+  "idsRobo": [
+   "6b0aa18516f54d04"
+  ],
+  "id": "n-6b0aa18516f54d04"
+ },
+ {
   "titulo": "Resumo do dia dos brasileiros – 27/11",
   "resumo": "O Challenger 75 de Florianópolis terá três brasileiros nas semifinais: Eduardo Ribeiro, que derrubou um favorito, Igor Marcondes, que venceu o argentino Guido Justo, cabeça 3, e Felipe Meligeni, que superou Nicolas Zanellato e enfrenta Marcondes, o que garante um brasileiro na final. Em El Salvador, Lucas Andrade, 574º do ranking, eliminou o argentino Luciano Ambrogi, cabeça 2, e vai disputar sua primeira semifinal de challenger. No W75 de Florianópolis, Laura Pigossi caiu nas quartas para a peruana Lucciana Perez, e Carol Meligeni perdeu nas oitavas para a espanhola Ruth Roura. Entre os juvenis, Henrique Schafer venceu o cabeça 1 Diego Pajares e está na semifinal do J100 de Lima, e Victor Pagotto aplicou duplo 6/0 no M15 de Santa Cruz, na Bolívia. Fora das quadras, Bia Haddad Maia disse planejar a volta ao circuito no primeiro semestre de 2027.",
   "categoria": "Brasileiros",
@@ -8,6 +26,24 @@
   "criadoEm": "2026-11-28T00:06:39Z",
   "idsRobo": [],
   "id": "resumo-2026-11-27"
+ },
+ {
+  "titulo": "Tiafoe recebe conselho sobre onde melhorar para desafiar Alcaraz e Zverev",
+  "resumo": "Frances Tiafoe terminou a temporada de 2026 com o melhor ranking da carreira, o 8º lugar do mundo. Uma análise aponta em que aspectos o americano precisa evoluir para competir de igual para igual com Carlos Alcaraz e Alexander Zverev.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Yahoo Sports",
+    "link": "https://sports.yahoo.com/tennis/articles/frances-tiafoe-told-where-needs-000000520.html",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-28T00:00:00Z",
+  "criadoEm": "2026-11-28T00:36:32Z",
+  "idsRobo": [
+   "fe03dab07b0691ef"
+  ],
+  "id": "n-fe03dab07b0691ef"
  },
  {
   "titulo": "Brasil tem três semifinalistas no Challenger de Florianópolis; Zormann vai à final de duplas",
