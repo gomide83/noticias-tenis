@@ -1,5 +1,51 @@
 [
  {
+  "titulo": "Resumo do dia dos brasileiros – 27/11",
+  "resumo": "O Challenger 75 de Florianópolis terá três brasileiros nas semifinais: Eduardo Ribeiro, que derrubou um favorito, Igor Marcondes, que venceu o argentino Guido Justo, cabeça 3, e Felipe Meligeni, que superou Nicolas Zanellato e enfrenta Marcondes, o que garante um brasileiro na final. Em El Salvador, Lucas Andrade, 574º do ranking, eliminou o argentino Luciano Ambrogi, cabeça 2, e vai disputar sua primeira semifinal de challenger. No W75 de Florianópolis, Laura Pigossi caiu nas quartas para a peruana Lucciana Perez, e Carol Meligeni perdeu nas oitavas para a espanhola Ruth Roura. Entre os juvenis, Henrique Schafer venceu o cabeça 1 Diego Pajares e está na semifinal do J100 de Lima, e Victor Pagotto aplicou duplo 6/0 no M15 de Santa Cruz, na Bolívia. Fora das quadras, Bia Haddad Maia disse planejar a volta ao circuito no primeiro semestre de 2027.",
+  "categoria": "Brasileiros",
+  "fontes": [],
+  "publicadoEm": "2026-11-28T00:06:39Z",
+  "criadoEm": "2026-11-28T00:06:39Z",
+  "idsRobo": [],
+  "id": "resumo-2026-11-27"
+ },
+ {
+  "titulo": "Brasil tem três semifinalistas no Challenger de Florianópolis; Zormann vai à final de duplas",
+  "resumo": "O Brasil terá três semifinalistas na chave de simples do Challenger 75 de Florianópolis, disputado no saibro do Lagoa Iate Clube. Depois das vitórias de Felipe Meligeni e Igor Marcondes no início da rodada, o gaúcho Eduardo Ribeiro também avançou. Nas duplas, Zormann garantiu vaga na final.",
+  "categoria": "Brasileiros",
+  "fontes": [
+   {
+    "nome": "TenisBrasil",
+    "link": "https://tenisbrasil.uol.com.br/ribeiro-completa-trio-brasileiro-nas-semis-zormann-e-finalista-de-duplas.html",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T23:44:52Z",
+  "criadoEm": "2026-11-28T00:06:39Z",
+  "idsRobo": [
+   "b1e3ccf7e106246d"
+  ],
+  "id": "n-b1e3ccf7e106246d"
+ },
+ {
+  "titulo": "Musetti convida Sinner para acompanhar a Itália na final da Copa Davis",
+  "resumo": "Lorenzo Musetti, principal nome da classificação italiana à decisão da Copa Davis, convidou Jannik Sinner para acompanhar a equipe no domingo. Sinner está lesionado e passou por cirurgia nesta semana, por isso está fora das quadras e da equipe que disputa a fase final.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/musetti-convite-sinner-final-copa-davis/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-27T23:32:07Z",
+  "criadoEm": "2026-11-28T00:06:39Z",
+  "idsRobo": [
+   "725b8279fddb8452"
+  ],
+  "id": "n-725b8279fddb8452"
+ },
+ {
   "titulo": "O que esperar de João Fonseca e da nova geração da ATP em 2027",
   "resumo": "O TenisBrasil analisa as perspectivas de João Fonseca e da nova geração do circuito masculino para a temporada 2027. Segundo a publicação, o número 1 do Brasil pôde se testar contra os principais nomes do tênis em 2026.",
   "categoria": "Brasileiros",
@@ -209,6 +255,24 @@
    "f8237d5dbbcc301d"
   ],
   "id": "n-2fe8b72e05e97fa5"
+ },
+ {
+  "titulo": "Potapova diz que ainda se sente russa após adotar cidadania austríaca",
+  "resumo": "Em entrevista recente, Anastasia Potapova afirmou que, no coração, ainda se sente russa. A tenista passou a representar a Áustria após trocar de cidadania em 2025.",
+  "categoria": "WTA",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/wta-star-says-in-my-heart-im-still-a-russian-despite-austrian-citizenship-2025",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-27T20:30:19Z",
+  "criadoEm": "2026-11-28T00:06:39Z",
+  "idsRobo": [
+   "d07a70c6294ff5b0"
+  ],
+  "id": "n-d07a70c6294ff5b0"
  },
  {
   "titulo": "Cobolli comenta as condições da Copa Davis após nova derrota",
