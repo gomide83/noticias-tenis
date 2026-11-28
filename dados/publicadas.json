@@ -1,5 +1,23 @@
 [
  {
+  "titulo": "Alcaraz perde quase R$ 14 milhões em impostos sobre o prêmio do ATP Finals",
+  "resumo": "Carlos Alcaraz, campeão do ATP Finals após vencer Alexander Zverev na final do último domingo, deixou boa parte do prêmio em impostos. A premiação bruta do espanhol pelo primeiro título da competição foi de US$ 5,17 milhões, e o desconto em tributos chega a quase R$ 14 milhões.",
+  "categoria": "ATP",
+  "fontes": [
+   {
+    "nome": "Tenis News",
+    "link": "https://www.tenisnews.com.br/alcaraz-perde-r-14-milhoes-impostos-atp-finals/",
+    "idioma": "pt"
+   }
+  ],
+  "publicadoEm": "2026-11-28T13:09:49Z",
+  "criadoEm": "2026-11-28T13:36:41Z",
+  "idsRobo": [
+   "661a7205994bc0dc"
+  ],
+  "id": "n-661a7205994bc0dc"
+ },
+ {
   "titulo": "Rennae Stubbs esclarece comentários sobre Zverev não merecer o número 1",
   "resumo": "A ex-tenista e comentarista Rennae Stubbs recebeu críticas por declarações feitas em seu podcast sobre Alexander Zverev e o posto de número 1 do mundo. Diante da repercussão, ela voltou ao assunto para esclarecer o que quis dizer sobre o alemão.",
   "categoria": "ATP",
@@ -101,6 +119,24 @@
    "d6fa79eb446509ef"
   ],
   "id": "n-d6fa79eb446509ef"
+ },
+ {
+  "titulo": "Técnico renomado lista os maiores tenistas em quadra coberta da história",
+  "resumo": "Um técnico conhecido montou um ranking dos maiores jogadores do tênis masculino em quadras cobertas de todos os tempos. Pete Sampras aparece em terceiro lugar na lista, segundo o site Tennis365.",
+  "categoria": "Outros",
+  "fontes": [
+   {
+    "nome": "Tennis365",
+    "link": "https://www.tennis365.com/tennis-news/tennis-greatest-indoor-players-all-time-ranked-renowned-coach-pete-sampras-no-3",
+    "idioma": "en"
+   }
+  ],
+  "publicadoEm": "2026-11-28T12:00:33Z",
+  "criadoEm": "2026-11-28T13:36:41Z",
+  "idsRobo": [
+   "97bc754db0ab2eae"
+  ],
+  "id": "n-97bc754db0ab2eae"
  },
  {
   "titulo": "\"Estávamos prontos para morrer em quadra\", diz capitão da Itália após vaga na final da Davis",
